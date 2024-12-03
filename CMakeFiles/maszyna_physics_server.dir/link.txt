@@ -1,1 +1,0 @@
-/usr/bin/c++ @CMakeFiles/maszyna_physics_server.dir/objects1.rsp -o maszyna_physics_server
