@@ -29,8 +29,6 @@ namespace godot {
             };
 
             static void _bind_methods();
-            bool converter_switch_pressed = false;
-            bool compressor_switch_pressed = false;
             TrainPowerSource power_source = static_cast<TrainPowerSource>(static_cast<int>(TPowerSource::NotDefined));
             int collectors_no = 0;
             float max_voltage = 0;
@@ -74,16 +72,12 @@ namespace godot {
             TrainPowerType power_cable_power_trans = TrainPowerType::POWER_TYPE_NONE;
             float power_cable_steam_pressure = 0;
             //@TODO: Implement bitmask for PhysicalLayout
+
         protected:
             void _do_update_internal_mover(TMoverParameters *mover) override;
             void _do_fetch_state_from_mover(TMoverParameters *mover, Dictionary &state) override;
-            void _do_process_mover(TMoverParameters *mover, const double delta) override;
 
         public:
-            void set_converter_switch_pressed(bool p_state);
-            bool get_converter_switch_pressed() const;
-            void set_compressor_switch_pressed(bool p_state);
-            bool get_compressor_switch_pressed() const;
             void set_engine_power_source(TrainPowerSource p_source);
             TrainPowerSource get_engine_power_source() const;
             int get_number_of_collectors() const;
@@ -119,6 +113,11 @@ namespace godot {
             TrainPowerType get_power_cable_power_source() const;
             void set_power_cable_steam_pressure(float p_pressure);
             float get_power_cable_steam_pressure() const;
+
+            void compressor(const bool p_enabled);
+            void converter(const bool p_enabled);
+            void _register_commands() override;
+            void _unregister_commands() override;
     };
 } // namespace godot
 VARIANT_ENUM_CAST(TrainElectricEngine::TrainPowerSource);

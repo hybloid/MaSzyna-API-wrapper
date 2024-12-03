@@ -14,7 +14,8 @@ namespace godot {
         protected:
             void _do_update_internal_mover(TMoverParameters *mover) override;
             void _do_fetch_state_from_mover(TMoverParameters *mover, Dictionary &state) override;
-            void _do_process_mover(TMoverParameters *mover, double delta) override;
+            void _register_commands() override;
+            void _unregister_commands() override;
 
         public:
             enum EmergencyBrakeWarningSignal {
@@ -41,11 +42,11 @@ namespace godot {
             double sound_signal_delay = 0.0;            // SoundSignalDelay -> SecuritySystem->SoundSignalDelay
             double shp_magnet_distance = 0.0;           // MagnetLocation -> SecuritySystem->MagnetLocation
             double ca_max_hold_time = 0.0;              // MaxHoldTime -> SecuritySystem->MaxHoldTime
-            bool reset_pushed = false;
 
         public:
+            void security_acknowledge(const bool p_enabled);
+
             // Getters
-            bool get_reset_pushed() const;
             bool get_aware_system_active() const;
             bool get_aware_system_cabsignal() const;
             bool get_aware_system_separate_acknowledge() const;
@@ -59,7 +60,6 @@ namespace godot {
             double get_ca_max_hold_time() const;
 
             // Setters
-            void set_reset_pushed(bool p_state);
             void set_aware_system_active(bool p_state);
             void set_aware_system_cabsignal(bool p_state);
             void set_aware_system_separate_acknowledge(bool p_state);
