@@ -4,6 +4,7 @@
 		Handles trains registry and communication between trains and train systems
 	</brief_description>
 	<description>
+		Handles trains registry and communication between trains and train systems
 	</description>
 	<tutorials>
 	</tutorials>
@@ -153,12 +154,16 @@
 	</signals>
 	<constants>
 		<constant name="TRAINLOGLEVEL_DEBUG" value="0" enum="TrainLogLevel">
+			Debugging level. Logs everything
 		</constant>
 		<constant name="TRAINLOGLEVEL_INFO" value="1" enum="TrainLogLevel">
+			Informational level. Logs fewer messages than debugging level
 		</constant>
 		<constant name="TRAINLOGLEVEL_WARNING" value="2" enum="TrainLogLevel">
+			Warning level. Logs only warnings and errors
 		</constant>
 		<constant name="TRAINLOGLEVEL_ERROR" value="3" enum="TrainLogLevel">
+			Error level. Logs only errors
 		</constant>
 	</constants>
 </class>

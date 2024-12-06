@@ -9,7 +9,7 @@ namespace godot {
 
     void TrainDieselElectricEngine::_bind_methods() {}
 
-    TEngineType TrainDieselElectricEngine::get_engine_type() {
-        return TEngineType::DieselElectric;
+    TrainEngine::TrainEngineType TrainDieselElectricEngine::get_engine_type() {
+        return TrainEngineType::ENGINE_TYPE_DIESEL_ELECTRIC;
     }
 } // namespace godot

@@ -16,6 +16,7 @@
 #include "engines/TrainElectricSeriesEngine.hpp"
 #include "engines/TrainEngine.hpp"
 #include "systems/TrainSecuritySystem.hpp"
+#include "lightning/TrainLightning.hpp"
 
 using namespace godot;
 
@@ -28,6 +29,7 @@ void initialize_libmaszyna_module(ModuleInitializationLevel p_level) {
 
     if (p_level == MODULE_INITIALIZATION_LEVEL_SCENE) {
         GDREGISTER_ABSTRACT_CLASS(TrainPart);
+        GDREGISTER_CLASS(TrainLightning);
         GDREGISTER_CLASS(GenericTrainPart);
         GDREGISTER_CLASS(TrainBrake);
         GDREGISTER_ABSTRACT_CLASS(TrainEngine);

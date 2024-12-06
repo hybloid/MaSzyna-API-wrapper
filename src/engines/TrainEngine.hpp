@@ -12,8 +12,40 @@ namespace godot {
             static void _bind_methods();
             TypedArray<Dictionary> motor_param_table;
 
+            enum TrainEngineType {
+                ENGINE_TYPE_NONE,
+                ENGINE_TYPE_DUMB,
+                ENGINE_TYPE_WHEELS_DRIVEN,
+                ENGINE_TYPE_ELECTRIC_SERIES_MOTOR,
+                ENGINE_TYPE_ELECTRIC_INDUCTION_MOTOR,
+                ENGINE_TYPE_DIESEL,
+                ENGINE_TYPE_STEAM,
+                ENGINE_TYPE_DIESEL_ELECTRIC,
+                ENGINE_TYPE_MAIN
+            };
+
+            enum TrainPowerSource {
+                POWER_SOURCE_NOT_DEFINED,
+                POWER_SOURCE_INTERNAL,
+                POWER_SOURCE_TRANSDUCER,
+                POWER_SOURCE_GENERATOR,
+                POWER_SOURCE_ACCUMULATOR,
+                POWER_SOURCE_CURRENTCOLLECTOR,
+                POWER_SOURCE_POWERCABLE,
+                POWER_SOURCE_HEATER,
+                POWER_SOURCE_MAIN
+            };
+
+            enum TrainPowerType {
+                POWER_TYPE_NONE,
+                POWER_TYPE_BIO,
+                POWER_TYPE_MECH,
+                POWER_TYPE_ELECTRIC,
+                POWER_TYPE_STEAM
+            };
+
         protected:
-            virtual TEngineType get_engine_type() = 0;
+            virtual TrainEngineType get_engine_type() = 0;
             void _do_update_internal_mover(TMoverParameters *mover) override;
             void _do_fetch_state_from_mover(TMoverParameters *mover, Dictionary &state) override;
             void _do_fetch_config_from_mover(TMoverParameters *mover, Dictionary &config) override;
@@ -21,11 +53,14 @@ namespace godot {
             void _unregister_commands() override;
 
         public:
-            TypedArray<Dictionary> get_motor_param_table();
-            void set_motor_param_table(const TypedArray<Dictionary> p_wwlist);
-            void main_switch(const bool p_enabled);
+            TypedArray<Dictionary> get_motor_param_table() const;
+            void set_motor_param_table(const TypedArray<Dictionary> &p_wwlist);
+            void main_switch(bool p_enabled);
 
             TrainEngine();
             ~TrainEngine() override = default;
     };
 } // namespace godot
+VARIANT_ENUM_CAST(TrainEngine::TrainEngineType);
+VARIANT_ENUM_CAST(TrainEngine::TrainPowerSource);
+VARIANT_ENUM_CAST(TrainEngine::TrainPowerType);

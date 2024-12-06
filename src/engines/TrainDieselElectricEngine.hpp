@@ -1,14 +1,14 @@
 #include "TrainDieselEngine.hpp"
 
 namespace godot {
-    class TrainDieselElectricEngine : public TrainDieselEngine {
+    class TrainDieselElectricEngine final : public TrainDieselEngine {
             GDCLASS(TrainDieselElectricEngine, TrainDieselEngine)
 
         private:
             static void _bind_methods();
 
         protected:
-            TEngineType get_engine_type() override;
+            TrainEngineType get_engine_type() override;
 
         public:
             TrainDieselElectricEngine();

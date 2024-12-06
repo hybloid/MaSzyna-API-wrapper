@@ -17,7 +17,7 @@ namespace godot {
             TypedArray<Array> wwlist;
 
         protected:
-            TEngineType get_engine_type() override;
+            TrainEngineType get_engine_type() override;
             void _do_update_internal_mover(TMoverParameters *mover) override;
             void _do_fetch_state_from_mover(TMoverParameters *mover, Dictionary &state) override;
             void _register_commands() override;
@@ -35,10 +35,10 @@ namespace godot {
             void set_traction_force_max(double value);
 
             TypedArray<Array> get_wwlist();
-            void set_wwlist(const TypedArray<Array> p_wwlist);
+            void set_wwlist(TypedArray<Array> p_wwlist);
 
-            void oil_pump(const bool p_enabled);
-            void fuel_pump(const bool p_enabled);
+            void oil_pump(bool p_enabled);
+            void fuel_pump(bool p_enabled);
 
             TrainDieselEngine();
             ~TrainDieselEngine() override = default;
