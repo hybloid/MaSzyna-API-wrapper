@@ -69,3 +69,5 @@ close/delay = 3.0
 has_lock = true
 max_shift_plug = 3.0
 platform/max_shift = 3.0
+
+[node name="TrainHeatingSystem" type="TrainHeatingSystem" parent="TrainSecuritySystem"]

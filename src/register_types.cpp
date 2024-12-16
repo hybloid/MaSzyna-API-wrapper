@@ -17,6 +17,7 @@
 #include "engines/TrainElectricSeriesEngine.hpp"
 #include "engines/TrainEngine.hpp"
 #include "systems/TrainSecuritySystem.hpp"
+#include "systems/heating/TrainHeatingSystem.hpp"
 
 using namespace godot;
 
@@ -40,6 +41,7 @@ void initialize_libmaszyna_module(ModuleInitializationLevel p_level) {
         GDREGISTER_CLASS(TrainElectricSeriesEngine);
         GDREGISTER_CLASS(TrainController);
         GDREGISTER_CLASS(TrainSecuritySystem);
+        GDREGISTER_CLASS(TrainHeatingSystem);
         GDREGISTER_CLASS(TrainSystem);
         GDREGISTER_CLASS(LogSystem);
 
