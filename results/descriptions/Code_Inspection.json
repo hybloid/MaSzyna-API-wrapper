@@ -1,0 +1,5504 @@
+{
+  "profile": "Default",
+  "groups": [
+    {
+      "name": "abseil",
+      "categoryPath": [
+        {
+          "id": "C++",
+          "name": "C++"
+        },
+        {
+          "id": "abseil",
+          "name": "abseil"
+        }
+      ],
+      "inspections": [
+        {
+          "shortName": "abseil-string-find-startswith",
+          "displayName": "string-find-startswith",
+          "enabled": false,
+          "description": "string-find-startswith"
+        },
+        {
+          "shortName": "abseil-string-find-str-contains",
+          "displayName": "string-find-str-contains",
+          "enabled": false,
+          "description": "string-find-str-contains"
+        },
+        {
+          "shortName": "abseil-upgrade-duration-conversions",
+          "displayName": "upgrade-duration-conversions",
+          "enabled": false,
+          "description": "upgrade-duration-conversions"
+        },
+        {
+          "shortName": "abseil-duration-factory-float",
+          "displayName": "duration-factory-float",
+          "enabled": false,
+          "description": "duration-factory-float"
+        },
+        {
+          "shortName": "abseil-cleanup-ctad",
+          "displayName": "cleanup-ctad",
+          "enabled": false,
+          "description": "cleanup-ctad"
+        },
+        {
+          "shortName": "abseil-time-subtraction",
+          "displayName": "time-subtraction",
+          "enabled": false,
+          "description": "time-subtraction"
+        },
+        {
+          "shortName": "abseil-duration-conversion-cast",
+          "displayName": "duration-conversion-cast",
+          "enabled": false,
+          "description": "duration-conversion-cast"
+        },
+        {
+          "shortName": "abseil-time-comparison",
+          "displayName": "time-comparison",
+          "enabled": false,
+          "description": "time-comparison"
+        },
+        {
+          "shortName": "abseil-faster-strsplit-delimiter",
+          "displayName": "faster-strsplit-delimiter",
+          "enabled": false,
+          "description": "faster-strsplit-delimiter"
+        },
+        {
+          "shortName": "abseil-duration-factory-scale",
+          "displayName": "duration-factory-scale",
+          "enabled": false,
+          "description": "duration-factory-scale"
+        },
+        {
+          "shortName": "abseil-duration-division",
+          "displayName": "duration-division",
+          "enabled": false,
+          "description": "duration-division"
+        },
+        {
+          "shortName": "abseil-no-namespace",
+          "displayName": "no-namespace",
+          "enabled": false,
+          "description": "no-namespace"
+        },
+        {
+          "shortName": "abseil-no-internal-dependencies",
+          "displayName": "no-internal-dependencies",
+          "enabled": false,
+          "description": "no-internal-dependencies"
+        },
+        {
+          "shortName": "abseil-redundant-strcat-calls",
+          "displayName": "redundant-strcat-calls",
+          "enabled": false,
+          "description": "redundant-strcat-calls"
+        },
+        {
+          "shortName": "abseil-duration-comparison",
+          "displayName": "duration-comparison",
+          "enabled": false,
+          "description": "duration-comparison"
+        },
+        {
+          "shortName": "abseil-duration-addition",
+          "displayName": "duration-addition",
+          "enabled": false,
+          "description": "duration-addition"
+        },
+        {
+          "shortName": "abseil-duration-subtraction",
+          "displayName": "duration-subtraction",
+          "enabled": false,
+          "description": "duration-subtraction"
+        },
+        {
+          "shortName": "abseil-str-cat-append",
+          "displayName": "str-cat-append",
+          "enabled": false,
+          "description": "str-cat-append"
+        },
+        {
+          "shortName": "abseil-duration-unnecessary-conversion",
+          "displayName": "duration-unnecessary-conversion",
+          "enabled": false,
+          "description": "duration-unnecessary-conversion"
+        }
+      ]
+    },
+    {
+      "name": "alpha.clone",
+      "categoryPath": [
+        {
+          "id": "C++",
+          "name": "C++"
+        },
+        {
+          "id": "alpha.clone",
+          "name": "alpha.clone"
+        }
+      ],
+      "inspections": [
+        {
+          "shortName": "clang-analyzer-alpha.clone.CloneChecker",
+          "displayName": "CloneChecker",
+          "enabled": true,
+          "description": "CloneChecker"
+        }
+      ]
+    },
+    {
+      "name": "alpha.core",
+      "categoryPath": [
+        {
+          "id": "C++",
+          "name": "C++"
+        },
+        {
+          "id": "alpha.core",
+          "name": "alpha.core"
+        }
+      ],
+      "inspections": [
+        {
+          "shortName": "clang-analyzer-alpha.core.C11Lock",
+          "displayName": "C11Lock",
+          "enabled": true,
+          "description": "C11Lock"
+        },
+        {
+          "shortName": "clang-analyzer-alpha.core.FixedAddr",
+          "displayName": "FixedAddr",
+          "enabled": true,
+          "description": "FixedAddr"
+        },
+        {
+          "shortName": "clang-analyzer-alpha.core.TestAfterDivZero",
+          "displayName": "TestAfterDivZero",
+          "enabled": true,
+          "description": "TestAfterDivZero"
+        },
+        {
+          "shortName": "clang-analyzer-alpha.core.StackAddressAsyncEscape",
+          "displayName": "StackAddressAsyncEscape",
+          "enabled": true,
+          "description": "StackAddressAsyncEscape"
+        },
+        {
+          "shortName": "clang-analyzer-alpha.core.PthreadLockBase",
+          "displayName": "PthreadLockBase",
+          "enabled": true,
+          "description": "PthreadLockBase"
+        },
+        {
+          "shortName": "clang-analyzer-alpha.core.BoolAssignment",
+          "displayName": "BoolAssignment",
+          "enabled": true,
+          "description": "BoolAssignment"
+        },
+        {
+          "shortName": "clang-analyzer-alpha.core.PointerSub",
+          "displayName": "PointerSub",
+          "enabled": true,
+          "description": "PointerSub"
+        },
+        {
+          "shortName": "clang-analyzer-alpha.core.CastSize",
+          "displayName": "CastSize",
+          "enabled": true,
+          "description": "CastSize"
+        },
+        {
+          "shortName": "clang-analyzer-alpha.core.PointerArithm",
+          "displayName": "PointerArithm",
+          "enabled": true,
+          "description": "PointerArithm"
+        },
+        {
+          "shortName": "clang-analyzer-alpha.core.StdVariant",
+          "displayName": "StdVariant",
+          "enabled": true,
+          "description": "StdVariant"
+        },
+        {
+          "shortName": "clang-analyzer-alpha.core.CastToStruct",
+          "displayName": "CastToStruct",
+          "enabled": true,
+          "description": "CastToStruct"
+        },
+        {
+          "shortName": "clang-analyzer-alpha.core.Conversion",
+          "displayName": "Conversion",
+          "enabled": true,
+          "description": "Conversion"
+        },
+        {
+          "shortName": "clang-analyzer-alpha.core.IdenticalExpr",
+          "displayName": "IdenticalExpr",
+          "enabled": true,
+          "description": "IdenticalExpr"
+        },
+        {
+          "shortName": "clang-analyzer-alpha.core.DynamicTypeChecker",
+          "displayName": "DynamicTypeChecker",
+          "enabled": true,
+          "description": "DynamicTypeChecker"
+        }
+      ]
+    },
+    {
+      "name": "alpha.cplusplus",
+      "categoryPath": [
+        {
+          "id": "C++",
+          "name": "C++"
+        },
+        {
+          "id": "alpha.cplusplus",
+          "name": "alpha.cplusplus"
+        }
+      ],
+      "inspections": [
+        {
+          "shortName": "clang-analyzer-alpha.cplusplus.IteratorRange",
+          "displayName": "IteratorRange",
+          "enabled": true,
+          "description": "IteratorRange"
+        },
+        {
+          "shortName": "clang-analyzer-alpha.cplusplus.InvalidatedIterator",
+          "displayName": "InvalidatedIterator",
+          "enabled": true,
+          "description": "InvalidatedIterator"
+        },
+        {
+          "shortName": "clang-analyzer-alpha.cplusplus.ContainerModeling",
+          "displayName": "ContainerModeling",
+          "enabled": true,
+          "description": "ContainerModeling"
+        },
+        {
+          "shortName": "clang-analyzer-alpha.cplusplus.STLAlgorithmModeling",
+          "displayName": "STLAlgorithmModeling",
+          "enabled": true,
+          "description": "STLAlgorithmModeling"
+        },
+        {
+          "shortName": "clang-analyzer-alpha.cplusplus.MismatchedIterator",
+          "displayName": "MismatchedIterator",
+          "enabled": true,
+          "description": "MismatchedIterator"
+        },
+        {
+          "shortName": "clang-analyzer-alpha.cplusplus.SmartPtr",
+          "displayName": "SmartPtr",
+          "enabled": true,
+          "description": "SmartPtr"
+        },
+        {
+          "shortName": "clang-analyzer-alpha.cplusplus.DeleteWithNonVirtualDtor",
+          "displayName": "DeleteWithNonVirtualDtor",
+          "enabled": true,
+          "description": "DeleteWithNonVirtualDtor"
+        },
+        {
+          "shortName": "clang-analyzer-alpha.cplusplus.IteratorModeling",
+          "displayName": "IteratorModeling",
+          "enabled": true,
+          "description": "IteratorModeling"
+        }
+      ]
+    },
+    {
+      "name": "alpha.deadcode",
+      "categoryPath": [
+        {
+          "id": "C++",
+          "name": "C++"
+        },
+        {
+          "id": "alpha.deadcode",
+          "name": "alpha.deadcode"
+        }
+      ],
+      "inspections": [
+        {
+          "shortName": "clang-analyzer-alpha.deadcode.UnreachableCode",
+          "displayName": "UnreachableCode",
+          "enabled": true,
+          "description": "UnreachableCode"
+        }
+      ]
+    },
+    {
+      "name": "alpha.fuchsia",
+      "categoryPath": [
+        {
+          "id": "C++",
+          "name": "C++"
+        },
+        {
+          "id": "alpha.fuchsia",
+          "name": "alpha.fuchsia"
+        }
+      ],
+      "inspections": [
+        {
+          "shortName": "clang-analyzer-alpha.fuchsia.Lock",
+          "displayName": "Lock",
+          "enabled": true,
+          "description": "Lock"
+        }
+      ]
+    },
+    {
+      "name": "alpha.llvm",
+      "categoryPath": [
+        {
+          "id": "C++",
+          "name": "C++"
+        },
+        {
+          "id": "alpha.llvm",
+          "name": "alpha.llvm"
+        }
+      ],
+      "inspections": [
+        {
+          "shortName": "clang-analyzer-alpha.llvm.Conventions",
+          "displayName": "Conventions",
+          "enabled": true,
+          "description": "Conventions"
+        }
+      ]
+    },
+    {
+      "name": "alpha.nondeterminism",
+      "categoryPath": [
+        {
+          "id": "C++",
+          "name": "C++"
+        },
+        {
+          "id": "alpha.nondeterminism",
+          "name": "alpha.nondeterminism"
+        }
+      ],
+      "inspections": [
+        {
+          "shortName": "clang-analyzer-alpha.nondeterminism.PointerIteration",
+          "displayName": "PointerIteration",
+          "enabled": true,
+          "description": "PointerIteration"
+        },
+        {
+          "shortName": "clang-analyzer-alpha.nondeterminism.PointerSorting",
+          "displayName": "PointerSorting",
+          "enabled": true,
+          "description": "PointerSorting"
+        }
+      ]
+    },
+    {
+      "name": "alpha.osx.cocoa",
+      "categoryPath": [
+        {
+          "id": "C++",
+          "name": "C++"
+        },
+        {
+          "id": "alpha.osx.cocoa",
+          "name": "alpha.osx.cocoa"
+        }
+      ],
+      "inspections": [
+        {
+          "shortName": "clang-analyzer-alpha.osx.cocoa.InstanceVariableInvalidation",
+          "displayName": "InstanceVariableInvalidation",
+          "enabled": true,
+          "description": "InstanceVariableInvalidation"
+        },
+        {
+          "shortName": "clang-analyzer-alpha.osx.cocoa.DirectIvarAssignment",
+          "displayName": "DirectIvarAssignment",
+          "enabled": true,
+          "description": "DirectIvarAssignment"
+        },
+        {
+          "shortName": "clang-analyzer-alpha.osx.cocoa.IvarInvalidationModeling",
+          "displayName": "IvarInvalidationModeling",
+          "enabled": true,
+          "description": "IvarInvalidationModeling"
+        },
+        {
+          "shortName": "clang-analyzer-alpha.osx.cocoa.MissingInvalidationMethod",
+          "displayName": "MissingInvalidationMethod",
+          "enabled": true,
+          "description": "MissingInvalidationMethod"
+        }
+      ]
+    },
+    {
+      "name": "alpha.osx.cocoa.localizability",
+      "categoryPath": [
+        {
+          "id": "C++",
+          "name": "C++"
+        },
+        {
+          "id": "alpha.osx.cocoa.localizability",
+          "name": "alpha.osx.cocoa.localizability"
+        }
+      ],
+      "inspections": [
+        {
+          "shortName": "clang-analyzer-alpha.osx.cocoa.localizability.PluralMisuseChecker",
+          "displayName": "PluralMisuseChecker",
+          "enabled": true,
+          "description": "PluralMisuseChecker"
+        }
+      ]
+    },
+    {
+      "name": "alpha.security",
+      "categoryPath": [
+        {
+          "id": "C++",
+          "name": "C++"
+        },
+        {
+          "id": "alpha.security",
+          "name": "alpha.security"
+        }
+      ],
+      "inspections": [
+        {
+          "shortName": "clang-analyzer-alpha.security.ReturnPtrRange",
+          "displayName": "ReturnPtrRange",
+          "enabled": true,
+          "description": "ReturnPtrRange"
+        },
+        {
+          "shortName": "clang-analyzer-alpha.security.MallocOverflow",
+          "displayName": "MallocOverflow",
+          "enabled": true,
+          "description": "MallocOverflow"
+        },
+        {
+          "shortName": "clang-analyzer-alpha.security.ArrayBoundV2",
+          "displayName": "ArrayBoundV2",
+          "enabled": true,
+          "description": "ArrayBoundV2"
+        },
+        {
+          "shortName": "clang-analyzer-alpha.security.ArrayBound",
+          "displayName": "ArrayBound",
+          "enabled": true,
+          "description": "ArrayBound"
+        },
+        {
+          "shortName": "clang-analyzer-alpha.security.MmapWriteExec",
+          "displayName": "MmapWriteExec",
+          "enabled": true,
+          "description": "MmapWriteExec"
+        }
+      ]
+    },
+    {
+      "name": "alpha.security.taint",
+      "categoryPath": [
+        {
+          "id": "C++",
+          "name": "C++"
+        },
+        {
+          "id": "alpha.security.taint",
+          "name": "alpha.security.taint"
+        }
+      ],
+      "inspections": [
+        {
+          "shortName": "clang-analyzer-alpha.security.taint.TaintPropagation",
+          "displayName": "TaintPropagation",
+          "enabled": true,
+          "description": "TaintPropagation"
+        }
+      ]
+    },
+    {
+      "name": "alpha.unix",
+      "categoryPath": [
+        {
+          "id": "C++",
+          "name": "C++"
+        },
+        {
+          "id": "alpha.unix",
+          "name": "alpha.unix"
+        }
+      ],
+      "inspections": [
+        {
+          "shortName": "clang-analyzer-alpha.unix.SimpleStream",
+          "displayName": "SimpleStream",
+          "enabled": true,
+          "description": "SimpleStream"
+        },
+        {
+          "shortName": "clang-analyzer-alpha.unix.Chroot",
+          "displayName": "Chroot",
+          "enabled": true,
+          "description": "Chroot"
+        },
+        {
+          "shortName": "clang-analyzer-alpha.unix.PthreadLock",
+          "displayName": "PthreadLock",
+          "enabled": true,
+          "description": "PthreadLock"
+        }
+      ]
+    },
+    {
+      "name": "alpha.unix.cstring",
+      "categoryPath": [
+        {
+          "id": "C++",
+          "name": "C++"
+        },
+        {
+          "id": "alpha.unix.cstring",
+          "name": "alpha.unix.cstring"
+        }
+      ],
+      "inspections": [
+        {
+          "shortName": "clang-analyzer-alpha.unix.cstring.UninitializedRead",
+          "displayName": "UninitializedRead",
+          "enabled": true,
+          "description": "UninitializedRead"
+        },
+        {
+          "shortName": "clang-analyzer-alpha.unix.cstring.NotNullTerminated",
+          "displayName": "NotNullTerminated",
+          "enabled": true,
+          "description": "NotNullTerminated"
+        },
+        {
+          "shortName": "clang-analyzer-alpha.unix.cstring.OutOfBounds",
+          "displayName": "OutOfBounds",
+          "enabled": true,
+          "description": "OutOfBounds"
+        },
+        {
+          "shortName": "clang-analyzer-alpha.unix.cstring.BufferOverlap",
+          "displayName": "BufferOverlap",
+          "enabled": true,
+          "description": "BufferOverlap"
+        }
+      ]
+    },
+    {
+      "name": "alpha.webkit",
+      "categoryPath": [
+        {
+          "id": "C++",
+          "name": "C++"
+        },
+        {
+          "id": "alpha.webkit",
+          "name": "alpha.webkit"
+        }
+      ],
+      "inspections": [
+        {
+          "shortName": "clang-analyzer-alpha.webkit.UncountedCallArgsChecker",
+          "displayName": "UncountedCallArgsChecker",
+          "enabled": true,
+          "description": "UncountedCallArgsChecker"
+        },
+        {
+          "shortName": "clang-analyzer-alpha.webkit.UncountedLocalVarsChecker",
+          "displayName": "UncountedLocalVarsChecker",
+          "enabled": true,
+          "description": "UncountedLocalVarsChecker"
+        }
+      ]
+    },
+    {
+      "name": "altera",
+      "categoryPath": [
+        {
+          "id": "C++",
+          "name": "C++"
+        },
+        {
+          "id": "altera",
+          "name": "altera"
+        }
+      ],
+      "inspections": [
+        {
+          "shortName": "altera-id-dependent-backward-branch",
+          "displayName": "id-dependent-backward-branch",
+          "enabled": false,
+          "description": "id-dependent-backward-branch"
+        },
+        {
+          "shortName": "altera-struct-pack-align",
+          "displayName": "struct-pack-align",
+          "enabled": false,
+          "description": "struct-pack-align"
+        },
+        {
+          "shortName": "altera-single-work-item-barrier",
+          "displayName": "single-work-item-barrier",
+          "enabled": false,
+          "description": "single-work-item-barrier"
+        },
+        {
+          "shortName": "altera-kernel-name-restriction",
+          "displayName": "kernel-name-restriction",
+          "enabled": false,
+          "description": "kernel-name-restriction"
+        },
+        {
+          "shortName": "altera-unroll-loops",
+          "displayName": "unroll-loops",
+          "enabled": false,
+          "description": "unroll-loops"
+        }
+      ]
+    },
+    {
+      "name": "android",
+      "categoryPath": [
+        {
+          "id": "C++",
+          "name": "C++"
+        },
+        {
+          "id": "android",
+          "name": "android"
+        }
+      ],
+      "inspections": [
+        {
+          "shortName": "android-cloexec-socket",
+          "displayName": "cloexec-socket",
+          "enabled": false,
+          "description": "cloexec-socket"
+        },
+        {
+          "shortName": "android-cloexec-pipe",
+          "displayName": "cloexec-pipe",
+          "enabled": false,
+          "description": "cloexec-pipe"
+        },
+        {
+          "shortName": "android-cloexec-epoll-create1",
+          "displayName": "cloexec-epoll-create1",
+          "enabled": false,
+          "description": "cloexec-epoll-create1"
+        },
+        {
+          "shortName": "android-comparison-in-temp-failure-retry",
+          "displayName": "comparison-in-temp-failure-retry",
+          "enabled": false,
+          "description": "comparison-in-temp-failure-retry"
+        },
+        {
+          "shortName": "android-cloexec-accept4",
+          "displayName": "cloexec-accept4",
+          "enabled": false,
+          "description": "cloexec-accept4"
+        },
+        {
+          "shortName": "android-cloexec-epoll-create",
+          "displayName": "cloexec-epoll-create",
+          "enabled": false,
+          "description": "cloexec-epoll-create"
+        },
+        {
+          "shortName": "android-cloexec-dup",
+          "displayName": "cloexec-dup",
+          "enabled": false,
+          "description": "cloexec-dup"
+        },
+        {
+          "shortName": "android-cloexec-memfd-create",
+          "displayName": "cloexec-memfd-create",
+          "enabled": false,
+          "description": "cloexec-memfd-create"
+        },
+        {
+          "shortName": "android-cloexec-inotify-init",
+          "displayName": "cloexec-inotify-init",
+          "enabled": false,
+          "description": "cloexec-inotify-init"
+        },
+        {
+          "shortName": "android-cloexec-pipe2",
+          "displayName": "cloexec-pipe2",
+          "enabled": false,
+          "description": "cloexec-pipe2"
+        },
+        {
+          "shortName": "android-cloexec-accept",
+          "displayName": "cloexec-accept",
+          "enabled": false,
+          "description": "cloexec-accept"
+        },
+        {
+          "shortName": "android-cloexec-open",
+          "displayName": "cloexec-open",
+          "enabled": false,
+          "description": "cloexec-open"
+        },
+        {
+          "shortName": "android-cloexec-inotify-init1",
+          "displayName": "cloexec-inotify-init1",
+          "enabled": false,
+          "description": "cloexec-inotify-init1"
+        },
+        {
+          "shortName": "android-cloexec-fopen",
+          "displayName": "cloexec-fopen",
+          "enabled": false,
+          "description": "cloexec-fopen"
+        },
+        {
+          "shortName": "android-cloexec-creat",
+          "displayName": "cloexec-creat",
+          "enabled": false,
+          "description": "cloexec-creat"
+        }
+      ]
+    },
+    {
+      "name": "apiModeling",
+      "categoryPath": [
+        {
+          "id": "C++",
+          "name": "C++"
+        },
+        {
+          "id": "apiModeling",
+          "name": "apiModeling"
+        }
+      ],
+      "inspections": [
+        {
+          "shortName": "clang-analyzer-apiModeling.TrustNonnull",
+          "displayName": "TrustNonnull",
+          "enabled": true,
+          "description": "TrustNonnull"
+        },
+        {
+          "shortName": "clang-analyzer-apiModeling.TrustReturnsNonnull",
+          "displayName": "TrustReturnsNonnull",
+          "enabled": true,
+          "description": "TrustReturnsNonnull"
+        },
+        {
+          "shortName": "clang-analyzer-apiModeling.Errno",
+          "displayName": "Errno",
+          "enabled": true,
+          "description": "Errno"
+        }
+      ]
+    },
+    {
+      "name": "apiModeling.google",
+      "categoryPath": [
+        {
+          "id": "C++",
+          "name": "C++"
+        },
+        {
+          "id": "apiModeling.google",
+          "name": "apiModeling.google"
+        }
+      ],
+      "inspections": [
+        {
+          "shortName": "clang-analyzer-apiModeling.google.GTest",
+          "displayName": "GTest",
+          "enabled": true,
+          "description": "GTest"
+        }
+      ]
+    },
+    {
+      "name": "apiModeling.llvm",
+      "categoryPath": [
+        {
+          "id": "C++",
+          "name": "C++"
+        },
+        {
+          "id": "apiModeling.llvm",
+          "name": "apiModeling.llvm"
+        }
+      ],
+      "inspections": [
+        {
+          "shortName": "clang-analyzer-apiModeling.llvm.CastValue",
+          "displayName": "CastValue",
+          "enabled": true,
+          "description": "CastValue"
+        },
+        {
+          "shortName": "clang-analyzer-apiModeling.llvm.ReturnValue",
+          "displayName": "ReturnValue",
+          "enabled": true,
+          "description": "ReturnValue"
+        }
+      ]
+    },
+    {
+      "name": "boost",
+      "categoryPath": [
+        {
+          "id": "C++",
+          "name": "C++"
+        },
+        {
+          "id": "boost",
+          "name": "boost"
+        }
+      ],
+      "inspections": [
+        {
+          "shortName": "boost-use-to-string",
+          "displayName": "use-to-string",
+          "enabled": false,
+          "description": "use-to-string"
+        }
+      ]
+    },
+    {
+      "name": "bugprone",
+      "categoryPath": [
+        {
+          "id": "C++",
+          "name": "C++"
+        },
+        {
+          "id": "bugprone",
+          "name": "bugprone"
+        }
+      ],
+      "inspections": [
+        {
+          "shortName": "bugprone-crtp-constructor-accessibility",
+          "displayName": "crtp-constructor-accessibility",
+          "enabled": false,
+          "description": "crtp-constructor-accessibility"
+        },
+        {
+          "shortName": "bugprone-suspicious-realloc-usage",
+          "displayName": "suspicious-realloc-usage",
+          "enabled": false,
+          "description": "suspicious-realloc-usage"
+        },
+        {
+          "shortName": "bugprone-optional-value-conversion",
+          "displayName": "optional-value-conversion",
+          "enabled": false,
+          "description": "optional-value-conversion"
+        },
+        {
+          "shortName": "bugprone-bool-pointer-implicit-conversion",
+          "displayName": "bool-pointer-implicit-conversion",
+          "enabled": false,
+          "description": "bool-pointer-implicit-conversion"
+        },
+        {
+          "shortName": "bugprone-throw-keyword-missing",
+          "displayName": "throw-keyword-missing",
+          "enabled": false,
+          "description": "throw-keyword-missing"
+        },
+        {
+          "shortName": "bugprone-move-forwarding-reference",
+          "displayName": "move-forwarding-reference",
+          "enabled": false,
+          "description": "move-forwarding-reference"
+        },
+        {
+          "shortName": "bugprone-string-constructor",
+          "displayName": "string-constructor",
+          "enabled": false,
+          "description": "string-constructor"
+        },
+        {
+          "shortName": "bugprone-reserved-identifier",
+          "displayName": "reserved-identifier",
+          "enabled": false,
+          "description": "reserved-identifier"
+        },
+        {
+          "shortName": "bugprone-signal-handler",
+          "displayName": "signal-handler",
+          "enabled": false,
+          "description": "signal-handler"
+        },
+        {
+          "shortName": "bugprone-assert-side-effect",
+          "displayName": "assert-side-effect",
+          "enabled": false,
+          "description": "assert-side-effect"
+        },
+        {
+          "shortName": "bugprone-signed-char-misuse",
+          "displayName": "signed-char-misuse",
+          "enabled": false,
+          "description": "signed-char-misuse"
+        },
+        {
+          "shortName": "bugprone-unsafe-functions",
+          "displayName": "unsafe-functions",
+          "enabled": false,
+          "description": "unsafe-functions"
+        },
+        {
+          "shortName": "bugprone-too-small-loop-variable",
+          "displayName": "too-small-loop-variable",
+          "enabled": false,
+          "description": "too-small-loop-variable"
+        },
+        {
+          "shortName": "bugprone-unused-return-value",
+          "displayName": "unused-return-value",
+          "enabled": false,
+          "description": "unused-return-value"
+        },
+        {
+          "shortName": "bugprone-inc-dec-in-conditions",
+          "displayName": "inc-dec-in-conditions",
+          "enabled": false,
+          "description": "inc-dec-in-conditions"
+        },
+        {
+          "shortName": "bugprone-shared-ptr-array-mismatch",
+          "displayName": "shared-ptr-array-mismatch",
+          "enabled": false,
+          "description": "shared-ptr-array-mismatch"
+        },
+        {
+          "shortName": "bugprone-unique-ptr-array-mismatch",
+          "displayName": "unique-ptr-array-mismatch",
+          "enabled": false,
+          "description": "unique-ptr-array-mismatch"
+        },
+        {
+          "shortName": "bugprone-multiple-new-in-one-expression",
+          "displayName": "multiple-new-in-one-expression",
+          "enabled": false,
+          "description": "multiple-new-in-one-expression"
+        },
+        {
+          "shortName": "bugprone-empty-catch",
+          "displayName": "empty-catch",
+          "enabled": false,
+          "description": "empty-catch"
+        },
+        {
+          "shortName": "bugprone-undefined-memory-manipulation",
+          "displayName": "undefined-memory-manipulation",
+          "enabled": false,
+          "description": "undefined-memory-manipulation"
+        },
+        {
+          "shortName": "bugprone-infinite-loop",
+          "displayName": "infinite-loop",
+          "enabled": true,
+          "description": "infinite-loop"
+        },
+        {
+          "shortName": "bugprone-string-literal-with-embedded-nul",
+          "displayName": "string-literal-with-embedded-nul",
+          "enabled": false,
+          "description": "string-literal-with-embedded-nul"
+        },
+        {
+          "shortName": "bugprone-non-zero-enum-to-bool-conversion",
+          "displayName": "non-zero-enum-to-bool-conversion",
+          "enabled": false,
+          "description": "non-zero-enum-to-bool-conversion"
+        },
+        {
+          "shortName": "bugprone-spuriously-wake-up-functions",
+          "displayName": "spuriously-wake-up-functions",
+          "enabled": false,
+          "description": "spuriously-wake-up-functions"
+        },
+        {
+          "shortName": "bugprone-return-const-ref-from-parameter",
+          "displayName": "return-const-ref-from-parameter",
+          "enabled": false,
+          "description": "return-const-ref-from-parameter"
+        },
+        {
+          "shortName": "bugprone-exception-escape",
+          "displayName": "exception-escape",
+          "enabled": false,
+          "description": "exception-escape"
+        },
+        {
+          "shortName": "bugprone-dangling-handle",
+          "displayName": "dangling-handle",
+          "enabled": false,
+          "description": "dangling-handle"
+        },
+        {
+          "shortName": "bugprone-suspicious-memory-comparison",
+          "displayName": "suspicious-memory-comparison",
+          "enabled": false,
+          "description": "suspicious-memory-comparison"
+        },
+        {
+          "shortName": "bugprone-swapped-arguments",
+          "displayName": "swapped-arguments",
+          "enabled": false,
+          "description": "swapped-arguments"
+        },
+        {
+          "shortName": "bugprone-compare-pointer-to-member-virtual-function",
+          "displayName": "compare-pointer-to-member-virtual-function",
+          "enabled": false,
+          "description": "compare-pointer-to-member-virtual-function"
+        },
+        {
+          "shortName": "bugprone-string-integer-assignment",
+          "displayName": "string-integer-assignment",
+          "enabled": false,
+          "description": "string-integer-assignment"
+        },
+        {
+          "shortName": "bugprone-copy-constructor-init",
+          "displayName": "copy-constructor-init",
+          "enabled": false,
+          "description": "copy-constructor-init"
+        },
+        {
+          "shortName": "bugprone-easily-swappable-parameters",
+          "displayName": "easily-swappable-parameters",
+          "enabled": false,
+          "description": "easily-swappable-parameters"
+        },
+        {
+          "shortName": "bugprone-integer-division",
+          "displayName": "integer-division",
+          "enabled": false,
+          "description": "integer-division"
+        },
+        {
+          "shortName": "bugprone-suspicious-enum-usage",
+          "displayName": "suspicious-enum-usage",
+          "enabled": false,
+          "description": "suspicious-enum-usage"
+        },
+        {
+          "shortName": "bugprone-unchecked-optional-access",
+          "displayName": "unchecked-optional-access",
+          "enabled": false,
+          "description": "unchecked-optional-access"
+        },
+        {
+          "shortName": "bugprone-unused-local-non-trivial-variable",
+          "displayName": "unused-local-non-trivial-variable",
+          "enabled": false,
+          "description": "unused-local-non-trivial-variable"
+        },
+        {
+          "shortName": "bugprone-no-escape",
+          "displayName": "no-escape",
+          "enabled": false,
+          "description": "no-escape"
+        },
+        {
+          "shortName": "bugprone-posix-return",
+          "displayName": "posix-return",
+          "enabled": false,
+          "description": "posix-return"
+        },
+        {
+          "shortName": "bugprone-implicit-widening-of-multiplication-result",
+          "displayName": "implicit-widening-of-multiplication-result",
+          "enabled": false,
+          "description": "implicit-widening-of-multiplication-result"
+        },
+        {
+          "shortName": "bugprone-suspicious-string-compare",
+          "displayName": "suspicious-string-compare",
+          "enabled": false,
+          "description": "suspicious-string-compare"
+        },
+        {
+          "shortName": "bugprone-misplaced-widening-cast",
+          "displayName": "misplaced-widening-cast",
+          "enabled": false,
+          "description": "misplaced-widening-cast"
+        },
+        {
+          "shortName": "bugprone-dynamic-static-initializers",
+          "displayName": "dynamic-static-initializers",
+          "enabled": false,
+          "description": "dynamic-static-initializers"
+        },
+        {
+          "shortName": "bugprone-unhandled-exception-at-new",
+          "displayName": "unhandled-exception-at-new",
+          "enabled": false,
+          "description": "unhandled-exception-at-new"
+        },
+        {
+          "shortName": "bugprone-inaccurate-erase",
+          "displayName": "inaccurate-erase",
+          "enabled": false,
+          "description": "inaccurate-erase"
+        },
+        {
+          "shortName": "bugprone-sizeof-container",
+          "displayName": "sizeof-container",
+          "enabled": false,
+          "description": "sizeof-container"
+        },
+        {
+          "shortName": "bugprone-chained-comparison",
+          "displayName": "chained-comparison",
+          "enabled": false,
+          "description": "chained-comparison"
+        },
+        {
+          "shortName": "bugprone-incorrect-enable-if",
+          "displayName": "incorrect-enable-if",
+          "enabled": false,
+          "description": "incorrect-enable-if"
+        },
+        {
+          "shortName": "bugprone-switch-missing-default-case",
+          "displayName": "switch-missing-default-case",
+          "enabled": false,
+          "description": "switch-missing-default-case"
+        },
+        {
+          "shortName": "bugprone-suspicious-memset-usage",
+          "displayName": "suspicious-memset-usage",
+          "enabled": false,
+          "description": "suspicious-memset-usage"
+        },
+        {
+          "shortName": "bugprone-redundant-branch-condition",
+          "displayName": "redundant-branch-condition",
+          "enabled": false,
+          "description": "redundant-branch-condition"
+        },
+        {
+          "shortName": "bugprone-casting-through-void",
+          "displayName": "casting-through-void",
+          "enabled": false,
+          "description": "casting-through-void"
+        },
+        {
+          "shortName": "bugprone-forwarding-reference-overload",
+          "displayName": "forwarding-reference-overload",
+          "enabled": false,
+          "description": "forwarding-reference-overload"
+        },
+        {
+          "shortName": "bugprone-incorrect-roundings",
+          "displayName": "incorrect-roundings",
+          "enabled": false,
+          "description": "incorrect-roundings"
+        },
+        {
+          "shortName": "bugprone-misplaced-pointer-arithmetic-in-alloc",
+          "displayName": "misplaced-pointer-arithmetic-in-alloc",
+          "enabled": false,
+          "description": "misplaced-pointer-arithmetic-in-alloc"
+        },
+        {
+          "shortName": "bugprone-macro-repeated-side-effects",
+          "displayName": "macro-repeated-side-effects",
+          "enabled": false,
+          "description": "macro-repeated-side-effects"
+        },
+        {
+          "shortName": "bugprone-stringview-nullptr",
+          "displayName": "stringview-nullptr",
+          "enabled": false,
+          "description": "stringview-nullptr"
+        },
+        {
+          "shortName": "bugprone-unhandled-self-assignment",
+          "displayName": "unhandled-self-assignment",
+          "enabled": false,
+          "description": "unhandled-self-assignment"
+        },
+        {
+          "shortName": "bugprone-forward-declaration-namespace",
+          "displayName": "forward-declaration-namespace",
+          "enabled": false,
+          "description": "forward-declaration-namespace"
+        },
+        {
+          "shortName": "bugprone-multi-level-implicit-pointer-conversion",
+          "displayName": "multi-level-implicit-pointer-conversion",
+          "enabled": false,
+          "description": "multi-level-implicit-pointer-conversion"
+        },
+        {
+          "shortName": "bugprone-macro-parentheses",
+          "displayName": "macro-parentheses",
+          "enabled": false,
+          "description": "macro-parentheses"
+        },
+        {
+          "shortName": "bugprone-not-null-terminated-result",
+          "displayName": "not-null-terminated-result",
+          "enabled": false,
+          "description": "not-null-terminated-result"
+        },
+        {
+          "shortName": "bugprone-suspicious-semicolon",
+          "displayName": "suspicious-semicolon",
+          "enabled": false,
+          "description": "suspicious-semicolon"
+        },
+        {
+          "shortName": "bugprone-branch-clone",
+          "displayName": "branch-clone",
+          "enabled": false,
+          "description": "branch-clone"
+        },
+        {
+          "shortName": "bugprone-fold-init-type",
+          "displayName": "fold-init-type",
+          "enabled": false,
+          "description": "fold-init-type"
+        },
+        {
+          "shortName": "bugprone-assignment-in-if-condition",
+          "displayName": "assignment-in-if-condition",
+          "enabled": false,
+          "description": "assignment-in-if-condition"
+        },
+        {
+          "shortName": "bugprone-undelegated-constructor",
+          "displayName": "undelegated-constructor",
+          "enabled": false,
+          "description": "undelegated-constructor"
+        },
+        {
+          "shortName": "bugprone-terminating-continue",
+          "displayName": "terminating-continue",
+          "enabled": false,
+          "description": "terminating-continue"
+        },
+        {
+          "shortName": "bugprone-misplaced-operator-in-strlen-in-alloc",
+          "displayName": "misplaced-operator-in-strlen-in-alloc",
+          "enabled": false,
+          "description": "misplaced-operator-in-strlen-in-alloc"
+        },
+        {
+          "shortName": "bugprone-sizeof-expression",
+          "displayName": "sizeof-expression",
+          "enabled": false,
+          "description": "sizeof-expression"
+        },
+        {
+          "shortName": "bugprone-use-after-move",
+          "displayName": "use-after-move",
+          "enabled": false,
+          "description": "use-after-move"
+        },
+        {
+          "shortName": "bugprone-suspicious-stringview-data-usage",
+          "displayName": "suspicious-stringview-data-usage",
+          "enabled": false,
+          "description": "suspicious-stringview-data-usage"
+        },
+        {
+          "shortName": "bugprone-multiple-statement-macro",
+          "displayName": "multiple-statement-macro",
+          "enabled": false,
+          "description": "multiple-statement-macro"
+        },
+        {
+          "shortName": "bugprone-unused-raii",
+          "displayName": "unused-raii",
+          "enabled": false,
+          "description": "unused-raii"
+        },
+        {
+          "shortName": "bugprone-standalone-empty",
+          "displayName": "standalone-empty",
+          "enabled": false,
+          "description": "standalone-empty"
+        },
+        {
+          "shortName": "bugprone-virtual-near-miss",
+          "displayName": "virtual-near-miss",
+          "enabled": false,
+          "description": "virtual-near-miss"
+        },
+        {
+          "shortName": "bugprone-suspicious-include",
+          "displayName": "suspicious-include",
+          "enabled": false,
+          "description": "suspicious-include"
+        },
+        {
+          "shortName": "bugprone-argument-comment",
+          "displayName": "argument-comment",
+          "enabled": false,
+          "description": "argument-comment"
+        },
+        {
+          "shortName": "bugprone-narrowing-conversions",
+          "displayName": "narrowing-conversions",
+          "enabled": false,
+          "description": "narrowing-conversions"
+        },
+        {
+          "shortName": "bugprone-lambda-function-name",
+          "displayName": "lambda-function-name",
+          "enabled": false,
+          "description": "lambda-function-name"
+        },
+        {
+          "shortName": "bugprone-parent-virtual-call",
+          "displayName": "parent-virtual-call",
+          "enabled": false,
+          "description": "parent-virtual-call"
+        },
+        {
+          "shortName": "bugprone-suspicious-missing-comma",
+          "displayName": "suspicious-missing-comma",
+          "enabled": false,
+          "description": "suspicious-missing-comma"
+        },
+        {
+          "shortName": "bugprone-bad-signal-to-kill-thread",
+          "displayName": "bad-signal-to-kill-thread",
+          "enabled": false,
+          "description": "bad-signal-to-kill-thread"
+        }
+      ]
+    },
+    {
+      "name": "cert",
+      "categoryPath": [
+        {
+          "id": "C++",
+          "name": "C++"
+        },
+        {
+          "id": "cert",
+          "name": "cert"
+        }
+      ],
+      "inspections": [
+        {
+          "shortName": "cert-msc54-cpp",
+          "displayName": "msc54-cpp",
+          "enabled": false,
+          "description": "msc54-cpp"
+        },
+        {
+          "shortName": "cert-dcl59-cpp",
+          "displayName": "dcl59-cpp",
+          "enabled": false,
+          "description": "dcl59-cpp"
+        },
+        {
+          "shortName": "cert-pos47-c",
+          "displayName": "pos47-c",
+          "enabled": false,
+          "description": "pos47-c"
+        },
+        {
+          "shortName": "cert-exp42-c",
+          "displayName": "exp42-c",
+          "enabled": false,
+          "description": "exp42-c"
+        },
+        {
+          "shortName": "cert-dcl16-c",
+          "displayName": "dcl16-c",
+          "enabled": false,
+          "description": "dcl16-c"
+        },
+        {
+          "shortName": "cert-con36-c",
+          "displayName": "con36-c",
+          "enabled": false,
+          "description": "con36-c"
+        },
+        {
+          "shortName": "cert-err52-cpp",
+          "displayName": "err52-cpp",
+          "enabled": false,
+          "description": "err52-cpp"
+        },
+        {
+          "shortName": "cert-pos44-c",
+          "displayName": "pos44-c",
+          "enabled": false,
+          "description": "pos44-c"
+        },
+        {
+          "shortName": "cert-sig30-c",
+          "displayName": "sig30-c",
+          "enabled": false,
+          "description": "sig30-c"
+        },
+        {
+          "shortName": "cert-dcl58-cpp",
+          "displayName": "dcl58-cpp",
+          "enabled": false,
+          "description": "dcl58-cpp"
+        },
+        {
+          "shortName": "cert-con54-cpp",
+          "displayName": "con54-cpp",
+          "enabled": false,
+          "description": "con54-cpp"
+        },
+        {
+          "shortName": "cert-dcl50-cpp",
+          "displayName": "dcl50-cpp",
+          "enabled": false,
+          "description": "dcl50-cpp"
+        },
+        {
+          "shortName": "cert-fio38-c",
+          "displayName": "fio38-c",
+          "enabled": false,
+          "description": "fio38-c"
+        },
+        {
+          "shortName": "cert-str34-c",
+          "displayName": "str34-c",
+          "enabled": false,
+          "description": "str34-c"
+        },
+        {
+          "shortName": "cert-mem57-cpp",
+          "displayName": "mem57-cpp",
+          "enabled": false,
+          "description": "mem57-cpp"
+        },
+        {
+          "shortName": "cert-dcl51-cpp",
+          "displayName": "dcl51-cpp",
+          "enabled": false,
+          "description": "dcl51-cpp"
+        },
+        {
+          "shortName": "cert-err33-c",
+          "displayName": "err33-c",
+          "enabled": false,
+          "description": "err33-c"
+        },
+        {
+          "shortName": "cert-oop11-cpp",
+          "displayName": "oop11-cpp",
+          "enabled": false,
+          "description": "oop11-cpp"
+        },
+        {
+          "shortName": "cert-oop57-cpp",
+          "displayName": "oop57-cpp",
+          "enabled": false,
+          "description": "oop57-cpp"
+        },
+        {
+          "shortName": "cert-msc30-c",
+          "displayName": "msc30-c",
+          "enabled": false,
+          "description": "msc30-c"
+        },
+        {
+          "shortName": "cert-oop58-cpp",
+          "displayName": "oop58-cpp",
+          "enabled": false,
+          "description": "oop58-cpp"
+        },
+        {
+          "shortName": "cert-oop54-cpp",
+          "displayName": "oop54-cpp",
+          "enabled": false,
+          "description": "oop54-cpp"
+        },
+        {
+          "shortName": "cert-flp30-c",
+          "displayName": "flp30-c",
+          "enabled": false,
+          "description": "flp30-c"
+        },
+        {
+          "shortName": "cert-dcl37-c",
+          "displayName": "dcl37-c",
+          "enabled": false,
+          "description": "dcl37-c"
+        },
+        {
+          "shortName": "cert-msc24-c",
+          "displayName": "msc24-c",
+          "enabled": false,
+          "description": "msc24-c"
+        },
+        {
+          "shortName": "cert-err60-cpp",
+          "displayName": "err60-cpp",
+          "enabled": false,
+          "description": "err60-cpp"
+        },
+        {
+          "shortName": "cert-err09-cpp",
+          "displayName": "err09-cpp",
+          "enabled": false,
+          "description": "err09-cpp"
+        },
+        {
+          "shortName": "cert-flp37-c",
+          "displayName": "flp37-c",
+          "enabled": false,
+          "description": "flp37-c"
+        },
+        {
+          "shortName": "cert-msc51-cpp",
+          "displayName": "msc51-cpp",
+          "enabled": false,
+          "description": "msc51-cpp"
+        },
+        {
+          "shortName": "cert-msc32-c",
+          "displayName": "msc32-c",
+          "enabled": false,
+          "description": "msc32-c"
+        },
+        {
+          "shortName": "cert-err34-c",
+          "displayName": "err34-c",
+          "enabled": false,
+          "description": "err34-c"
+        },
+        {
+          "shortName": "cert-dcl03-c",
+          "displayName": "dcl03-c",
+          "enabled": false,
+          "description": "dcl03-c"
+        },
+        {
+          "shortName": "cert-msc33-c",
+          "displayName": "msc33-c",
+          "enabled": false,
+          "description": "msc33-c"
+        },
+        {
+          "shortName": "cert-int09-c",
+          "displayName": "int09-c",
+          "enabled": false,
+          "description": "int09-c"
+        },
+        {
+          "shortName": "cert-dcl54-cpp",
+          "displayName": "dcl54-cpp",
+          "enabled": false,
+          "description": "dcl54-cpp"
+        },
+        {
+          "shortName": "cert-env33-c",
+          "displayName": "env33-c",
+          "enabled": false,
+          "description": "env33-c"
+        },
+        {
+          "shortName": "cert-msc50-cpp",
+          "displayName": "msc50-cpp",
+          "enabled": false,
+          "description": "msc50-cpp"
+        },
+        {
+          "shortName": "cert-err58-cpp",
+          "displayName": "err58-cpp",
+          "enabled": false,
+          "description": "err58-cpp"
+        },
+        {
+          "shortName": "cert-err61-cpp",
+          "displayName": "err61-cpp",
+          "enabled": false,
+          "description": "err61-cpp"
+        }
+      ]
+    },
+    {
+      "name": "clion",
+      "categoryPath": [
+        {
+          "id": "C++",
+          "name": "C++"
+        },
+        {
+          "id": "clion",
+          "name": "clion"
+        }
+      ],
+      "inspections": [
+        {
+          "shortName": "clion-misra-c2012-16-7",
+          "displayName": "misra-c2012-16-7",
+          "enabled": false,
+          "description": "misra-c2012-16-7"
+        },
+        {
+          "shortName": "clion-misra-c2012-12-2",
+          "displayName": "misra-c2012-12-2",
+          "enabled": false,
+          "description": "misra-c2012-12-2"
+        },
+        {
+          "shortName": "clion-misra-cpp2008-15-3-5",
+          "displayName": "misra-cpp2008-15-3-5",
+          "enabled": false,
+          "description": "misra-cpp2008-15-3-5"
+        },
+        {
+          "shortName": "clion-misra-cpp2008-5-0-14",
+          "displayName": "misra-cpp2008-5-0-14",
+          "enabled": false,
+          "description": "misra-cpp2008-5-0-14"
+        },
+        {
+          "shortName": "clion-virtual-call-in-ctor-or-dtor",
+          "displayName": "virtual-call-in-ctor-or-dtor",
+          "enabled": false,
+          "description": "virtual-call-in-ctor-or-dtor"
+        },
+        {
+          "shortName": "clion-misra-c2012-10-2",
+          "displayName": "misra-c2012-10-2",
+          "enabled": false,
+          "description": "misra-c2012-10-2"
+        },
+        {
+          "shortName": "clion-misra-cpp2008-7-3-4",
+          "displayName": "misra-cpp2008-7-3-4",
+          "enabled": false,
+          "description": "misra-cpp2008-7-3-4"
+        },
+        {
+          "shortName": "clion-misra-c2012-11-5",
+          "displayName": "misra-c2012-11-5",
+          "enabled": false,
+          "description": "misra-c2012-11-5"
+        },
+        {
+          "shortName": "clion-misra-c2012-11-7",
+          "displayName": "misra-c2012-11-7",
+          "enabled": false,
+          "description": "misra-c2012-11-7"
+        },
+        {
+          "shortName": "clion-misra-cpp2008-2-13-2",
+          "displayName": "misra-cpp2008-2-13-2",
+          "enabled": false,
+          "description": "misra-cpp2008-2-13-2"
+        },
+        {
+          "shortName": "clion-misra-cpp2008-8-0-1",
+          "displayName": "misra-cpp2008-8-0-1",
+          "enabled": false,
+          "description": "misra-cpp2008-8-0-1"
+        },
+        {
+          "shortName": "clion-misra-cpp2008-7-3-1",
+          "displayName": "misra-cpp2008-7-3-1",
+          "enabled": false,
+          "description": "misra-cpp2008-7-3-1"
+        },
+        {
+          "shortName": "clion-misra-cpp2008-6-4-4",
+          "displayName": "misra-cpp2008-6-4-4",
+          "enabled": false,
+          "description": "misra-cpp2008-6-4-4"
+        },
+        {
+          "shortName": "clion-misra-cpp2008-5-8-1",
+          "displayName": "misra-cpp2008-5-8-1",
+          "enabled": false,
+          "description": "misra-cpp2008-5-8-1"
+        },
+        {
+          "shortName": "clion-misra-c2012-21-9",
+          "displayName": "misra-c2012-21-9",
+          "enabled": false,
+          "description": "misra-c2012-21-9"
+        },
+        {
+          "shortName": "clion-misra-cpp2008-8-4-1",
+          "displayName": "misra-cpp2008-8-4-1",
+          "enabled": false,
+          "description": "misra-cpp2008-8-4-1"
+        },
+        {
+          "shortName": "clion-misra-c2012-18-8",
+          "displayName": "misra-c2012-18-8",
+          "enabled": false,
+          "description": "misra-c2012-18-8"
+        },
+        {
+          "shortName": "clion-misra-c2012-18-5",
+          "displayName": "misra-c2012-18-5",
+          "enabled": false,
+          "description": "misra-c2012-18-5"
+        },
+        {
+          "shortName": "clion-misra-cpp2008-12-8-2",
+          "displayName": "misra-cpp2008-12-8-2",
+          "enabled": false,
+          "description": "misra-cpp2008-12-8-2"
+        },
+        {
+          "shortName": "clion-misra-c2012-17-7",
+          "displayName": "misra-c2012-17-7",
+          "enabled": false,
+          "description": "misra-c2012-17-7"
+        },
+        {
+          "shortName": "clion-misra-cpp2008-5-0-5",
+          "displayName": "misra-cpp2008-5-0-5",
+          "enabled": false,
+          "description": "misra-cpp2008-5-0-5"
+        },
+        {
+          "shortName": "clion-misra-cpp2008-6-2-1",
+          "displayName": "misra-cpp2008-6-2-1",
+          "enabled": false,
+          "description": "misra-cpp2008-6-2-1"
+        },
+        {
+          "shortName": "clion-misra-cpp2008-3-1-3",
+          "displayName": "misra-cpp2008-3-1-3",
+          "enabled": false,
+          "description": "misra-cpp2008-3-1-3"
+        },
+        {
+          "shortName": "clion-misra-c2012-7-3",
+          "displayName": "misra-c2012-7-3",
+          "enabled": false,
+          "description": "misra-c2012-7-3"
+        },
+        {
+          "shortName": "clion-misra-cpp2008-18-0-2",
+          "displayName": "misra-cpp2008-18-0-2",
+          "enabled": false,
+          "description": "misra-cpp2008-18-0-2"
+        },
+        {
+          "shortName": "clion-misra-c2012-8-12",
+          "displayName": "misra-c2012-8-12",
+          "enabled": false,
+          "description": "misra-c2012-8-12"
+        },
+        {
+          "shortName": "clion-misra-c2012-21-7",
+          "displayName": "misra-c2012-21-7",
+          "enabled": false,
+          "description": "misra-c2012-21-7"
+        },
+        {
+          "shortName": "clion-misra-cpp2008-6-5-2",
+          "displayName": "misra-cpp2008-6-5-2",
+          "enabled": false,
+          "description": "misra-cpp2008-6-5-2"
+        },
+        {
+          "shortName": "clion-misra-cpp2008-9-6-4",
+          "displayName": "misra-cpp2008-9-6-4",
+          "enabled": false,
+          "description": "misra-cpp2008-9-6-4"
+        },
+        {
+          "shortName": "clion-misra-cpp2008-5-2-2",
+          "displayName": "misra-cpp2008-5-2-2",
+          "enabled": false,
+          "description": "misra-cpp2008-5-2-2"
+        },
+        {
+          "shortName": "clion-misra-c2012-13-1",
+          "displayName": "misra-c2012-13-1",
+          "enabled": false,
+          "description": "misra-c2012-13-1"
+        },
+        {
+          "shortName": "clion-misra-cpp2008-6-3-1",
+          "displayName": "misra-cpp2008-6-3-1",
+          "enabled": false,
+          "description": "misra-cpp2008-6-3-1"
+        },
+        {
+          "shortName": "clion-misra-cpp2008-5-3-1",
+          "displayName": "misra-cpp2008-5-3-1",
+          "enabled": false,
+          "description": "misra-cpp2008-5-3-1"
+        },
+        {
+          "shortName": "clion-misra-cpp2008-9-6-2",
+          "displayName": "misra-cpp2008-9-6-2",
+          "enabled": false,
+          "description": "misra-cpp2008-9-6-2"
+        },
+        {
+          "shortName": "clion-misra-c2012-17-6",
+          "displayName": "misra-c2012-17-6",
+          "enabled": false,
+          "description": "misra-c2012-17-6"
+        },
+        {
+          "shortName": "clion-preprocessor-comment-check",
+          "displayName": "preprocessor-comment-check",
+          "enabled": false,
+          "description": "preprocessor-comment-check"
+        },
+        {
+          "shortName": "clion-misra-c2012-17-3",
+          "displayName": "misra-c2012-17-3",
+          "enabled": false,
+          "description": "misra-c2012-17-3"
+        },
+        {
+          "shortName": "clion-simplify",
+          "displayName": "simplify",
+          "enabled": false,
+          "description": "simplify"
+        },
+        {
+          "shortName": "clion-misra-c2012-8-11",
+          "displayName": "misra-c2012-8-11",
+          "enabled": false,
+          "description": "misra-c2012-8-11"
+        },
+        {
+          "shortName": "clion-misra-cpp2008-10-3-2",
+          "displayName": "misra-cpp2008-10-3-2",
+          "enabled": false,
+          "description": "misra-cpp2008-10-3-2"
+        },
+        {
+          "shortName": "clion-misra-c2012-11-9",
+          "displayName": "misra-c2012-11-9",
+          "enabled": false,
+          "description": "misra-c2012-11-9"
+        },
+        {
+          "shortName": "clion-misra-c2012-8-2",
+          "displayName": "misra-c2012-8-2",
+          "enabled": false,
+          "description": "misra-c2012-8-2"
+        },
+        {
+          "shortName": "clion-misra-cpp2008-5-0-4",
+          "displayName": "misra-cpp2008-5-0-4",
+          "enabled": false,
+          "description": "misra-cpp2008-5-0-4"
+        },
+        {
+          "shortName": "clion-misra-c2012-11-2",
+          "displayName": "misra-c2012-11-2",
+          "enabled": false,
+          "description": "misra-c2012-11-2"
+        },
+        {
+          "shortName": "clion-misra-cpp2008-15-5-1",
+          "displayName": "misra-cpp2008-15-5-1",
+          "enabled": false,
+          "description": "misra-cpp2008-15-5-1"
+        },
+        {
+          "shortName": "clion-misra-c2012-11-8",
+          "displayName": "misra-c2012-11-8",
+          "enabled": false,
+          "description": "misra-c2012-11-8"
+        },
+        {
+          "shortName": "clion-misra-cpp2008-15-0-2",
+          "displayName": "misra-cpp2008-15-0-2",
+          "enabled": false,
+          "description": "misra-cpp2008-15-0-2"
+        },
+        {
+          "shortName": "clion-misra-cpp2008-5-2-5",
+          "displayName": "misra-cpp2008-5-2-5",
+          "enabled": false,
+          "description": "misra-cpp2008-5-2-5"
+        },
+        {
+          "shortName": "clion-misra-c2012-17-5",
+          "displayName": "misra-c2012-17-5",
+          "enabled": false,
+          "description": "misra-c2012-17-5"
+        },
+        {
+          "shortName": "clion-misra-cpp2008-6-4-1",
+          "displayName": "misra-cpp2008-6-4-1",
+          "enabled": false,
+          "description": "misra-cpp2008-6-4-1"
+        },
+        {
+          "shortName": "clion-misra-cpp2008-12-1-3",
+          "displayName": "misra-cpp2008-12-1-3",
+          "enabled": false,
+          "description": "misra-cpp2008-12-1-3"
+        },
+        {
+          "shortName": "clion-misra-cpp2008-18-4-1",
+          "displayName": "misra-cpp2008-18-4-1",
+          "enabled": false,
+          "description": "misra-cpp2008-18-4-1"
+        },
+        {
+          "shortName": "clion-misra-c2012-21-3",
+          "displayName": "misra-c2012-21-3",
+          "enabled": false,
+          "description": "misra-c2012-21-3"
+        },
+        {
+          "shortName": "clion-misra-cpp2008-8-4-4",
+          "displayName": "misra-cpp2008-8-4-4",
+          "enabled": false,
+          "description": "misra-cpp2008-8-4-4"
+        },
+        {
+          "shortName": "clion-misra-c2012-15-6",
+          "displayName": "misra-c2012-15-6",
+          "enabled": false,
+          "description": "misra-c2012-15-6"
+        },
+        {
+          "shortName": "clion-misra-cpp2008-5-0-12",
+          "displayName": "misra-cpp2008-5-0-12",
+          "enabled": false,
+          "description": "misra-cpp2008-5-0-12"
+        },
+        {
+          "shortName": "clion-misra-c2012-4-12",
+          "displayName": "misra-c2012-4-12",
+          "enabled": false,
+          "description": "misra-c2012-4-12"
+        },
+        {
+          "shortName": "clion-misra-c2012-10-5",
+          "displayName": "misra-c2012-10-5",
+          "enabled": false,
+          "description": "misra-c2012-10-5"
+        },
+        {
+          "shortName": "clion-misra-cpp2008-6-6-4",
+          "displayName": "misra-cpp2008-6-6-4",
+          "enabled": false,
+          "description": "misra-cpp2008-6-6-4"
+        },
+        {
+          "shortName": "clion-misra-c2012-13-3",
+          "displayName": "misra-c2012-13-3",
+          "enabled": false,
+          "description": "misra-c2012-13-3"
+        },
+        {
+          "shortName": "clion-misra-c2012-16-5",
+          "displayName": "misra-c2012-16-5",
+          "enabled": false,
+          "description": "misra-c2012-16-5"
+        },
+        {
+          "shortName": "clion-misra-cpp2008-6-4-2",
+          "displayName": "misra-cpp2008-6-4-2",
+          "enabled": false,
+          "description": "misra-cpp2008-6-4-2"
+        },
+        {
+          "shortName": "clion-misra-c2012-15-7",
+          "displayName": "misra-c2012-15-7",
+          "enabled": false,
+          "description": "misra-c2012-15-7"
+        },
+        {
+          "shortName": "clion-misra-cpp2008-10-1-1",
+          "displayName": "misra-cpp2008-10-1-1",
+          "enabled": false,
+          "description": "misra-cpp2008-10-1-1"
+        },
+        {
+          "shortName": "clion-misra-cpp2008-6-4-7",
+          "displayName": "misra-cpp2008-6-4-7",
+          "enabled": false,
+          "description": "misra-cpp2008-6-4-7"
+        },
+        {
+          "shortName": "clion-misra-cpp2008-14-5-2",
+          "displayName": "misra-cpp2008-14-5-2",
+          "enabled": false,
+          "description": "misra-cpp2008-14-5-2"
+        },
+        {
+          "shortName": "clion-misra-c2012-16-3",
+          "displayName": "misra-c2012-16-3",
+          "enabled": false,
+          "description": "misra-c2012-16-3"
+        },
+        {
+          "shortName": "clion-misra-c2012-17-8",
+          "displayName": "misra-c2012-17-8",
+          "enabled": false,
+          "description": "misra-c2012-17-8"
+        },
+        {
+          "shortName": "clion-misra-cpp2008-6-5-1",
+          "displayName": "misra-cpp2008-6-5-1",
+          "enabled": false,
+          "description": "misra-cpp2008-6-5-1"
+        },
+        {
+          "shortName": "clion-misra-c2012-11-1",
+          "displayName": "misra-c2012-11-1",
+          "enabled": false,
+          "description": "misra-c2012-11-1"
+        },
+        {
+          "shortName": "clion-misra-cpp2008-15-1-2",
+          "displayName": "misra-cpp2008-15-1-2",
+          "enabled": false,
+          "description": "misra-cpp2008-15-1-2"
+        },
+        {
+          "shortName": "clion-misra-c2012-16-4",
+          "displayName": "misra-c2012-16-4",
+          "enabled": false,
+          "description": "misra-c2012-16-4"
+        },
+        {
+          "shortName": "clion-misra-cpp2008-8-5-3",
+          "displayName": "misra-cpp2008-8-5-3",
+          "enabled": false,
+          "description": "misra-cpp2008-8-5-3"
+        },
+        {
+          "shortName": "clion-misra-c2012-21-8",
+          "displayName": "misra-c2012-21-8",
+          "enabled": false,
+          "description": "misra-c2012-21-8"
+        },
+        {
+          "shortName": "clion-misra-c2012-8-8",
+          "displayName": "misra-c2012-8-8",
+          "enabled": false,
+          "description": "misra-c2012-8-8"
+        },
+        {
+          "shortName": "clion-misra-cpp2008-5-2-6",
+          "displayName": "misra-cpp2008-5-2-6",
+          "enabled": false,
+          "description": "misra-cpp2008-5-2-6"
+        },
+        {
+          "shortName": "clion-misra-cpp2008-2-13-3",
+          "displayName": "misra-cpp2008-2-13-3",
+          "enabled": false,
+          "description": "misra-cpp2008-2-13-3"
+        },
+        {
+          "shortName": "clion-misra-c2012-8-10",
+          "displayName": "misra-c2012-8-10",
+          "enabled": false,
+          "description": "misra-c2012-8-10"
+        },
+        {
+          "shortName": "clion-misra-cpp2008-3-3-2",
+          "displayName": "misra-cpp2008-3-3-2",
+          "enabled": false,
+          "description": "misra-cpp2008-3-3-2"
+        },
+        {
+          "shortName": "clion-misra-c2012-10-1",
+          "displayName": "misra-c2012-10-1",
+          "enabled": false,
+          "description": "misra-c2012-10-1"
+        },
+        {
+          "shortName": "clion-misra-cpp2008-9-5-1",
+          "displayName": "misra-cpp2008-9-5-1",
+          "enabled": false,
+          "description": "misra-cpp2008-9-5-1"
+        },
+        {
+          "shortName": "clion-misra-cpp2008-18-0-3",
+          "displayName": "misra-cpp2008-18-0-3",
+          "enabled": false,
+          "description": "misra-cpp2008-18-0-3"
+        },
+        {
+          "shortName": "clion-misra-cpp2008-5-0-11",
+          "displayName": "misra-cpp2008-5-0-11",
+          "enabled": false,
+          "description": "misra-cpp2008-5-0-11"
+        },
+        {
+          "shortName": "clion-misra-c2012-8-1",
+          "displayName": "misra-c2012-8-1",
+          "enabled": false,
+          "description": "misra-c2012-8-1"
+        },
+        {
+          "shortName": "clion-misra-c2012-6-2",
+          "displayName": "misra-c2012-6-2",
+          "enabled": false,
+          "description": "misra-c2012-6-2"
+        },
+        {
+          "shortName": "clion-misra-c2012-15-1",
+          "displayName": "misra-c2012-15-1",
+          "enabled": false,
+          "description": "misra-c2012-15-1"
+        },
+        {
+          "shortName": "clion-misra-c2012-13-6",
+          "displayName": "misra-c2012-13-6",
+          "enabled": false,
+          "description": "misra-c2012-13-6"
+        },
+        {
+          "shortName": "clion-misra-c2012-12-5",
+          "displayName": "misra-c2012-12-5",
+          "enabled": false,
+          "description": "misra-c2012-12-5"
+        },
+        {
+          "shortName": "clion-misra-cpp2008-4-5-2",
+          "displayName": "misra-cpp2008-4-5-2",
+          "enabled": false,
+          "description": "misra-cpp2008-4-5-2"
+        },
+        {
+          "shortName": "clion-misra-c2012-13-4",
+          "displayName": "misra-c2012-13-4",
+          "enabled": false,
+          "description": "misra-c2012-13-4"
+        },
+        {
+          "shortName": "clion-misra-cpp2008-6-6-5",
+          "displayName": "misra-cpp2008-6-6-5",
+          "enabled": false,
+          "description": "misra-cpp2008-6-6-5"
+        },
+        {
+          "shortName": "clion-misra-c2012-15-5",
+          "displayName": "misra-c2012-15-5",
+          "enabled": false,
+          "description": "misra-c2012-15-5"
+        },
+        {
+          "shortName": "clion-misra-cpp2008-4-10-2",
+          "displayName": "misra-cpp2008-4-10-2",
+          "enabled": false,
+          "description": "misra-cpp2008-4-10-2"
+        },
+        {
+          "shortName": "clion-misra-cpp2008-5-0-13",
+          "displayName": "misra-cpp2008-5-0-13",
+          "enabled": false,
+          "description": "misra-cpp2008-5-0-13"
+        },
+        {
+          "shortName": "clion-misra-cpp2008-5-0-19",
+          "displayName": "misra-cpp2008-5-0-19",
+          "enabled": false,
+          "description": "misra-cpp2008-5-0-19"
+        },
+        {
+          "shortName": "clion-misra-cpp2008-5-2-12",
+          "displayName": "misra-cpp2008-5-2-12",
+          "enabled": false,
+          "description": "misra-cpp2008-5-2-12"
+        },
+        {
+          "shortName": "clion-misra-c2012-11-3",
+          "displayName": "misra-c2012-11-3",
+          "enabled": false,
+          "description": "misra-c2012-11-3"
+        },
+        {
+          "shortName": "clion-misra-cpp2008-15-1-3",
+          "displayName": "misra-cpp2008-15-1-3",
+          "enabled": false,
+          "description": "misra-cpp2008-15-1-3"
+        },
+        {
+          "shortName": "clion-misra-c2012-21-10",
+          "displayName": "misra-c2012-21-10",
+          "enabled": false,
+          "description": "misra-c2012-21-10"
+        },
+        {
+          "shortName": "clion-misra-c2012-8-14",
+          "displayName": "misra-c2012-8-14",
+          "enabled": false,
+          "description": "misra-c2012-8-14"
+        },
+        {
+          "shortName": "clion-misra-c2012-13-5",
+          "displayName": "misra-c2012-13-5",
+          "enabled": false,
+          "description": "misra-c2012-13-5"
+        },
+        {
+          "shortName": "clion-misra-cpp2008-2-13-4",
+          "displayName": "misra-cpp2008-2-13-4",
+          "enabled": false,
+          "description": "misra-cpp2008-2-13-4"
+        },
+        {
+          "shortName": "clion-argument-selection-defects",
+          "displayName": "argument-selection-defects",
+          "enabled": false,
+          "description": "argument-selection-defects"
+        },
+        {
+          "shortName": "clion-misra-c2012-7-2",
+          "displayName": "misra-c2012-7-2",
+          "enabled": false,
+          "description": "misra-c2012-7-2"
+        },
+        {
+          "shortName": "clion-misra-cpp2008-6-4-6",
+          "displayName": "misra-cpp2008-6-4-6",
+          "enabled": false,
+          "description": "misra-cpp2008-6-4-6"
+        },
+        {
+          "shortName": "clion-misra-c2012-6-1",
+          "displayName": "misra-c2012-6-1",
+          "enabled": false,
+          "description": "misra-c2012-6-1"
+        },
+        {
+          "shortName": "clion-misra-cpp2008-5-2-10",
+          "displayName": "misra-cpp2008-5-2-10",
+          "enabled": false,
+          "description": "misra-cpp2008-5-2-10"
+        },
+        {
+          "shortName": "clion-misra-cpp2008-3-1-2",
+          "displayName": "misra-cpp2008-3-1-2",
+          "enabled": false,
+          "description": "misra-cpp2008-3-1-2"
+        },
+        {
+          "shortName": "clion-misra-c2012-9-3",
+          "displayName": "misra-c2012-9-3",
+          "enabled": false,
+          "description": "misra-c2012-9-3"
+        },
+        {
+          "shortName": "clion-misra-c2012-9-5",
+          "displayName": "misra-c2012-9-5",
+          "enabled": false,
+          "description": "misra-c2012-9-5"
+        },
+        {
+          "shortName": "clion-misra-cpp2008-5-2-11",
+          "displayName": "misra-cpp2008-5-2-11",
+          "enabled": false,
+          "description": "misra-cpp2008-5-2-11"
+        },
+        {
+          "shortName": "clion-misra-cpp2008-5-3-3",
+          "displayName": "misra-cpp2008-5-3-3",
+          "enabled": false,
+          "description": "misra-cpp2008-5-3-3"
+        },
+        {
+          "shortName": "clion-misra-c2012-12-3",
+          "displayName": "misra-c2012-12-3",
+          "enabled": false,
+          "description": "misra-c2012-12-3"
+        },
+        {
+          "shortName": "clion-misra-cpp2008-2-13-1",
+          "displayName": "misra-cpp2008-2-13-1",
+          "enabled": false,
+          "description": "misra-cpp2008-2-13-1"
+        },
+        {
+          "shortName": "clion-misra-c2012-16-6",
+          "displayName": "misra-c2012-16-6",
+          "enabled": false,
+          "description": "misra-c2012-16-6"
+        },
+        {
+          "shortName": "clion-misra-c2012-11-4",
+          "displayName": "misra-c2012-11-4",
+          "enabled": false,
+          "description": "misra-c2012-11-4"
+        },
+        {
+          "shortName": "clion-misra-cpp2008-6-4-8",
+          "displayName": "misra-cpp2008-6-4-8",
+          "enabled": false,
+          "description": "misra-cpp2008-6-4-8"
+        },
+        {
+          "shortName": "clion-misra-cpp2008-6-4-5",
+          "displayName": "misra-cpp2008-6-4-5",
+          "enabled": false,
+          "description": "misra-cpp2008-6-4-5"
+        },
+        {
+          "shortName": "clion-misra-c2012-4-3",
+          "displayName": "misra-c2012-4-3",
+          "enabled": false,
+          "description": "misra-c2012-4-3"
+        },
+        {
+          "shortName": "clion-misra-cpp2008-5-14-1",
+          "displayName": "misra-cpp2008-5-14-1",
+          "enabled": false,
+          "description": "misra-cpp2008-5-14-1"
+        },
+        {
+          "shortName": "clion-misra-cpp2008-18-2-1",
+          "displayName": "misra-cpp2008-18-2-1",
+          "enabled": false,
+          "description": "misra-cpp2008-18-2-1"
+        },
+        {
+          "shortName": "clion-misra-cpp2008-18-0-4",
+          "displayName": "misra-cpp2008-18-0-4",
+          "enabled": false,
+          "description": "misra-cpp2008-18-0-4"
+        },
+        {
+          "shortName": "clion-misra-cpp2008-5-3-4",
+          "displayName": "misra-cpp2008-5-3-4",
+          "enabled": false,
+          "description": "misra-cpp2008-5-3-4"
+        },
+        {
+          "shortName": "clion-misra-cpp2008-5-18-1",
+          "displayName": "misra-cpp2008-5-18-1",
+          "enabled": false,
+          "description": "misra-cpp2008-5-18-1"
+        },
+        {
+          "shortName": "clion-replace-enable-if",
+          "displayName": "replace-enable-if",
+          "enabled": false,
+          "description": "replace-enable-if"
+        },
+        {
+          "shortName": "clion-misra-c2012-22-5",
+          "displayName": "misra-c2012-22-5",
+          "enabled": false,
+          "description": "misra-c2012-22-5"
+        },
+        {
+          "shortName": "clion-misra-cpp2008-4-5-1",
+          "displayName": "misra-cpp2008-4-5-1",
+          "enabled": false,
+          "description": "misra-cpp2008-4-5-1"
+        },
+        {
+          "shortName": "clion-misra-c2012-18-4",
+          "displayName": "misra-c2012-18-4",
+          "enabled": false,
+          "description": "misra-c2012-18-4"
+        },
+        {
+          "shortName": "clion-misra-c2012-19-2",
+          "displayName": "misra-c2012-19-2",
+          "enabled": false,
+          "description": "misra-c2012-19-2"
+        },
+        {
+          "shortName": "clion-misra-cpp2008-6-5-3",
+          "displayName": "misra-cpp2008-6-5-3",
+          "enabled": false,
+          "description": "misra-cpp2008-6-5-3"
+        },
+        {
+          "shortName": "clion-misra-cpp2008-5-0-6",
+          "displayName": "misra-cpp2008-5-0-6",
+          "enabled": false,
+          "description": "misra-cpp2008-5-0-6"
+        },
+        {
+          "shortName": "clion-misra-c2012-11-6",
+          "displayName": "misra-c2012-11-6",
+          "enabled": false,
+          "description": "misra-c2012-11-6"
+        },
+        {
+          "shortName": "clion-misra-cpp2008-5-2-4",
+          "displayName": "misra-cpp2008-5-2-4",
+          "enabled": false,
+          "description": "misra-cpp2008-5-2-4"
+        },
+        {
+          "shortName": "clion-misra-c2012-7-4",
+          "displayName": "misra-c2012-7-4",
+          "enabled": false,
+          "description": "misra-c2012-7-4"
+        },
+        {
+          "shortName": "clion-misra-cpp2008-0-1-7",
+          "displayName": "misra-cpp2008-0-1-7",
+          "enabled": false,
+          "description": "misra-cpp2008-0-1-7"
+        },
+        {
+          "shortName": "clion-misra-cpp2008-11-0-1",
+          "displayName": "misra-cpp2008-11-0-1",
+          "enabled": false,
+          "description": "misra-cpp2008-11-0-1"
+        },
+        {
+          "shortName": "clion-misra-c2012-15-2",
+          "displayName": "misra-c2012-15-2",
+          "enabled": false,
+          "description": "misra-c2012-15-2"
+        },
+        {
+          "shortName": "clion-misra-c2012-18-7",
+          "displayName": "misra-c2012-18-7",
+          "enabled": false,
+          "description": "misra-c2012-18-7"
+        },
+        {
+          "shortName": "clion-misra-c2012-7-1",
+          "displayName": "misra-c2012-7-1",
+          "enabled": false,
+          "description": "misra-c2012-7-1"
+        },
+        {
+          "shortName": "clion-misra-cpp2008-5-2-9",
+          "displayName": "misra-cpp2008-5-2-9",
+          "enabled": false,
+          "description": "misra-cpp2008-5-2-9"
+        },
+        {
+          "shortName": "clion-misra-cpp2008-7-4-3",
+          "displayName": "misra-cpp2008-7-4-3",
+          "enabled": false,
+          "description": "misra-cpp2008-7-4-3"
+        },
+        {
+          "shortName": "clion-misra-cpp2008-5-2-8",
+          "displayName": "misra-cpp2008-5-2-8",
+          "enabled": false,
+          "description": "misra-cpp2008-5-2-8"
+        },
+        {
+          "shortName": "clion-misra-cpp2008-5-3-2",
+          "displayName": "misra-cpp2008-5-3-2",
+          "enabled": false,
+          "description": "misra-cpp2008-5-3-2"
+        },
+        {
+          "shortName": "clion-misra-cpp2008-6-6-2",
+          "displayName": "misra-cpp2008-6-6-2",
+          "enabled": false,
+          "description": "misra-cpp2008-6-6-2"
+        },
+        {
+          "shortName": "clion-misra-cpp2008-6-5-4",
+          "displayName": "misra-cpp2008-6-5-4",
+          "enabled": false,
+          "description": "misra-cpp2008-6-5-4"
+        },
+        {
+          "shortName": "clion-misra-c2012-14-4",
+          "displayName": "misra-c2012-14-4",
+          "enabled": false,
+          "description": "misra-c2012-14-4"
+        },
+        {
+          "shortName": "clion-unconstrained-variable-type",
+          "displayName": "unconstrained-variable-type",
+          "enabled": false,
+          "description": "unconstrained-variable-type"
+        },
+        {
+          "shortName": "clion-empty-decl-or-stmt",
+          "displayName": "empty-decl-or-stmt",
+          "enabled": false,
+          "description": "empty-decl-or-stmt"
+        }
+      ]
+    },
+    {
+      "name": "concurrency",
+      "categoryPath": [
+        {
+          "id": "C++",
+          "name": "C++"
+        },
+        {
+          "id": "concurrency",
+          "name": "concurrency"
+        }
+      ],
+      "inspections": [
+        {
+          "shortName": "concurrency-thread-canceltype-asynchronous",
+          "displayName": "thread-canceltype-asynchronous",
+          "enabled": false,
+          "description": "thread-canceltype-asynchronous"
+        },
+        {
+          "shortName": "concurrency-mt-unsafe",
+          "displayName": "mt-unsafe",
+          "enabled": false,
+          "description": "mt-unsafe"
+        }
+      ]
+    },
+    {
+      "name": "core",
+      "categoryPath": [
+        {
+          "id": "C++",
+          "name": "C++"
+        },
+        {
+          "id": "core",
+          "name": "core"
+        }
+      ],
+      "inspections": [
+        {
+          "shortName": "clang-analyzer-core.NullDereference",
+          "displayName": "NullDereference",
+          "enabled": true,
+          "description": "NullDereference"
+        },
+        {
+          "shortName": "clang-analyzer-core.StackAddrEscapeBase",
+          "displayName": "StackAddrEscapeBase",
+          "enabled": true,
+          "description": "StackAddrEscapeBase"
+        },
+        {
+          "shortName": "clang-analyzer-core.DivideZero",
+          "displayName": "DivideZero",
+          "enabled": true,
+          "description": "DivideZero"
+        },
+        {
+          "shortName": "clang-analyzer-core.CallAndMessageModeling",
+          "displayName": "CallAndMessageModeling",
+          "enabled": true,
+          "description": "CallAndMessageModeling"
+        },
+        {
+          "shortName": "clang-analyzer-core.DynamicTypePropagation",
+          "displayName": "DynamicTypePropagation",
+          "enabled": true,
+          "description": "DynamicTypePropagation"
+        },
+        {
+          "shortName": "clang-analyzer-core.NonNullParamChecker",
+          "displayName": "NonNullParamChecker",
+          "enabled": true,
+          "description": "NonNullParamChecker"
+        },
+        {
+          "shortName": "clang-analyzer-core.NonnilStringConstants",
+          "displayName": "NonnilStringConstants",
+          "enabled": true,
+          "description": "NonnilStringConstants"
+        },
+        {
+          "shortName": "clang-analyzer-core.BitwiseShift",
+          "displayName": "BitwiseShift",
+          "enabled": true,
+          "description": "BitwiseShift"
+        },
+        {
+          "shortName": "clang-analyzer-core.StackAddressEscape",
+          "displayName": "StackAddressEscape",
+          "enabled": true,
+          "description": "StackAddressEscape"
+        },
+        {
+          "shortName": "clang-analyzer-core.UndefinedBinaryOperatorResult",
+          "displayName": "UndefinedBinaryOperatorResult",
+          "enabled": true,
+          "description": "UndefinedBinaryOperatorResult"
+        },
+        {
+          "shortName": "clang-analyzer-core.VLASize",
+          "displayName": "VLASize",
+          "enabled": true,
+          "description": "VLASize"
+        },
+        {
+          "shortName": "clang-analyzer-core.CallAndMessage",
+          "displayName": "CallAndMessage",
+          "enabled": true,
+          "description": "CallAndMessage"
+        }
+      ]
+    },
+    {
+      "name": "core.builtin",
+      "categoryPath": [
+        {
+          "id": "C++",
+          "name": "C++"
+        },
+        {
+          "id": "core.builtin",
+          "name": "core.builtin"
+        }
+      ],
+      "inspections": [
+        {
+          "shortName": "clang-analyzer-core.builtin.NoReturnFunctions",
+          "displayName": "NoReturnFunctions",
+          "enabled": true,
+          "description": "NoReturnFunctions"
+        },
+        {
+          "shortName": "clang-analyzer-core.builtin.BuiltinFunctions",
+          "displayName": "BuiltinFunctions",
+          "enabled": true,
+          "description": "BuiltinFunctions"
+        }
+      ]
+    },
+    {
+      "name": "core.uninitialized",
+      "categoryPath": [
+        {
+          "id": "C++",
+          "name": "C++"
+        },
+        {
+          "id": "core.uninitialized",
+          "name": "core.uninitialized"
+        }
+      ],
+      "inspections": [
+        {
+          "shortName": "clang-analyzer-core.uninitialized.NewArraySize",
+          "displayName": "NewArraySize",
+          "enabled": true,
+          "description": "NewArraySize"
+        },
+        {
+          "shortName": "clang-analyzer-core.uninitialized.UndefReturn",
+          "displayName": "UndefReturn",
+          "enabled": true,
+          "description": "UndefReturn"
+        },
+        {
+          "shortName": "clang-analyzer-core.uninitialized.CapturedBlockVariable",
+          "displayName": "CapturedBlockVariable",
+          "enabled": true,
+          "description": "CapturedBlockVariable"
+        },
+        {
+          "shortName": "clang-analyzer-core.uninitialized.ArraySubscript",
+          "displayName": "ArraySubscript",
+          "enabled": true,
+          "description": "ArraySubscript"
+        },
+        {
+          "shortName": "clang-analyzer-core.uninitialized.Assign",
+          "displayName": "Assign",
+          "enabled": true,
+          "description": "Assign"
+        },
+        {
+          "shortName": "clang-analyzer-core.uninitialized.Branch",
+          "displayName": "Branch",
+          "enabled": true,
+          "description": "Branch"
+        }
+      ]
+    },
+    {
+      "name": "cplusplus",
+      "categoryPath": [
+        {
+          "id": "C++",
+          "name": "C++"
+        },
+        {
+          "id": "cplusplus",
+          "name": "cplusplus"
+        }
+      ],
+      "inspections": [
+        {
+          "shortName": "clang-analyzer-cplusplus.ArrayDelete",
+          "displayName": "ArrayDelete",
+          "enabled": true,
+          "description": "ArrayDelete"
+        },
+        {
+          "shortName": "clang-analyzer-cplusplus.Move",
+          "displayName": "Move",
+          "enabled": true,
+          "description": "Move"
+        },
+        {
+          "shortName": "clang-analyzer-cplusplus.PlacementNew",
+          "displayName": "PlacementNew",
+          "enabled": true,
+          "description": "PlacementNew"
+        },
+        {
+          "shortName": "clang-analyzer-cplusplus.SmartPtrModeling",
+          "displayName": "SmartPtrModeling",
+          "enabled": true,
+          "description": "SmartPtrModeling"
+        },
+        {
+          "shortName": "clang-analyzer-cplusplus.StringChecker",
+          "displayName": "StringChecker",
+          "enabled": true,
+          "description": "StringChecker"
+        },
+        {
+          "shortName": "clang-analyzer-cplusplus.SelfAssignment",
+          "displayName": "SelfAssignment",
+          "enabled": true,
+          "description": "SelfAssignment"
+        },
+        {
+          "shortName": "clang-analyzer-cplusplus.NewDelete",
+          "displayName": "NewDelete",
+          "enabled": true,
+          "description": "NewDelete"
+        },
+        {
+          "shortName": "clang-analyzer-cplusplus.VirtualCallModeling",
+          "displayName": "VirtualCallModeling",
+          "enabled": true,
+          "description": "VirtualCallModeling"
+        },
+        {
+          "shortName": "clang-analyzer-cplusplus.InnerPointer",
+          "displayName": "InnerPointer",
+          "enabled": true,
+          "description": "InnerPointer"
+        },
+        {
+          "shortName": "clang-analyzer-cplusplus.NewDeleteLeaks",
+          "displayName": "NewDeleteLeaks",
+          "enabled": true,
+          "description": "NewDeleteLeaks"
+        },
+        {
+          "shortName": "clang-analyzer-cplusplus.PureVirtualCall",
+          "displayName": "PureVirtualCall",
+          "enabled": true,
+          "description": "PureVirtualCall"
+        }
+      ]
+    },
+    {
+      "name": "cppcoreguidelines",
+      "categoryPath": [
+        {
+          "id": "C++",
+          "name": "C++"
+        },
+        {
+          "id": "cppcoreguidelines",
+          "name": "cppcoreguidelines"
+        }
+      ],
+      "inspections": [
+        {
+          "shortName": "cppcoreguidelines-noexcept-move-operations",
+          "displayName": "noexcept-move-operations",
+          "enabled": false,
+          "description": "noexcept-move-operations"
+        },
+        {
+          "shortName": "cppcoreguidelines-pro-bounds-pointer-arithmetic",
+          "displayName": "pro-bounds-pointer-arithmetic",
+          "enabled": false,
+          "description": "pro-bounds-pointer-arithmetic"
+        },
+        {
+          "shortName": "cppcoreguidelines-avoid-reference-coroutine-parameters",
+          "displayName": "avoid-reference-coroutine-parameters",
+          "enabled": false,
+          "description": "avoid-reference-coroutine-parameters"
+        },
+        {
+          "shortName": "cppcoreguidelines-misleading-capture-default-by-value",
+          "displayName": "misleading-capture-default-by-value",
+          "enabled": false,
+          "description": "misleading-capture-default-by-value"
+        },
+        {
+          "shortName": "cppcoreguidelines-narrowing-conversions",
+          "displayName": "narrowing-conversions",
+          "enabled": false,
+          "description": "narrowing-conversions"
+        },
+        {
+          "shortName": "cppcoreguidelines-noexcept-swap",
+          "displayName": "noexcept-swap",
+          "enabled": false,
+          "description": "noexcept-swap"
+        },
+        {
+          "shortName": "cppcoreguidelines-use-default-member-init",
+          "displayName": "use-default-member-init",
+          "enabled": false,
+          "description": "use-default-member-init"
+        },
+        {
+          "shortName": "cppcoreguidelines-interfaces-global-init",
+          "displayName": "interfaces-global-init",
+          "enabled": false,
+          "description": "interfaces-global-init"
+        },
+        {
+          "shortName": "cppcoreguidelines-pro-type-cstyle-cast",
+          "displayName": "pro-type-cstyle-cast",
+          "enabled": false,
+          "description": "pro-type-cstyle-cast"
+        },
+        {
+          "shortName": "cppcoreguidelines-pro-type-vararg",
+          "displayName": "pro-type-vararg",
+          "enabled": false,
+          "description": "pro-type-vararg"
+        },
+        {
+          "shortName": "cppcoreguidelines-pro-type-union-access",
+          "displayName": "pro-type-union-access",
+          "enabled": false,
+          "description": "pro-type-union-access"
+        },
+        {
+          "shortName": "cppcoreguidelines-noexcept-destructor",
+          "displayName": "noexcept-destructor",
+          "enabled": false,
+          "description": "noexcept-destructor"
+        },
+        {
+          "shortName": "cppcoreguidelines-avoid-goto",
+          "displayName": "avoid-goto",
+          "enabled": false,
+          "description": "avoid-goto"
+        },
+        {
+          "shortName": "cppcoreguidelines-missing-std-forward",
+          "displayName": "missing-std-forward",
+          "enabled": false,
+          "description": "missing-std-forward"
+        },
+        {
+          "shortName": "cppcoreguidelines-prefer-member-initializer",
+          "displayName": "prefer-member-initializer",
+          "enabled": false,
+          "description": "prefer-member-initializer"
+        },
+        {
+          "shortName": "cppcoreguidelines-pro-type-static-cast-downcast",
+          "displayName": "pro-type-static-cast-downcast",
+          "enabled": false,
+          "description": "pro-type-static-cast-downcast"
+        },
+        {
+          "shortName": "cppcoreguidelines-owning-memory",
+          "displayName": "owning-memory",
+          "enabled": false,
+          "description": "owning-memory"
+        },
+        {
+          "shortName": "cppcoreguidelines-pro-type-const-cast",
+          "displayName": "pro-type-const-cast",
+          "enabled": false,
+          "description": "pro-type-const-cast"
+        },
+        {
+          "shortName": "cppcoreguidelines-avoid-const-or-ref-data-members",
+          "displayName": "avoid-const-or-ref-data-members",
+          "enabled": false,
+          "description": "avoid-const-or-ref-data-members"
+        },
+        {
+          "shortName": "cppcoreguidelines-pro-type-member-init",
+          "displayName": "pro-type-member-init",
+          "enabled": false,
+          "description": "pro-type-member-init"
+        },
+        {
+          "shortName": "cppcoreguidelines-pro-type-reinterpret-cast",
+          "displayName": "pro-type-reinterpret-cast",
+          "enabled": false,
+          "description": "pro-type-reinterpret-cast"
+        },
+        {
+          "shortName": "cppcoreguidelines-virtual-class-destructor",
+          "displayName": "virtual-class-destructor",
+          "enabled": false,
+          "description": "virtual-class-destructor"
+        },
+        {
+          "shortName": "cppcoreguidelines-c-copy-assignment-signature",
+          "displayName": "c-copy-assignment-signature",
+          "enabled": false,
+          "description": "c-copy-assignment-signature"
+        },
+        {
+          "shortName": "cppcoreguidelines-pro-bounds-array-to-pointer-decay",
+          "displayName": "pro-bounds-array-to-pointer-decay",
+          "enabled": false,
+          "description": "pro-bounds-array-to-pointer-decay"
+        },
+        {
+          "shortName": "cppcoreguidelines-non-private-member-variables-in-classes",
+          "displayName": "non-private-member-variables-in-classes",
+          "enabled": false,
+          "description": "non-private-member-variables-in-classes"
+        },
+        {
+          "shortName": "cppcoreguidelines-avoid-do-while",
+          "displayName": "avoid-do-while",
+          "enabled": false,
+          "description": "avoid-do-while"
+        },
+        {
+          "shortName": "cppcoreguidelines-macro-usage",
+          "displayName": "macro-usage",
+          "enabled": false,
+          "description": "macro-usage"
+        },
+        {
+          "shortName": "cppcoreguidelines-avoid-non-const-global-variables",
+          "displayName": "avoid-non-const-global-variables",
+          "enabled": false,
+          "description": "avoid-non-const-global-variables"
+        },
+        {
+          "shortName": "cppcoreguidelines-avoid-magic-numbers",
+          "displayName": "avoid-magic-numbers",
+          "enabled": false,
+          "description": "avoid-magic-numbers"
+        },
+        {
+          "shortName": "cppcoreguidelines-no-malloc",
+          "displayName": "no-malloc",
+          "enabled": false,
+          "description": "no-malloc"
+        },
+        {
+          "shortName": "cppcoreguidelines-macro-to-enum",
+          "displayName": "macro-to-enum",
+          "enabled": false,
+          "description": "macro-to-enum"
+        },
+        {
+          "shortName": "cppcoreguidelines-init-variables",
+          "displayName": "init-variables",
+          "enabled": false,
+          "description": "init-variables"
+        },
+        {
+          "shortName": "cppcoreguidelines-rvalue-reference-param-not-moved",
+          "displayName": "rvalue-reference-param-not-moved",
+          "enabled": false,
+          "description": "rvalue-reference-param-not-moved"
+        },
+        {
+          "shortName": "cppcoreguidelines-special-member-functions",
+          "displayName": "special-member-functions",
+          "enabled": false,
+          "description": "special-member-functions"
+        },
+        {
+          "shortName": "cppcoreguidelines-explicit-virtual-functions",
+          "displayName": "explicit-virtual-functions",
+          "enabled": false,
+          "description": "explicit-virtual-functions"
+        },
+        {
+          "shortName": "cppcoreguidelines-avoid-c-arrays",
+          "displayName": "avoid-c-arrays",
+          "enabled": false,
+          "description": "avoid-c-arrays"
+        },
+        {
+          "shortName": "cppcoreguidelines-slicing",
+          "displayName": "slicing",
+          "enabled": false,
+          "description": "slicing"
+        },
+        {
+          "shortName": "cppcoreguidelines-avoid-capturing-lambda-coroutines",
+          "displayName": "avoid-capturing-lambda-coroutines",
+          "enabled": false,
+          "description": "avoid-capturing-lambda-coroutines"
+        },
+        {
+          "shortName": "cppcoreguidelines-no-suspend-with-lock",
+          "displayName": "no-suspend-with-lock",
+          "enabled": false,
+          "description": "no-suspend-with-lock"
+        },
+        {
+          "shortName": "cppcoreguidelines-pro-bounds-constant-array-index",
+          "displayName": "pro-bounds-constant-array-index",
+          "enabled": false,
+          "description": "pro-bounds-constant-array-index"
+        }
+      ]
+    },
+    {
+      "name": "darwin",
+      "categoryPath": [
+        {
+          "id": "C++",
+          "name": "C++"
+        },
+        {
+          "id": "darwin",
+          "name": "darwin"
+        }
+      ],
+      "inspections": [
+        {
+          "shortName": "darwin-dispatch-once-nonstatic",
+          "displayName": "dispatch-once-nonstatic",
+          "enabled": false,
+          "description": "dispatch-once-nonstatic"
+        },
+        {
+          "shortName": "darwin-avoid-spinlock",
+          "displayName": "avoid-spinlock",
+          "enabled": false,
+          "description": "avoid-spinlock"
+        }
+      ]
+    },
+    {
+      "name": "deadcode",
+      "categoryPath": [
+        {
+          "id": "C++",
+          "name": "C++"
+        },
+        {
+          "id": "deadcode",
+          "name": "deadcode"
+        }
+      ],
+      "inspections": [
+        {
+          "shortName": "clang-analyzer-deadcode.DeadStores",
+          "displayName": "DeadStores",
+          "enabled": true,
+          "description": "DeadStores"
+        }
+      ]
+    },
+    {
+      "name": "fuchsia",
+      "categoryPath": [
+        {
+          "id": "C++",
+          "name": "C++"
+        },
+        {
+          "id": "fuchsia",
+          "name": "fuchsia"
+        }
+      ],
+      "inspections": [
+        {
+          "shortName": "fuchsia-header-anon-namespaces",
+          "displayName": "header-anon-namespaces",
+          "enabled": false,
+          "description": "header-anon-namespaces"
+        },
+        {
+          "shortName": "fuchsia-statically-constructed-objects",
+          "displayName": "statically-constructed-objects",
+          "enabled": false,
+          "description": "statically-constructed-objects"
+        },
+        {
+          "shortName": "clang-analyzer-fuchsia.HandleChecker",
+          "displayName": "HandleChecker",
+          "enabled": true,
+          "description": "HandleChecker"
+        },
+        {
+          "shortName": "fuchsia-overloaded-operator",
+          "displayName": "overloaded-operator",
+          "enabled": false,
+          "description": "overloaded-operator"
+        },
+        {
+          "shortName": "fuchsia-default-arguments-calls",
+          "displayName": "default-arguments-calls",
+          "enabled": false,
+          "description": "default-arguments-calls"
+        },
+        {
+          "shortName": "fuchsia-trailing-return",
+          "displayName": "trailing-return",
+          "enabled": false,
+          "description": "trailing-return"
+        },
+        {
+          "shortName": "fuchsia-virtual-inheritance",
+          "displayName": "virtual-inheritance",
+          "enabled": false,
+          "description": "virtual-inheritance"
+        },
+        {
+          "shortName": "fuchsia-default-arguments-declarations",
+          "displayName": "default-arguments-declarations",
+          "enabled": false,
+          "description": "default-arguments-declarations"
+        },
+        {
+          "shortName": "fuchsia-multiple-inheritance",
+          "displayName": "multiple-inheritance",
+          "enabled": false,
+          "description": "multiple-inheritance"
+        }
+      ]
+    },
+    {
+      "name": "google",
+      "categoryPath": [
+        {
+          "id": "C++",
+          "name": "C++"
+        },
+        {
+          "id": "google",
+          "name": "google"
+        }
+      ],
+      "inspections": [
+        {
+          "shortName": "google-readability-namespace-comments",
+          "displayName": "readability-namespace-comments",
+          "enabled": false,
+          "description": "readability-namespace-comments"
+        },
+        {
+          "shortName": "google-objc-avoid-nsobject-new",
+          "displayName": "objc-avoid-nsobject-new",
+          "enabled": false,
+          "description": "objc-avoid-nsobject-new"
+        },
+        {
+          "shortName": "google-objc-global-variable-declaration",
+          "displayName": "objc-global-variable-declaration",
+          "enabled": false,
+          "description": "objc-global-variable-declaration"
+        },
+        {
+          "shortName": "google-runtime-operator",
+          "displayName": "runtime-operator",
+          "enabled": false,
+          "description": "runtime-operator"
+        },
+        {
+          "shortName": "google-readability-braces-around-statements",
+          "displayName": "readability-braces-around-statements",
+          "enabled": false,
+          "description": "readability-braces-around-statements"
+        },
+        {
+          "shortName": "google-explicit-constructor",
+          "displayName": "explicit-constructor",
+          "enabled": false,
+          "description": "explicit-constructor"
+        },
+        {
+          "shortName": "google-readability-avoid-underscore-in-googletest-name",
+          "displayName": "readability-avoid-underscore-in-googletest-name",
+          "enabled": false,
+          "description": "readability-avoid-underscore-in-googletest-name"
+        },
+        {
+          "shortName": "google-runtime-int",
+          "displayName": "runtime-int",
+          "enabled": false,
+          "description": "runtime-int"
+        },
+        {
+          "shortName": "google-build-namespaces",
+          "displayName": "build-namespaces",
+          "enabled": false,
+          "description": "build-namespaces"
+        },
+        {
+          "shortName": "google-objc-avoid-throwing-exception",
+          "displayName": "objc-avoid-throwing-exception",
+          "enabled": false,
+          "description": "objc-avoid-throwing-exception"
+        },
+        {
+          "shortName": "google-global-names-in-headers",
+          "displayName": "global-names-in-headers",
+          "enabled": false,
+          "description": "global-names-in-headers"
+        },
+        {
+          "shortName": "google-upgrade-googletest-case",
+          "displayName": "upgrade-googletest-case",
+          "enabled": false,
+          "description": "upgrade-googletest-case"
+        },
+        {
+          "shortName": "google-objc-function-naming",
+          "displayName": "objc-function-naming",
+          "enabled": false,
+          "description": "objc-function-naming"
+        },
+        {
+          "shortName": "google-build-explicit-make-pair",
+          "displayName": "build-explicit-make-pair",
+          "enabled": false,
+          "description": "build-explicit-make-pair"
+        },
+        {
+          "shortName": "google-build-using-namespace",
+          "displayName": "build-using-namespace",
+          "enabled": false,
+          "description": "build-using-namespace"
+        },
+        {
+          "shortName": "google-readability-todo",
+          "displayName": "readability-todo",
+          "enabled": false,
+          "description": "readability-todo"
+        },
+        {
+          "shortName": "google-readability-casting",
+          "displayName": "readability-casting",
+          "enabled": false,
+          "description": "readability-casting"
+        },
+        {
+          "shortName": "google-default-arguments",
+          "displayName": "default-arguments",
+          "enabled": false,
+          "description": "default-arguments"
+        },
+        {
+          "shortName": "google-readability-function-size",
+          "displayName": "readability-function-size",
+          "enabled": false,
+          "description": "readability-function-size"
+        }
+      ]
+    },
+    {
+      "name": "hicpp",
+      "categoryPath": [
+        {
+          "id": "C++",
+          "name": "C++"
+        },
+        {
+          "id": "hicpp",
+          "name": "hicpp"
+        }
+      ],
+      "inspections": [
+        {
+          "shortName": "hicpp-noexcept-move",
+          "displayName": "noexcept-move",
+          "enabled": false,
+          "description": "noexcept-move"
+        },
+        {
+          "shortName": "hicpp-uppercase-literal-suffix",
+          "displayName": "uppercase-literal-suffix",
+          "enabled": false,
+          "description": "uppercase-literal-suffix"
+        },
+        {
+          "shortName": "hicpp-move-const-arg",
+          "displayName": "move-const-arg",
+          "enabled": false,
+          "description": "move-const-arg"
+        },
+        {
+          "shortName": "hicpp-use-equals-default",
+          "displayName": "use-equals-default",
+          "enabled": false,
+          "description": "use-equals-default"
+        },
+        {
+          "shortName": "hicpp-use-equals-delete",
+          "displayName": "use-equals-delete",
+          "enabled": false,
+          "description": "use-equals-delete"
+        },
+        {
+          "shortName": "hicpp-avoid-goto",
+          "displayName": "avoid-goto",
+          "enabled": false,
+          "description": "avoid-goto"
+        },
+        {
+          "shortName": "hicpp-use-override",
+          "displayName": "use-override",
+          "enabled": false,
+          "description": "use-override"
+        },
+        {
+          "shortName": "hicpp-signed-bitwise",
+          "displayName": "signed-bitwise",
+          "enabled": false,
+          "description": "signed-bitwise"
+        },
+        {
+          "shortName": "hicpp-use-nullptr",
+          "displayName": "use-nullptr",
+          "enabled": false,
+          "description": "use-nullptr"
+        },
+        {
+          "shortName": "hicpp-use-noexcept",
+          "displayName": "use-noexcept",
+          "enabled": false,
+          "description": "use-noexcept"
+        },
+        {
+          "shortName": "hicpp-static-assert",
+          "displayName": "static-assert",
+          "enabled": false,
+          "description": "static-assert"
+        },
+        {
+          "shortName": "hicpp-no-malloc",
+          "displayName": "no-malloc",
+          "enabled": false,
+          "description": "no-malloc"
+        },
+        {
+          "shortName": "hicpp-no-assembler",
+          "displayName": "no-assembler",
+          "enabled": false,
+          "description": "no-assembler"
+        },
+        {
+          "shortName": "hicpp-ignored-remove-result",
+          "displayName": "ignored-remove-result",
+          "enabled": false,
+          "description": "ignored-remove-result"
+        },
+        {
+          "shortName": "hicpp-explicit-conversions",
+          "displayName": "explicit-conversions",
+          "enabled": false,
+          "description": "explicit-conversions"
+        },
+        {
+          "shortName": "hicpp-vararg",
+          "displayName": "vararg",
+          "enabled": false,
+          "description": "vararg"
+        },
+        {
+          "shortName": "hicpp-avoid-c-arrays",
+          "displayName": "avoid-c-arrays",
+          "enabled": false,
+          "description": "avoid-c-arrays"
+        },
+        {
+          "shortName": "hicpp-deprecated-headers",
+          "displayName": "deprecated-headers",
+          "enabled": false,
+          "description": "deprecated-headers"
+        },
+        {
+          "shortName": "hicpp-member-init",
+          "displayName": "member-init",
+          "enabled": false,
+          "description": "member-init"
+        },
+        {
+          "shortName": "hicpp-undelegated-constructor",
+          "displayName": "undelegated-constructor",
+          "enabled": false,
+          "description": "undelegated-constructor"
+        },
+        {
+          "shortName": "hicpp-braces-around-statements",
+          "displayName": "braces-around-statements",
+          "enabled": false,
+          "description": "braces-around-statements"
+        },
+        {
+          "shortName": "hicpp-use-emplace",
+          "displayName": "use-emplace",
+          "enabled": false,
+          "description": "use-emplace"
+        },
+        {
+          "shortName": "hicpp-function-size",
+          "displayName": "function-size",
+          "enabled": false,
+          "description": "function-size"
+        },
+        {
+          "shortName": "hicpp-use-auto",
+          "displayName": "use-auto",
+          "enabled": false,
+          "description": "use-auto"
+        },
+        {
+          "shortName": "hicpp-special-member-functions",
+          "displayName": "special-member-functions",
+          "enabled": false,
+          "description": "special-member-functions"
+        },
+        {
+          "shortName": "hicpp-named-parameter",
+          "displayName": "named-parameter",
+          "enabled": false,
+          "description": "named-parameter"
+        },
+        {
+          "shortName": "hicpp-new-delete-operators",
+          "displayName": "new-delete-operators",
+          "enabled": false,
+          "description": "new-delete-operators"
+        },
+        {
+          "shortName": "hicpp-invalid-access-moved",
+          "displayName": "invalid-access-moved",
+          "enabled": false,
+          "description": "invalid-access-moved"
+        },
+        {
+          "shortName": "hicpp-no-array-decay",
+          "displayName": "no-array-decay",
+          "enabled": false,
+          "description": "no-array-decay"
+        },
+        {
+          "shortName": "hicpp-exception-baseclass",
+          "displayName": "exception-baseclass",
+          "enabled": false,
+          "description": "exception-baseclass"
+        },
+        {
+          "shortName": "hicpp-multiway-paths-covered",
+          "displayName": "multiway-paths-covered",
+          "enabled": false,
+          "description": "multiway-paths-covered"
+        }
+      ]
+    },
+    {
+      "name": "linuxkernel",
+      "categoryPath": [
+        {
+          "id": "C++",
+          "name": "C++"
+        },
+        {
+          "id": "linuxkernel",
+          "name": "linuxkernel"
+        }
+      ],
+      "inspections": [
+        {
+          "shortName": "linuxkernel-must-check-errs",
+          "displayName": "must-check-errs",
+          "enabled": false,
+          "description": "must-check-errs"
+        }
+      ]
+    },
+    {
+      "name": "llvm",
+      "categoryPath": [
+        {
+          "id": "C++",
+          "name": "C++"
+        },
+        {
+          "id": "llvm",
+          "name": "llvm"
+        }
+      ],
+      "inspections": [
+        {
+          "shortName": "llvm-header-guard",
+          "displayName": "header-guard",
+          "enabled": false,
+          "description": "header-guard"
+        },
+        {
+          "shortName": "llvm-else-after-return",
+          "displayName": "else-after-return",
+          "enabled": false,
+          "description": "else-after-return"
+        },
+        {
+          "shortName": "llvm-include-order",
+          "displayName": "include-order",
+          "enabled": false,
+          "description": "include-order"
+        },
+        {
+          "shortName": "llvm-prefer-isa-or-dyn-cast-in-conditionals",
+          "displayName": "prefer-isa-or-dyn-cast-in-conditionals",
+          "enabled": false,
+          "description": "prefer-isa-or-dyn-cast-in-conditionals"
+        },
+        {
+          "shortName": "llvm-twine-local",
+          "displayName": "twine-local",
+          "enabled": false,
+          "description": "twine-local"
+        },
+        {
+          "shortName": "llvm-namespace-comment",
+          "displayName": "namespace-comment",
+          "enabled": false,
+          "description": "namespace-comment"
+        },
+        {
+          "shortName": "llvm-prefer-register-over-unsigned",
+          "displayName": "prefer-register-over-unsigned",
+          "enabled": false,
+          "description": "prefer-register-over-unsigned"
+        },
+        {
+          "shortName": "llvm-qualified-auto",
+          "displayName": "qualified-auto",
+          "enabled": false,
+          "description": "qualified-auto"
+        }
+      ]
+    },
+    {
+      "name": "llvmlibc",
+      "categoryPath": [
+        {
+          "id": "C++",
+          "name": "C++"
+        },
+        {
+          "id": "llvmlibc",
+          "name": "llvmlibc"
+        }
+      ],
+      "inspections": [
+        {
+          "shortName": "llvmlibc-restrict-system-libc-headers",
+          "displayName": "restrict-system-libc-headers",
+          "enabled": false,
+          "description": "restrict-system-libc-headers"
+        },
+        {
+          "shortName": "llvmlibc-inline-function-decl",
+          "displayName": "inline-function-decl",
+          "enabled": false,
+          "description": "inline-function-decl"
+        },
+        {
+          "shortName": "llvmlibc-implementation-in-namespace",
+          "displayName": "implementation-in-namespace",
+          "enabled": false,
+          "description": "implementation-in-namespace"
+        },
+        {
+          "shortName": "llvmlibc-callee-namespace",
+          "displayName": "callee-namespace",
+          "enabled": false,
+          "description": "callee-namespace"
+        }
+      ]
+    },
+    {
+      "name": "misc",
+      "categoryPath": [
+        {
+          "id": "C++",
+          "name": "C++"
+        },
+        {
+          "id": "misc",
+          "name": "misc"
+        }
+      ],
+      "inspections": [
+        {
+          "shortName": "misc-uniqueptr-reset-release",
+          "displayName": "uniqueptr-reset-release",
+          "enabled": false,
+          "description": "uniqueptr-reset-release"
+        },
+        {
+          "shortName": "misc-header-include-cycle",
+          "displayName": "header-include-cycle",
+          "enabled": false,
+          "description": "header-include-cycle"
+        },
+        {
+          "shortName": "misc-unused-alias-decls",
+          "displayName": "unused-alias-decls",
+          "enabled": false,
+          "description": "unused-alias-decls"
+        },
+        {
+          "shortName": "misc-static-assert",
+          "displayName": "static-assert",
+          "enabled": false,
+          "description": "static-assert"
+        },
+        {
+          "shortName": "misc-non-copyable-objects",
+          "displayName": "non-copyable-objects",
+          "enabled": false,
+          "description": "non-copyable-objects"
+        },
+        {
+          "shortName": "misc-non-private-member-variables-in-classes",
+          "displayName": "non-private-member-variables-in-classes",
+          "enabled": false,
+          "description": "non-private-member-variables-in-classes"
+        },
+        {
+          "shortName": "misc-unused-using-decls",
+          "displayName": "unused-using-decls",
+          "enabled": false,
+          "description": "unused-using-decls"
+        },
+        {
+          "shortName": "misc-const-correctness",
+          "displayName": "const-correctness",
+          "enabled": false,
+          "description": "const-correctness"
+        },
+        {
+          "shortName": "misc-unconventional-assign-operator",
+          "displayName": "unconventional-assign-operator",
+          "enabled": false,
+          "description": "unconventional-assign-operator"
+        },
+        {
+          "shortName": "misc-misleading-identifier",
+          "displayName": "misleading-identifier",
+          "enabled": false,
+          "description": "misleading-identifier"
+        },
+        {
+          "shortName": "misc-unused-parameters",
+          "displayName": "unused-parameters",
+          "enabled": false,
+          "description": "unused-parameters"
+        },
+        {
+          "shortName": "misc-redundant-expression",
+          "displayName": "redundant-expression",
+          "enabled": false,
+          "description": "redundant-expression"
+        },
+        {
+          "shortName": "misc-no-recursion",
+          "displayName": "no-recursion",
+          "enabled": false,
+          "description": "no-recursion"
+        },
+        {
+          "shortName": "misc-new-delete-overloads",
+          "displayName": "new-delete-overloads",
+          "enabled": false,
+          "description": "new-delete-overloads"
+        },
+        {
+          "shortName": "misc-use-anonymous-namespace",
+          "displayName": "use-anonymous-namespace",
+          "enabled": false,
+          "description": "use-anonymous-namespace"
+        },
+        {
+          "shortName": "misc-misleading-bidirectional",
+          "displayName": "misleading-bidirectional",
+          "enabled": false,
+          "description": "misleading-bidirectional"
+        },
+        {
+          "shortName": "misc-definitions-in-headers",
+          "displayName": "definitions-in-headers",
+          "enabled": false,
+          "description": "definitions-in-headers"
+        },
+        {
+          "shortName": "misc-coroutine-hostile-raii",
+          "displayName": "coroutine-hostile-raii",
+          "enabled": false,
+          "description": "coroutine-hostile-raii"
+        },
+        {
+          "shortName": "misc-include-cleaner",
+          "displayName": "include-cleaner",
+          "enabled": false,
+          "description": "include-cleaner"
+        },
+        {
+          "shortName": "misc-use-internal-linkage",
+          "displayName": "use-internal-linkage",
+          "enabled": false,
+          "description": "use-internal-linkage"
+        },
+        {
+          "shortName": "misc-misplaced-const",
+          "displayName": "misplaced-const",
+          "enabled": false,
+          "description": "misplaced-const"
+        },
+        {
+          "shortName": "misc-confusable-identifiers",
+          "displayName": "confusable-identifiers",
+          "enabled": false,
+          "description": "confusable-identifiers"
+        },
+        {
+          "shortName": "misc-throw-by-value-catch-by-reference",
+          "displayName": "throw-by-value-catch-by-reference",
+          "enabled": false,
+          "description": "throw-by-value-catch-by-reference"
+        }
+      ]
+    },
+    {
+      "name": "modernize",
+      "categoryPath": [
+        {
+          "id": "C++",
+          "name": "C++"
+        },
+        {
+          "id": "modernize",
+          "name": "modernize"
+        }
+      ],
+      "inspections": [
+        {
+          "shortName": "modernize-use-equals-default",
+          "displayName": "use-equals-default",
+          "enabled": false,
+          "description": "use-equals-default"
+        },
+        {
+          "shortName": "modernize-make-shared",
+          "displayName": "make-shared",
+          "enabled": false,
+          "description": "make-shared"
+        },
+        {
+          "shortName": "modernize-deprecated-headers",
+          "displayName": "deprecated-headers",
+          "enabled": false,
+          "description": "deprecated-headers"
+        },
+        {
+          "shortName": "modernize-use-bool-literals",
+          "displayName": "use-bool-literals",
+          "enabled": false,
+          "description": "use-bool-literals"
+        },
+        {
+          "shortName": "modernize-deprecated-ios-base-aliases",
+          "displayName": "deprecated-ios-base-aliases",
+          "enabled": false,
+          "description": "deprecated-ios-base-aliases"
+        },
+        {
+          "shortName": "modernize-use-using",
+          "displayName": "use-using",
+          "enabled": false,
+          "description": "use-using"
+        },
+        {
+          "shortName": "modernize-avoid-bind",
+          "displayName": "avoid-bind",
+          "enabled": false,
+          "description": "avoid-bind"
+        },
+        {
+          "shortName": "modernize-use-std-print",
+          "displayName": "use-std-print",
+          "enabled": false,
+          "description": "use-std-print"
+        },
+        {
+          "shortName": "modernize-concat-nested-namespaces",
+          "displayName": "concat-nested-namespaces",
+          "enabled": false,
+          "description": "concat-nested-namespaces"
+        },
+        {
+          "shortName": "modernize-use-override",
+          "displayName": "use-override",
+          "enabled": false,
+          "description": "use-override"
+        },
+        {
+          "shortName": "modernize-redundant-void-arg",
+          "displayName": "redundant-void-arg",
+          "enabled": false,
+          "description": "redundant-void-arg"
+        },
+        {
+          "shortName": "modernize-use-nodiscard",
+          "displayName": "use-nodiscard",
+          "enabled": false,
+          "description": "use-nodiscard"
+        },
+        {
+          "shortName": "modernize-use-nullptr",
+          "displayName": "use-nullptr",
+          "enabled": false,
+          "description": "use-nullptr"
+        },
+        {
+          "shortName": "modernize-shrink-to-fit",
+          "displayName": "shrink-to-fit",
+          "enabled": false,
+          "description": "shrink-to-fit"
+        },
+        {
+          "shortName": "modernize-use-emplace",
+          "displayName": "use-emplace",
+          "enabled": false,
+          "description": "use-emplace"
+        },
+        {
+          "shortName": "modernize-use-constraints",
+          "displayName": "use-constraints",
+          "enabled": false,
+          "description": "use-constraints"
+        },
+        {
+          "shortName": "modernize-use-std-format",
+          "displayName": "use-std-format",
+          "enabled": false,
+          "description": "use-std-format"
+        },
+        {
+          "shortName": "modernize-use-designated-initializers",
+          "displayName": "use-designated-initializers",
+          "enabled": false,
+          "description": "use-designated-initializers"
+        },
+        {
+          "shortName": "modernize-unary-static-assert",
+          "displayName": "unary-static-assert",
+          "enabled": false,
+          "description": "unary-static-assert"
+        },
+        {
+          "shortName": "modernize-use-equals-delete",
+          "displayName": "use-equals-delete",
+          "enabled": false,
+          "description": "use-equals-delete"
+        },
+        {
+          "shortName": "modernize-use-std-numbers",
+          "displayName": "use-std-numbers",
+          "enabled": false,
+          "description": "use-std-numbers"
+        },
+        {
+          "shortName": "modernize-raw-string-literal",
+          "displayName": "raw-string-literal",
+          "enabled": false,
+          "description": "raw-string-literal"
+        },
+        {
+          "shortName": "modernize-replace-auto-ptr",
+          "displayName": "replace-auto-ptr",
+          "enabled": false,
+          "description": "replace-auto-ptr"
+        },
+        {
+          "shortName": "modernize-replace-random-shuffle",
+          "displayName": "replace-random-shuffle",
+          "enabled": false,
+          "description": "replace-random-shuffle"
+        },
+        {
+          "shortName": "modernize-pass-by-value",
+          "displayName": "pass-by-value",
+          "enabled": false,
+          "description": "pass-by-value"
+        },
+        {
+          "shortName": "modernize-use-uncaught-exceptions",
+          "displayName": "use-uncaught-exceptions",
+          "enabled": false,
+          "description": "use-uncaught-exceptions"
+        },
+        {
+          "shortName": "modernize-use-transparent-functors",
+          "displayName": "use-transparent-functors",
+          "enabled": false,
+          "description": "use-transparent-functors"
+        },
+        {
+          "shortName": "modernize-replace-disallow-copy-and-assign-macro",
+          "displayName": "replace-disallow-copy-and-assign-macro",
+          "enabled": false,
+          "description": "replace-disallow-copy-and-assign-macro"
+        },
+        {
+          "shortName": "modernize-return-braced-init-list",
+          "displayName": "return-braced-init-list",
+          "enabled": false,
+          "description": "return-braced-init-list"
+        },
+        {
+          "shortName": "modernize-macro-to-enum",
+          "displayName": "macro-to-enum",
+          "enabled": false,
+          "description": "macro-to-enum"
+        },
+        {
+          "shortName": "modernize-type-traits",
+          "displayName": "type-traits",
+          "enabled": false,
+          "description": "type-traits"
+        },
+        {
+          "shortName": "modernize-use-starts-ends-with",
+          "displayName": "use-starts-ends-with",
+          "enabled": false,
+          "description": "use-starts-ends-with"
+        },
+        {
+          "shortName": "modernize-use-noexcept",
+          "displayName": "use-noexcept",
+          "enabled": false,
+          "description": "use-noexcept"
+        },
+        {
+          "shortName": "modernize-min-max-use-initializer-list",
+          "displayName": "min-max-use-initializer-list",
+          "enabled": false,
+          "description": "min-max-use-initializer-list"
+        },
+        {
+          "shortName": "modernize-make-unique",
+          "displayName": "make-unique",
+          "enabled": false,
+          "description": "make-unique"
+        },
+        {
+          "shortName": "modernize-loop-convert",
+          "displayName": "loop-convert",
+          "enabled": false,
+          "description": "loop-convert"
+        },
+        {
+          "shortName": "modernize-use-trailing-return-type",
+          "displayName": "use-trailing-return-type",
+          "enabled": false,
+          "description": "use-trailing-return-type"
+        },
+        {
+          "shortName": "modernize-use-default-member-init",
+          "displayName": "use-default-member-init",
+          "enabled": false,
+          "description": "use-default-member-init"
+        },
+        {
+          "shortName": "modernize-avoid-c-arrays",
+          "displayName": "avoid-c-arrays",
+          "enabled": false,
+          "description": "avoid-c-arrays"
+        },
+        {
+          "shortName": "modernize-use-auto",
+          "displayName": "use-auto",
+          "enabled": false,
+          "description": "use-auto"
+        }
+      ]
+    },
+    {
+      "name": "mpi",
+      "categoryPath": [
+        {
+          "id": "C++",
+          "name": "C++"
+        },
+        {
+          "id": "mpi",
+          "name": "mpi"
+        }
+      ],
+      "inspections": [
+        {
+          "shortName": "mpi-type-mismatch",
+          "displayName": "type-mismatch",
+          "enabled": false,
+          "description": "type-mismatch"
+        },
+        {
+          "shortName": "mpi-buffer-deref",
+          "displayName": "buffer-deref",
+          "enabled": false,
+          "description": "buffer-deref"
+        }
+      ]
+    },
+    {
+      "name": "nullability",
+      "categoryPath": [
+        {
+          "id": "C++",
+          "name": "C++"
+        },
+        {
+          "id": "nullability",
+          "name": "nullability"
+        }
+      ],
+      "inspections": [
+        {
+          "shortName": "clang-analyzer-nullability.NullableReturnedFromNonnull",
+          "displayName": "NullableReturnedFromNonnull",
+          "enabled": true,
+          "description": "NullableReturnedFromNonnull"
+        },
+        {
+          "shortName": "clang-analyzer-nullability.NullableDereferenced",
+          "displayName": "NullableDereferenced",
+          "enabled": true,
+          "description": "NullableDereferenced"
+        },
+        {
+          "shortName": "clang-analyzer-nullability.NullReturnedFromNonnull",
+          "displayName": "NullReturnedFromNonnull",
+          "enabled": true,
+          "description": "NullReturnedFromNonnull"
+        },
+        {
+          "shortName": "clang-analyzer-nullability.NullPassedToNonnull",
+          "displayName": "NullPassedToNonnull",
+          "enabled": true,
+          "description": "NullPassedToNonnull"
+        },
+        {
+          "shortName": "clang-analyzer-nullability.NullabilityBase",
+          "displayName": "NullabilityBase",
+          "enabled": true,
+          "description": "NullabilityBase"
+        },
+        {
+          "shortName": "clang-analyzer-nullability.NullablePassedToNonnull",
+          "displayName": "NullablePassedToNonnull",
+          "enabled": true,
+          "description": "NullablePassedToNonnull"
+        }
+      ]
+    },
+    {
+      "name": "objc",
+      "categoryPath": [
+        {
+          "id": "C++",
+          "name": "C++"
+        },
+        {
+          "id": "objc",
+          "name": "objc"
+        }
+      ],
+      "inspections": [
+        {
+          "shortName": "objc-nsdate-formatter",
+          "displayName": "nsdate-formatter",
+          "enabled": false,
+          "description": "nsdate-formatter"
+        },
+        {
+          "shortName": "objc-forbidden-subclassing",
+          "displayName": "forbidden-subclassing",
+          "enabled": false,
+          "description": "forbidden-subclassing"
+        },
+        {
+          "shortName": "objc-nsinvocation-argument-lifetime",
+          "displayName": "nsinvocation-argument-lifetime",
+          "enabled": false,
+          "description": "nsinvocation-argument-lifetime"
+        },
+        {
+          "shortName": "objc-super-self",
+          "displayName": "super-self",
+          "enabled": false,
+          "description": "super-self"
+        },
+        {
+          "shortName": "objc-avoid-nserror-init",
+          "displayName": "avoid-nserror-init",
+          "enabled": false,
+          "description": "avoid-nserror-init"
+        },
+        {
+          "shortName": "objc-missing-hash",
+          "displayName": "missing-hash",
+          "enabled": false,
+          "description": "missing-hash"
+        },
+        {
+          "shortName": "objc-property-declaration",
+          "displayName": "property-declaration",
+          "enabled": false,
+          "description": "property-declaration"
+        },
+        {
+          "shortName": "objc-dealloc-in-category",
+          "displayName": "dealloc-in-category",
+          "enabled": false,
+          "description": "dealloc-in-category"
+        },
+        {
+          "shortName": "objc-assert-equals",
+          "displayName": "assert-equals",
+          "enabled": false,
+          "description": "assert-equals"
+        }
+      ]
+    },
+    {
+      "name": "openmp",
+      "categoryPath": [
+        {
+          "id": "C++",
+          "name": "C++"
+        },
+        {
+          "id": "openmp",
+          "name": "openmp"
+        }
+      ],
+      "inspections": [
+        {
+          "shortName": "openmp-exception-escape",
+          "displayName": "exception-escape",
+          "enabled": false,
+          "description": "exception-escape"
+        },
+        {
+          "shortName": "openmp-use-default-none",
+          "displayName": "use-default-none",
+          "enabled": false,
+          "description": "use-default-none"
+        }
+      ]
+    },
+    {
+      "name": "optin.core",
+      "categoryPath": [
+        {
+          "id": "C++",
+          "name": "C++"
+        },
+        {
+          "id": "optin.core",
+          "name": "optin.core"
+        }
+      ],
+      "inspections": [
+        {
+          "shortName": "clang-analyzer-optin.core.EnumCastOutOfRange",
+          "displayName": "EnumCastOutOfRange",
+          "enabled": true,
+          "description": "EnumCastOutOfRange"
+        }
+      ]
+    },
+    {
+      "name": "optin.cplusplus",
+      "categoryPath": [
+        {
+          "id": "C++",
+          "name": "C++"
+        },
+        {
+          "id": "optin.cplusplus",
+          "name": "optin.cplusplus"
+        }
+      ],
+      "inspections": [
+        {
+          "shortName": "clang-analyzer-optin.cplusplus.VirtualCall",
+          "displayName": "VirtualCall",
+          "enabled": true,
+          "description": "VirtualCall"
+        },
+        {
+          "shortName": "clang-analyzer-optin.cplusplus.UninitializedObject",
+          "displayName": "UninitializedObject",
+          "enabled": true,
+          "description": "UninitializedObject"
+        }
+      ]
+    },
+    {
+      "name": "optin.mpi",
+      "categoryPath": [
+        {
+          "id": "C++",
+          "name": "C++"
+        },
+        {
+          "id": "optin.mpi",
+          "name": "optin.mpi"
+        }
+      ],
+      "inspections": [
+        {
+          "shortName": "clang-analyzer-optin.mpi.MPI-Checker",
+          "displayName": "MPI-Checker",
+          "enabled": true,
+          "description": "MPI-Checker"
+        }
+      ]
+    },
+    {
+      "name": "optin.osx",
+      "categoryPath": [
+        {
+          "id": "C++",
+          "name": "C++"
+        },
+        {
+          "id": "optin.osx",
+          "name": "optin.osx"
+        }
+      ],
+      "inspections": [
+        {
+          "shortName": "clang-analyzer-optin.osx.OSObjectCStyleCast",
+          "displayName": "OSObjectCStyleCast",
+          "enabled": true,
+          "description": "OSObjectCStyleCast"
+        }
+      ]
+    },
+    {
+      "name": "optin.osx.cocoa.localizability",
+      "categoryPath": [
+        {
+          "id": "C++",
+          "name": "C++"
+        },
+        {
+          "id": "optin.osx.cocoa.localizability",
+          "name": "optin.osx.cocoa.localizability"
+        }
+      ],
+      "inspections": [
+        {
+          "shortName": "clang-analyzer-optin.osx.cocoa.localizability.EmptyLocalizationContextChecker",
+          "displayName": "EmptyLocalizationContextChecker",
+          "enabled": true,
+          "description": "EmptyLocalizationContextChecker"
+        },
+        {
+          "shortName": "clang-analyzer-optin.osx.cocoa.localizability.NonLocalizedStringChecker",
+          "displayName": "NonLocalizedStringChecker",
+          "enabled": true,
+          "description": "NonLocalizedStringChecker"
+        }
+      ]
+    },
+    {
+      "name": "optin.performance",
+      "categoryPath": [
+        {
+          "id": "C++",
+          "name": "C++"
+        },
+        {
+          "id": "optin.performance",
+          "name": "optin.performance"
+        }
+      ],
+      "inspections": [
+        {
+          "shortName": "clang-analyzer-optin.performance.GCDAntipattern",
+          "displayName": "GCDAntipattern",
+          "enabled": true,
+          "description": "GCDAntipattern"
+        },
+        {
+          "shortName": "clang-analyzer-optin.performance.Padding",
+          "displayName": "Padding",
+          "enabled": true,
+          "description": "Padding"
+        }
+      ]
+    },
+    {
+      "name": "optin.portability",
+      "categoryPath": [
+        {
+          "id": "C++",
+          "name": "C++"
+        },
+        {
+          "id": "optin.portability",
+          "name": "optin.portability"
+        }
+      ],
+      "inspections": [
+        {
+          "shortName": "clang-analyzer-optin.portability.UnixAPI",
+          "displayName": "UnixAPI",
+          "enabled": true,
+          "description": "UnixAPI"
+        }
+      ]
+    },
+    {
+      "name": "optin.taint",
+      "categoryPath": [
+        {
+          "id": "C++",
+          "name": "C++"
+        },
+        {
+          "id": "optin.taint",
+          "name": "optin.taint"
+        }
+      ],
+      "inspections": [
+        {
+          "shortName": "clang-analyzer-optin.taint.TaintedAlloc",
+          "displayName": "TaintedAlloc",
+          "enabled": true,
+          "description": "TaintedAlloc"
+        }
+      ]
+    },
+    {
+      "name": "osx",
+      "categoryPath": [
+        {
+          "id": "C++",
+          "name": "C++"
+        },
+        {
+          "id": "osx",
+          "name": "osx"
+        }
+      ],
+      "inspections": [
+        {
+          "shortName": "clang-analyzer-osx.ObjCProperty",
+          "displayName": "ObjCProperty",
+          "enabled": true,
+          "description": "ObjCProperty"
+        },
+        {
+          "shortName": "clang-analyzer-osx.OSObjectRetainCount",
+          "displayName": "OSObjectRetainCount",
+          "enabled": true,
+          "description": "OSObjectRetainCount"
+        },
+        {
+          "shortName": "clang-analyzer-osx.API",
+          "displayName": "API",
+          "enabled": true,
+          "description": "API"
+        },
+        {
+          "shortName": "clang-analyzer-osx.SecKeychainAPI",
+          "displayName": "SecKeychainAPI",
+          "enabled": true,
+          "description": "SecKeychainAPI"
+        },
+        {
+          "shortName": "clang-analyzer-osx.NumberObjectConversion",
+          "displayName": "NumberObjectConversion",
+          "enabled": true,
+          "description": "NumberObjectConversion"
+        },
+        {
+          "shortName": "clang-analyzer-osx.NSOrCFErrorDerefChecker",
+          "displayName": "NSOrCFErrorDerefChecker",
+          "enabled": true,
+          "description": "NSOrCFErrorDerefChecker"
+        },
+        {
+          "shortName": "clang-analyzer-osx.MIG",
+          "displayName": "MIG",
+          "enabled": true,
+          "description": "MIG"
+        }
+      ]
+    },
+    {
+      "name": "osx.cocoa",
+      "categoryPath": [
+        {
+          "id": "C++",
+          "name": "C++"
+        },
+        {
+          "id": "osx.cocoa",
+          "name": "osx.cocoa"
+        }
+      ],
+      "inspections": [
+        {
+          "shortName": "clang-analyzer-osx.cocoa.SelfInit",
+          "displayName": "SelfInit",
+          "enabled": true,
+          "description": "SelfInit"
+        },
+        {
+          "shortName": "clang-analyzer-osx.cocoa.RetainCountBase",
+          "displayName": "RetainCountBase",
+          "enabled": true,
+          "description": "RetainCountBase"
+        },
+        {
+          "shortName": "clang-analyzer-osx.cocoa.VariadicMethodTypes",
+          "displayName": "VariadicMethodTypes",
+          "enabled": true,
+          "description": "VariadicMethodTypes"
+        },
+        {
+          "shortName": "clang-analyzer-osx.cocoa.NonNilReturnValue",
+          "displayName": "NonNilReturnValue",
+          "enabled": true,
+          "description": "NonNilReturnValue"
+        },
+        {
+          "shortName": "clang-analyzer-osx.cocoa.MissingSuperCall",
+          "displayName": "MissingSuperCall",
+          "enabled": true,
+          "description": "MissingSuperCall"
+        },
+        {
+          "shortName": "clang-analyzer-osx.cocoa.NSAutoreleasePool",
+          "displayName": "NSAutoreleasePool",
+          "enabled": true,
+          "description": "NSAutoreleasePool"
+        },
+        {
+          "shortName": "clang-analyzer-osx.cocoa.AutoreleaseWrite",
+          "displayName": "AutoreleaseWrite",
+          "enabled": true,
+          "description": "AutoreleaseWrite"
+        },
+        {
+          "shortName": "clang-analyzer-osx.cocoa.IncompatibleMethodTypes",
+          "displayName": "IncompatibleMethodTypes",
+          "enabled": true,
+          "description": "IncompatibleMethodTypes"
+        },
+        {
+          "shortName": "clang-analyzer-osx.cocoa.NSError",
+          "displayName": "NSError",
+          "enabled": true,
+          "description": "NSError"
+        },
+        {
+          "shortName": "clang-analyzer-osx.cocoa.ClassRelease",
+          "displayName": "ClassRelease",
+          "enabled": true,
+          "description": "ClassRelease"
+        },
+        {
+          "shortName": "clang-analyzer-osx.cocoa.ObjCGenerics",
+          "displayName": "ObjCGenerics",
+          "enabled": true,
+          "description": "ObjCGenerics"
+        },
+        {
+          "shortName": "clang-analyzer-osx.cocoa.UnusedIvars",
+          "displayName": "UnusedIvars",
+          "enabled": true,
+          "description": "UnusedIvars"
+        },
+        {
+          "shortName": "clang-analyzer-osx.cocoa.AtSync",
+          "displayName": "AtSync",
+          "enabled": true,
+          "description": "AtSync"
+        },
+        {
+          "shortName": "clang-analyzer-osx.cocoa.Loops",
+          "displayName": "Loops",
+          "enabled": true,
+          "description": "Loops"
+        },
+        {
+          "shortName": "clang-analyzer-osx.cocoa.NilArg",
+          "displayName": "NilArg",
+          "enabled": true,
+          "description": "NilArg"
+        },
+        {
+          "shortName": "clang-analyzer-osx.cocoa.RetainCount",
+          "displayName": "RetainCount",
+          "enabled": true,
+          "description": "RetainCount"
+        },
+        {
+          "shortName": "clang-analyzer-osx.cocoa.Dealloc",
+          "displayName": "Dealloc",
+          "enabled": true,
+          "description": "Dealloc"
+        },
+        {
+          "shortName": "clang-analyzer-osx.cocoa.RunLoopAutoreleaseLeak",
+          "displayName": "RunLoopAutoreleaseLeak",
+          "enabled": true,
+          "description": "RunLoopAutoreleaseLeak"
+        },
+        {
+          "shortName": "clang-analyzer-osx.cocoa.SuperDealloc",
+          "displayName": "SuperDealloc",
+          "enabled": true,
+          "description": "SuperDealloc"
+        }
+      ]
+    },
+    {
+      "name": "osx.coreFoundation",
+      "categoryPath": [
+        {
+          "id": "C++",
+          "name": "C++"
+        },
+        {
+          "id": "osx.coreFoundation",
+          "name": "osx.coreFoundation"
+        }
+      ],
+      "inspections": [
+        {
+          "shortName": "clang-analyzer-osx.coreFoundation.CFError",
+          "displayName": "CFError",
+          "enabled": true,
+          "description": "CFError"
+        },
+        {
+          "shortName": "clang-analyzer-osx.coreFoundation.CFRetainRelease",
+          "displayName": "CFRetainRelease",
+          "enabled": true,
+          "description": "CFRetainRelease"
+        },
+        {
+          "shortName": "clang-analyzer-osx.coreFoundation.CFNumber",
+          "displayName": "CFNumber",
+          "enabled": true,
+          "description": "CFNumber"
+        }
+      ]
+    },
+    {
+      "name": "osx.coreFoundation.containers",
+      "categoryPath": [
+        {
+          "id": "C++",
+          "name": "C++"
+        },
+        {
+          "id": "osx.coreFoundation.containers",
+          "name": "osx.coreFoundation.containers"
+        }
+      ],
+      "inspections": [
+        {
+          "shortName": "clang-analyzer-osx.coreFoundation.containers.PointerSizedValues",
+          "displayName": "PointerSizedValues",
+          "enabled": true,
+          "description": "PointerSizedValues"
+        },
+        {
+          "shortName": "clang-analyzer-osx.coreFoundation.containers.OutOfBounds",
+          "displayName": "OutOfBounds",
+          "enabled": true,
+          "description": "OutOfBounds"
+        }
+      ]
+    },
+    {
+      "name": "performance",
+      "categoryPath": [
+        {
+          "id": "C++",
+          "name": "C++"
+        },
+        {
+          "id": "performance",
+          "name": "performance"
+        }
+      ],
+      "inspections": [
+        {
+          "shortName": "performance-no-automatic-move",
+          "displayName": "no-automatic-move",
+          "enabled": false,
+          "description": "no-automatic-move"
+        },
+        {
+          "shortName": "performance-trivially-destructible",
+          "displayName": "trivially-destructible",
+          "enabled": false,
+          "description": "trivially-destructible"
+        },
+        {
+          "shortName": "performance-inefficient-string-concatenation",
+          "displayName": "inefficient-string-concatenation",
+          "enabled": false,
+          "description": "inefficient-string-concatenation"
+        },
+        {
+          "shortName": "performance-inefficient-vector-operation",
+          "displayName": "inefficient-vector-operation",
+          "enabled": false,
+          "description": "inefficient-vector-operation"
+        },
+        {
+          "shortName": "performance-move-constructor-init",
+          "displayName": "move-constructor-init",
+          "enabled": false,
+          "description": "move-constructor-init"
+        },
+        {
+          "shortName": "performance-type-promotion-in-math-fn",
+          "displayName": "type-promotion-in-math-fn",
+          "enabled": false,
+          "description": "type-promotion-in-math-fn"
+        },
+        {
+          "shortName": "performance-unnecessary-value-param",
+          "displayName": "unnecessary-value-param",
+          "enabled": false,
+          "description": "unnecessary-value-param"
+        },
+        {
+          "shortName": "performance-move-const-arg",
+          "displayName": "move-const-arg",
+          "enabled": false,
+          "description": "move-const-arg"
+        },
+        {
+          "shortName": "performance-implicit-conversion-in-loop",
+          "displayName": "implicit-conversion-in-loop",
+          "enabled": false,
+          "description": "implicit-conversion-in-loop"
+        },
+        {
+          "shortName": "performance-enum-size",
+          "displayName": "enum-size",
+          "enabled": false,
+          "description": "enum-size"
+        },
+        {
+          "shortName": "performance-for-range-copy",
+          "displayName": "for-range-copy",
+          "enabled": false,
+          "description": "for-range-copy"
+        },
+        {
+          "shortName": "performance-noexcept-move-constructor",
+          "displayName": "noexcept-move-constructor",
+          "enabled": false,
+          "description": "noexcept-move-constructor"
+        },
+        {
+          "shortName": "performance-noexcept-swap",
+          "displayName": "noexcept-swap",
+          "enabled": false,
+          "description": "noexcept-swap"
+        },
+        {
+          "shortName": "performance-noexcept-destructor",
+          "displayName": "noexcept-destructor",
+          "enabled": false,
+          "description": "noexcept-destructor"
+        },
+        {
+          "shortName": "performance-no-int-to-ptr",
+          "displayName": "no-int-to-ptr",
+          "enabled": false,
+          "description": "no-int-to-ptr"
+        },
+        {
+          "shortName": "performance-unnecessary-copy-initialization",
+          "displayName": "unnecessary-copy-initialization",
+          "enabled": false,
+          "description": "unnecessary-copy-initialization"
+        },
+        {
+          "shortName": "performance-faster-string-find",
+          "displayName": "faster-string-find",
+          "enabled": false,
+          "description": "faster-string-find"
+        },
+        {
+          "shortName": "performance-inefficient-algorithm",
+          "displayName": "inefficient-algorithm",
+          "enabled": false,
+          "description": "inefficient-algorithm"
+        },
+        {
+          "shortName": "performance-avoid-endl",
+          "displayName": "avoid-endl",
+          "enabled": false,
+          "description": "avoid-endl"
+        }
+      ]
+    },
+    {
+      "name": "portability",
+      "categoryPath": [
+        {
+          "id": "C++",
+          "name": "C++"
+        },
+        {
+          "id": "portability",
+          "name": "portability"
+        }
+      ],
+      "inspections": [
+        {
+          "shortName": "portability-std-allocator-const",
+          "displayName": "std-allocator-const",
+          "enabled": false,
+          "description": "std-allocator-const"
+        },
+        {
+          "shortName": "portability-simd-intrinsics",
+          "displayName": "simd-intrinsics",
+          "enabled": false,
+          "description": "simd-intrinsics"
+        },
+        {
+          "shortName": "portability-restrict-system-includes",
+          "displayName": "restrict-system-includes",
+          "enabled": false,
+          "description": "restrict-system-includes"
+        }
+      ]
+    },
+    {
+      "name": "readability",
+      "categoryPath": [
+        {
+          "id": "C++",
+          "name": "C++"
+        },
+        {
+          "id": "readability",
+          "name": "readability"
+        }
+      ],
+      "inspections": [
+        {
+          "shortName": "readability-redundant-declaration",
+          "displayName": "redundant-declaration",
+          "enabled": false,
+          "description": "redundant-declaration"
+        },
+        {
+          "shortName": "readability-inconsistent-declaration-parameter-name",
+          "displayName": "inconsistent-declaration-parameter-name",
+          "enabled": false,
+          "description": "inconsistent-declaration-parameter-name"
+        },
+        {
+          "shortName": "readability-misplaced-array-index",
+          "displayName": "misplaced-array-index",
+          "enabled": false,
+          "description": "misplaced-array-index"
+        },
+        {
+          "shortName": "readability-redundant-smartptr-get",
+          "displayName": "redundant-smartptr-get",
+          "enabled": false,
+          "description": "redundant-smartptr-get"
+        },
+        {
+          "shortName": "readability-redundant-string-cstr",
+          "displayName": "redundant-string-cstr",
+          "enabled": false,
+          "description": "redundant-string-cstr"
+        },
+        {
+          "shortName": "readability-redundant-casting",
+          "displayName": "redundant-casting",
+          "enabled": false,
+          "description": "redundant-casting"
+        },
+        {
+          "shortName": "readability-redundant-preprocessor",
+          "displayName": "redundant-preprocessor",
+          "enabled": false,
+          "description": "redundant-preprocessor"
+        },
+        {
+          "shortName": "readability-enum-initial-value",
+          "displayName": "enum-initial-value",
+          "enabled": false,
+          "description": "enum-initial-value"
+        },
+        {
+          "shortName": "readability-identifier-naming",
+          "displayName": "identifier-naming",
+          "enabled": false,
+          "description": "identifier-naming"
+        },
+        {
+          "shortName": "readability-string-compare",
+          "displayName": "string-compare",
+          "enabled": false,
+          "description": "string-compare"
+        },
+        {
+          "shortName": "readability-avoid-unconditional-preprocessor-if",
+          "displayName": "avoid-unconditional-preprocessor-if",
+          "enabled": false,
+          "description": "avoid-unconditional-preprocessor-if"
+        },
+        {
+          "shortName": "readability-container-contains",
+          "displayName": "container-contains",
+          "enabled": false,
+          "description": "container-contains"
+        },
+        {
+          "shortName": "readability-redundant-control-flow",
+          "displayName": "redundant-control-flow",
+          "enabled": false,
+          "description": "redundant-control-flow"
+        },
+        {
+          "shortName": "readability-static-definition-in-anonymous-namespace",
+          "displayName": "static-definition-in-anonymous-namespace",
+          "enabled": false,
+          "description": "static-definition-in-anonymous-namespace"
+        },
+        {
+          "shortName": "readability-braces-around-statements",
+          "displayName": "braces-around-statements",
+          "enabled": false,
+          "description": "braces-around-statements"
+        },
+        {
+          "shortName": "readability-identifier-length",
+          "displayName": "identifier-length",
+          "enabled": false,
+          "description": "identifier-length"
+        },
+        {
+          "shortName": "readability-misleading-indentation",
+          "displayName": "misleading-indentation",
+          "enabled": false,
+          "description": "misleading-indentation"
+        },
+        {
+          "shortName": "readability-container-data-pointer",
+          "displayName": "container-data-pointer",
+          "enabled": false,
+          "description": "container-data-pointer"
+        },
+        {
+          "shortName": "readability-redundant-string-init",
+          "displayName": "redundant-string-init",
+          "enabled": false,
+          "description": "redundant-string-init"
+        },
+        {
+          "shortName": "readability-isolate-declaration",
+          "displayName": "isolate-declaration",
+          "enabled": false,
+          "description": "isolate-declaration"
+        },
+        {
+          "shortName": "readability-convert-member-functions-to-static",
+          "displayName": "convert-member-functions-to-static",
+          "enabled": false,
+          "description": "convert-member-functions-to-static"
+        },
+        {
+          "shortName": "readability-redundant-function-ptr-dereference",
+          "displayName": "redundant-function-ptr-dereference",
+          "enabled": false,
+          "description": "redundant-function-ptr-dereference"
+        },
+        {
+          "shortName": "readability-delete-null-pointer",
+          "displayName": "delete-null-pointer",
+          "enabled": false,
+          "description": "delete-null-pointer"
+        },
+        {
+          "shortName": "readability-simplify-subscript-expr",
+          "displayName": "simplify-subscript-expr",
+          "enabled": false,
+          "description": "simplify-subscript-expr"
+        },
+        {
+          "shortName": "readability-named-parameter",
+          "displayName": "named-parameter",
+          "enabled": false,
+          "description": "named-parameter"
+        },
+        {
+          "shortName": "readability-reference-to-constructed-temporary",
+          "displayName": "reference-to-constructed-temporary",
+          "enabled": false,
+          "description": "reference-to-constructed-temporary"
+        },
+        {
+          "shortName": "readability-use-std-min-max",
+          "displayName": "use-std-min-max",
+          "enabled": false,
+          "description": "use-std-min-max"
+        },
+        {
+          "shortName": "readability-redundant-access-specifiers",
+          "displayName": "redundant-access-specifiers",
+          "enabled": false,
+          "description": "redundant-access-specifiers"
+        },
+        {
+          "shortName": "readability-const-return-type",
+          "displayName": "const-return-type",
+          "enabled": false,
+          "description": "const-return-type"
+        },
+        {
+          "shortName": "readability-avoid-const-params-in-decls",
+          "displayName": "avoid-const-params-in-decls",
+          "enabled": false,
+          "description": "avoid-const-params-in-decls"
+        },
+        {
+          "shortName": "readability-redundant-inline-specifier",
+          "displayName": "redundant-inline-specifier",
+          "enabled": false,
+          "description": "redundant-inline-specifier"
+        },
+        {
+          "shortName": "readability-duplicate-include",
+          "displayName": "duplicate-include",
+          "enabled": false,
+          "description": "duplicate-include"
+        },
+        {
+          "shortName": "readability-else-after-return",
+          "displayName": "else-after-return",
+          "enabled": false,
+          "description": "else-after-return"
+        },
+        {
+          "shortName": "readability-function-size",
+          "displayName": "function-size",
+          "enabled": false,
+          "description": "function-size"
+        },
+        {
+          "shortName": "readability-simplify-boolean-expr",
+          "displayName": "simplify-boolean-expr",
+          "enabled": false,
+          "description": "simplify-boolean-expr"
+        },
+        {
+          "shortName": "readability-make-member-function-const",
+          "displayName": "make-member-function-const",
+          "enabled": false,
+          "description": "make-member-function-const"
+        },
+        {
+          "shortName": "readability-container-size-empty",
+          "displayName": "container-size-empty",
+          "enabled": false,
+          "description": "container-size-empty"
+        },
+        {
+          "shortName": "readability-implicit-bool-conversion",
+          "displayName": "implicit-bool-conversion",
+          "enabled": false,
+          "description": "implicit-bool-conversion"
+        },
+        {
+          "shortName": "readability-operators-representation",
+          "displayName": "operators-representation",
+          "enabled": false,
+          "description": "operators-representation"
+        },
+        {
+          "shortName": "readability-non-const-parameter",
+          "displayName": "non-const-parameter",
+          "enabled": false,
+          "description": "non-const-parameter"
+        },
+        {
+          "shortName": "readability-math-missing-parentheses",
+          "displayName": "math-missing-parentheses",
+          "enabled": false,
+          "description": "math-missing-parentheses"
+        },
+        {
+          "shortName": "readability-static-accessed-through-instance",
+          "displayName": "static-accessed-through-instance",
+          "enabled": false,
+          "description": "static-accessed-through-instance"
+        },
+        {
+          "shortName": "readability-magic-numbers",
+          "displayName": "magic-numbers",
+          "enabled": false,
+          "description": "magic-numbers"
+        },
+        {
+          "shortName": "readability-redundant-member-init",
+          "displayName": "redundant-member-init",
+          "enabled": false,
+          "description": "redundant-member-init"
+        },
+        {
+          "shortName": "readability-uppercase-literal-suffix",
+          "displayName": "uppercase-literal-suffix",
+          "enabled": false,
+          "description": "uppercase-literal-suffix"
+        },
+        {
+          "shortName": "readability-uniqueptr-delete-release",
+          "displayName": "uniqueptr-delete-release",
+          "enabled": false,
+          "description": "uniqueptr-delete-release"
+        },
+        {
+          "shortName": "readability-avoid-nested-conditional-operator",
+          "displayName": "avoid-nested-conditional-operator",
+          "enabled": false,
+          "description": "avoid-nested-conditional-operator"
+        },
+        {
+          "shortName": "readability-suspicious-call-argument",
+          "displayName": "suspicious-call-argument",
+          "enabled": false,
+          "description": "suspicious-call-argument"
+        },
+        {
+          "shortName": "readability-use-anyofallof",
+          "displayName": "use-anyofallof",
+          "enabled": false,
+          "description": "use-anyofallof"
+        },
+        {
+          "shortName": "readability-function-cognitive-complexity",
+          "displayName": "function-cognitive-complexity",
+          "enabled": false,
+          "description": "function-cognitive-complexity"
+        },
+        {
+          "shortName": "readability-qualified-auto",
+          "displayName": "qualified-auto",
+          "enabled": false,
+          "description": "qualified-auto"
+        },
+        {
+          "shortName": "readability-avoid-return-with-void-value",
+          "displayName": "avoid-return-with-void-value",
+          "enabled": false,
+          "description": "avoid-return-with-void-value"
+        }
+      ]
+    },
+    {
+      "name": "security",
+      "categoryPath": [
+        {
+          "id": "C++",
+          "name": "C++"
+        },
+        {
+          "id": "security",
+          "name": "security"
+        }
+      ],
+      "inspections": [
+        {
+          "shortName": "clang-analyzer-security.FloatLoopCounter",
+          "displayName": "FloatLoopCounter",
+          "enabled": true,
+          "description": "FloatLoopCounter"
+        },
+        {
+          "shortName": "clang-analyzer-security.SetgidSetuidOrder",
+          "displayName": "SetgidSetuidOrder",
+          "enabled": true,
+          "description": "SetgidSetuidOrder"
+        },
+        {
+          "shortName": "clang-analyzer-security.PutenvStackArray",
+          "displayName": "PutenvStackArray",
+          "enabled": true,
+          "description": "PutenvStackArray"
+        }
+      ]
+    },
+    {
+      "name": "security.cert.env",
+      "categoryPath": [
+        {
+          "id": "C++",
+          "name": "C++"
+        },
+        {
+          "id": "security.cert.env",
+          "name": "security.cert.env"
+        }
+      ],
+      "inspections": [
+        {
+          "shortName": "clang-analyzer-security.cert.env.InvalidPtr",
+          "displayName": "InvalidPtr",
+          "enabled": true,
+          "description": "InvalidPtr"
+        }
+      ]
+    },
+    {
+      "name": "security.insecureAPI",
+      "categoryPath": [
+        {
+          "id": "C++",
+          "name": "C++"
+        },
+        {
+          "id": "security.insecureAPI",
+          "name": "security.insecureAPI"
+        }
+      ],
+      "inspections": [
+        {
+          "shortName": "clang-analyzer-security.insecureAPI.gets",
+          "displayName": "gets",
+          "enabled": true,
+          "description": "gets"
+        },
+        {
+          "shortName": "clang-analyzer-security.insecureAPI.strcpy",
+          "displayName": "strcpy",
+          "enabled": true,
+          "description": "strcpy"
+        },
+        {
+          "shortName": "clang-analyzer-security.insecureAPI.bcmp",
+          "displayName": "bcmp",
+          "enabled": true,
+          "description": "bcmp"
+        },
+        {
+          "shortName": "clang-analyzer-security.insecureAPI.mkstemp",
+          "displayName": "mkstemp",
+          "enabled": true,
+          "description": "mkstemp"
+        },
+        {
+          "shortName": "clang-analyzer-security.insecureAPI.SecuritySyntaxChecker",
+          "displayName": "SecuritySyntaxChecker",
+          "enabled": true,
+          "description": "SecuritySyntaxChecker"
+        },
+        {
+          "shortName": "clang-analyzer-security.insecureAPI.vfork",
+          "displayName": "vfork",
+          "enabled": true,
+          "description": "vfork"
+        },
+        {
+          "shortName": "clang-analyzer-security.insecureAPI.UncheckedReturn",
+          "displayName": "UncheckedReturn",
+          "enabled": true,
+          "description": "UncheckedReturn"
+        },
+        {
+          "shortName": "clang-analyzer-security.insecureAPI.rand",
+          "displayName": "rand",
+          "enabled": true,
+          "description": "rand"
+        },
+        {
+          "shortName": "clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling",
+          "displayName": "DeprecatedOrUnsafeBufferHandling",
+          "enabled": true,
+          "description": "DeprecatedOrUnsafeBufferHandling"
+        },
+        {
+          "shortName": "clang-analyzer-security.insecureAPI.bzero",
+          "displayName": "bzero",
+          "enabled": true,
+          "description": "bzero"
+        },
+        {
+          "shortName": "clang-analyzer-security.insecureAPI.getpw",
+          "displayName": "getpw",
+          "enabled": true,
+          "description": "getpw"
+        },
+        {
+          "shortName": "clang-analyzer-security.insecureAPI.mktemp",
+          "displayName": "mktemp",
+          "enabled": true,
+          "description": "mktemp"
+        },
+        {
+          "shortName": "clang-analyzer-security.insecureAPI.decodeValueOfObjCType",
+          "displayName": "decodeValueOfObjCType",
+          "enabled": true,
+          "description": "decodeValueOfObjCType"
+        },
+        {
+          "shortName": "clang-analyzer-security.insecureAPI.bcopy",
+          "displayName": "bcopy",
+          "enabled": true,
+          "description": "bcopy"
+        }
+      ]
+    },
+    {
+      "name": "unix",
+      "categoryPath": [
+        {
+          "id": "C++",
+          "name": "C++"
+        },
+        {
+          "id": "unix",
+          "name": "unix"
+        }
+      ],
+      "inspections": [
+        {
+          "shortName": "clang-analyzer-unix.StdCLibraryFunctions",
+          "displayName": "StdCLibraryFunctions",
+          "enabled": true,
+          "description": "StdCLibraryFunctions"
+        },
+        {
+          "shortName": "clang-analyzer-unix.API",
+          "displayName": "API",
+          "enabled": true,
+          "description": "API"
+        },
+        {
+          "shortName": "clang-analyzer-unix.BlockInCriticalSection",
+          "displayName": "BlockInCriticalSection",
+          "enabled": true,
+          "description": "BlockInCriticalSection"
+        },
+        {
+          "shortName": "clang-analyzer-unix.Stream",
+          "displayName": "Stream",
+          "enabled": true,
+          "description": "Stream"
+        },
+        {
+          "shortName": "clang-analyzer-unix.MallocSizeof",
+          "displayName": "MallocSizeof",
+          "enabled": true,
+          "description": "MallocSizeof"
+        },
+        {
+          "shortName": "clang-analyzer-unix.DynamicMemoryModeling",
+          "displayName": "DynamicMemoryModeling",
+          "enabled": true,
+          "description": "DynamicMemoryModeling"
+        },
+        {
+          "shortName": "clang-analyzer-unix.Errno",
+          "displayName": "Errno",
+          "enabled": true,
+          "description": "Errno"
+        },
+        {
+          "shortName": "clang-analyzer-unix.Malloc",
+          "displayName": "Malloc",
+          "enabled": true,
+          "description": "Malloc"
+        },
+        {
+          "shortName": "clang-analyzer-unix.Vfork",
+          "displayName": "Vfork",
+          "enabled": true,
+          "description": "Vfork"
+        },
+        {
+          "shortName": "clang-analyzer-unix.MismatchedDeallocator",
+          "displayName": "MismatchedDeallocator",
+          "enabled": true,
+          "description": "MismatchedDeallocator"
+        }
+      ]
+    },
+    {
+      "name": "unix.cstring",
+      "categoryPath": [
+        {
+          "id": "C++",
+          "name": "C++"
+        },
+        {
+          "id": "unix.cstring",
+          "name": "unix.cstring"
+        }
+      ],
+      "inspections": [
+        {
+          "shortName": "clang-analyzer-unix.cstring.BadSizeArg",
+          "displayName": "BadSizeArg",
+          "enabled": true,
+          "description": "BadSizeArg"
+        },
+        {
+          "shortName": "clang-analyzer-unix.cstring.CStringModeling",
+          "displayName": "CStringModeling",
+          "enabled": true,
+          "description": "CStringModeling"
+        },
+        {
+          "shortName": "clang-analyzer-unix.cstring.NullArg",
+          "displayName": "NullArg",
+          "enabled": true,
+          "description": "NullArg"
+        }
+      ]
+    },
+    {
+      "name": "valist",
+      "categoryPath": [
+        {
+          "id": "C++",
+          "name": "C++"
+        },
+        {
+          "id": "valist",
+          "name": "valist"
+        }
+      ],
+      "inspections": [
+        {
+          "shortName": "clang-analyzer-valist.CopyToSelf",
+          "displayName": "CopyToSelf",
+          "enabled": true,
+          "description": "CopyToSelf"
+        },
+        {
+          "shortName": "clang-analyzer-valist.Uninitialized",
+          "displayName": "Uninitialized",
+          "enabled": true,
+          "description": "Uninitialized"
+        },
+        {
+          "shortName": "clang-analyzer-valist.ValistBase",
+          "displayName": "ValistBase",
+          "enabled": true,
+          "description": "ValistBase"
+        },
+        {
+          "shortName": "clang-analyzer-valist.Unterminated",
+          "displayName": "Unterminated",
+          "enabled": true,
+          "description": "Unterminated"
+        }
+      ]
+    },
+    {
+      "name": "webkit",
+      "categoryPath": [
+        {
+          "id": "C++",
+          "name": "C++"
+        },
+        {
+          "id": "webkit",
+          "name": "webkit"
+        }
+      ],
+      "inspections": [
+        {
+          "shortName": "clang-analyzer-webkit.UncountedLambdaCapturesChecker",
+          "displayName": "UncountedLambdaCapturesChecker",
+          "enabled": true,
+          "description": "UncountedLambdaCapturesChecker"
+        },
+        {
+          "shortName": "clang-analyzer-webkit.NoUncountedMemberChecker",
+          "displayName": "NoUncountedMemberChecker",
+          "enabled": true,
+          "description": "NoUncountedMemberChecker"
+        },
+        {
+          "shortName": "clang-analyzer-webkit.RefCntblBaseVirtualDtor",
+          "displayName": "RefCntblBaseVirtualDtor",
+          "enabled": true,
+          "description": "RefCntblBaseVirtualDtor"
+        }
+      ]
+    },
+    {
+      "name": "zircon",
+      "categoryPath": [
+        {
+          "id": "C++",
+          "name": "C++"
+        },
+        {
+          "id": "zircon",
+          "name": "zircon"
+        }
+      ],
+      "inspections": [
+        {
+          "shortName": "zircon-temporary-objects",
+          "displayName": "temporary-objects",
+          "enabled": false,
+          "description": "temporary-objects"
+        }
+      ]
+    }
+  ]
+}
