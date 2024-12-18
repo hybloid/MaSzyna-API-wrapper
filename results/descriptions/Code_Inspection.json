@@ -3569,8 +3569,8 @@
         {
           "shortName": "llvm-include-order",
           "displayName": "include-order",
-          "enabled": false,
-          "description": "include-order"
+          "enabled": true,
+          "description": "#includes are not sorted properly"
         },
         {
           "shortName": "llvm-prefer-isa-or-dyn-cast-in-conditionals",
@@ -5045,7 +5045,7 @@
         {
           "shortName": "readability-make-member-function-const",
           "displayName": "make-member-function-const",
-          "enabled": false,
+          "enabled": true,
           "description": "make-member-function-const"
         },
         {

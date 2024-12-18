@@ -1,4 +1,292 @@
 {
   "version": "3",
-  "listProblem": []
+  "listProblem": [
+    {
+      "tool": "Code Inspection",
+      "category": "llvm",
+      "categoryPath": [
+        {
+          "id": "C++",
+          "name": "C++"
+        },
+        {
+          "id": "llvm",
+          "name": "llvm"
+        }
+      ],
+      "type": "include-order",
+      "tags": [
+        "C++"
+      ],
+      "severity": "High",
+      "comment": "#includes are not sorted properly",
+      "detailsInfo": "#includes are not sorted properly",
+      "sources": [
+        {
+          "type": "file",
+          "path": "src/register_types.cpp",
+          "line": 1,
+          "offset": 1,
+          "length": 1,
+          "code": {
+            "startLine": 1,
+            "length": 1,
+            "offset": 0,
+            "surroundingCode": "#include <gdextension_interface.h>\n#include <godot_cpp/classes/engine.hpp>\n#include <godot_cpp/core/defs.hpp>"
+          }
+        }
+      ],
+      "attributes": {
+        "module": "",
+        "inspectionName": "llvm-include-order"
+      },
+      "hash": "2ff5887ffc7c4c2c7f658f78828cbca087a624d975987ad8b6cbe7037a058732"
+    },
+    {
+      "tool": "Code Inspection",
+      "category": "readability",
+      "categoryPath": [
+        {
+          "id": "C++",
+          "name": "C++"
+        },
+        {
+          "id": "readability",
+          "name": "readability"
+        }
+      ],
+      "type": "make-member-function-const",
+      "tags": [
+        "C++"
+      ],
+      "severity": "High",
+      "comment": "method 'callp' can be made const",
+      "detailsInfo": "make-member-function-const",
+      "sources": [
+        {
+          "type": "file",
+          "path": "godot-cpp/src/variant/variant.cpp",
+          "line": 559,
+          "offset": 15,
+          "length": 5,
+          "code": {
+            "startLine": 557,
+            "length": 5,
+            "offset": 17,
+            "surroundingCode": "}\n\nvoid Variant::callp(const StringName &method, const Variant **args, int argcount, Variant &r_ret, GDExtensionCallError &r_error) {\n\tinternal::gdextension_interface_variant_call(_native_ptr(), method._native_ptr(), reinterpret_cast<GDExtensionConstVariantPtr *>(args), argcount, r_ret._native_ptr(), &r_error);\n}"
+          }
+        }
+      ],
+      "attributes": {
+        "module": "",
+        "inspectionName": "readability-make-member-function-const"
+      },
+      "hash": "60bfcac94b064588efc4dfd50132c84b3fe2287ca1d54715f9fe1f7b6eace794"
+    },
+    {
+      "tool": "Code Inspection",
+      "category": "readability",
+      "categoryPath": [
+        {
+          "id": "C++",
+          "name": "C++"
+        },
+        {
+          "id": "readability",
+          "name": "readability"
+        }
+      ],
+      "type": "make-member-function-const",
+      "tags": [
+        "C++"
+      ],
+      "severity": "High",
+      "comment": "method 'set' can be made const",
+      "detailsInfo": "make-member-function-const",
+      "sources": [
+        {
+          "type": "file",
+          "path": "godot-cpp/src/variant/variant.cpp",
+          "line": 573,
+          "offset": 15,
+          "length": 3,
+          "code": {
+            "startLine": 571,
+            "length": 3,
+            "offset": 17,
+            "surroundingCode": "}\n\nvoid Variant::set(const Variant &key, const Variant &value, bool *r_valid) {\n\tGDExtensionBool valid;\n\tinternal::gdextension_interface_variant_set(_native_ptr(), key._native_ptr(), value._native_ptr(), &valid);"
+          }
+        }
+      ],
+      "attributes": {
+        "module": "",
+        "inspectionName": "readability-make-member-function-const"
+      },
+      "hash": "cc0b1f24c506976537dd212891016a46039cd7da5ad30086ff55303e6535bcc0"
+    },
+    {
+      "tool": "Code Inspection",
+      "category": "readability",
+      "categoryPath": [
+        {
+          "id": "C++",
+          "name": "C++"
+        },
+        {
+          "id": "readability",
+          "name": "readability"
+        }
+      ],
+      "type": "make-member-function-const",
+      "tags": [
+        "C++"
+      ],
+      "severity": "High",
+      "comment": "method 'set_named' can be made const",
+      "detailsInfo": "make-member-function-const",
+      "sources": [
+        {
+          "type": "file",
+          "path": "godot-cpp/src/variant/variant.cpp",
+          "line": 581,
+          "offset": 15,
+          "length": 9,
+          "code": {
+            "startLine": 579,
+            "length": 9,
+            "offset": 17,
+            "surroundingCode": "}\n\nvoid Variant::set_named(const StringName &name, const Variant &value, bool &r_valid) {\n\tGDExtensionBool valid;\n\tinternal::gdextension_interface_variant_set_named(_native_ptr(), name._native_ptr(), value._native_ptr(), &valid);"
+          }
+        }
+      ],
+      "attributes": {
+        "module": "",
+        "inspectionName": "readability-make-member-function-const"
+      },
+      "hash": "9ce9e71ec5422b333458fa0aab956a9dc996ed2924c6d788f4bc13a4f2c063c1"
+    },
+    {
+      "tool": "Code Inspection",
+      "category": "readability",
+      "categoryPath": [
+        {
+          "id": "C++",
+          "name": "C++"
+        },
+        {
+          "id": "readability",
+          "name": "readability"
+        }
+      ],
+      "type": "make-member-function-const",
+      "tags": [
+        "C++"
+      ],
+      "severity": "High",
+      "comment": "method 'set_indexed' can be made const",
+      "detailsInfo": "make-member-function-const",
+      "sources": [
+        {
+          "type": "file",
+          "path": "godot-cpp/src/variant/variant.cpp",
+          "line": 587,
+          "offset": 15,
+          "length": 11,
+          "code": {
+            "startLine": 585,
+            "length": 11,
+            "offset": 17,
+            "surroundingCode": "}\n\nvoid Variant::set_indexed(int64_t index, const Variant &value, bool &r_valid, bool &r_oob) {\n\tGDExtensionBool valid, oob;\n\tinternal::gdextension_interface_variant_set_indexed(_native_ptr(), index, value._native_ptr(), &valid, &oob);"
+          }
+        }
+      ],
+      "attributes": {
+        "module": "",
+        "inspectionName": "readability-make-member-function-const"
+      },
+      "hash": "a67d8673c86091d1d36117919c869cd05ba54270eab23328d3685852050ec8be"
+    },
+    {
+      "tool": "Code Inspection",
+      "category": "readability",
+      "categoryPath": [
+        {
+          "id": "C++",
+          "name": "C++"
+        },
+        {
+          "id": "readability",
+          "name": "readability"
+        }
+      ],
+      "type": "make-member-function-const",
+      "tags": [
+        "C++"
+      ],
+      "severity": "High",
+      "comment": "method 'set_keyed' can be made const",
+      "detailsInfo": "make-member-function-const",
+      "sources": [
+        {
+          "type": "file",
+          "path": "godot-cpp/src/variant/variant.cpp",
+          "line": 594,
+          "offset": 15,
+          "length": 9,
+          "code": {
+            "startLine": 592,
+            "length": 9,
+            "offset": 17,
+            "surroundingCode": "}\n\nvoid Variant::set_keyed(const Variant &key, const Variant &value, bool &r_valid) {\n\tGDExtensionBool valid;\n\tinternal::gdextension_interface_variant_set_keyed(_native_ptr(), key._native_ptr(), value._native_ptr(), &valid);"
+          }
+        }
+      ],
+      "attributes": {
+        "module": "",
+        "inspectionName": "readability-make-member-function-const"
+      },
+      "hash": "01732141b500afd543324c695e2effae2febb94782c363986e663f00ca4d7a4c"
+    },
+    {
+      "tool": "Code Inspection",
+      "category": "readability",
+      "categoryPath": [
+        {
+          "id": "C++",
+          "name": "C++"
+        },
+        {
+          "id": "readability",
+          "name": "readability"
+        }
+      ],
+      "type": "make-member-function-const",
+      "tags": [
+        "C++"
+      ],
+      "severity": "High",
+      "comment": "method 'clear' can be made const",
+      "detailsInfo": "make-member-function-const",
+      "sources": [
+        {
+          "type": "file",
+          "path": "godot-cpp/src/variant/variant.cpp",
+          "line": 741,
+          "offset": 15,
+          "length": 5,
+          "code": {
+            "startLine": 739,
+            "length": 5,
+            "offset": 17,
+            "surroundingCode": "}\n\nvoid Variant::clear() {\n\tstatic const bool needs_deinit[Variant::VARIANT_MAX] = {\n\t\tfalse, // NIL,"
+          }
+        }
+      ],
+      "attributes": {
+        "module": "",
+        "inspectionName": "readability-make-member-function-const"
+      },
+      "hash": "9a630ea881a6146c5749a60af1d40ba414bf06d0943379a7ed21c1eb03c3f9c8"
+    }
+  ]
 }

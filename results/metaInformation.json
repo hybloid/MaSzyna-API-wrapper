@@ -1,17 +1,17 @@
 {
   "version": "1.0",
-  "total": 0,
+  "total": 7,
   "tools inspection": {
-    "Code Inspection": 0
+    "Code Inspection": 7
   },
   "linter": "QDCL",
   "attributes": {
     "deviceId": "200820300000000-dbc8-d954-66c6-c20d57d781c2",
-    "jobUrl": "https://github.com/MaSzyna-Reloaded/MaSzyna-API-wrapper/actions/runs/12402859601",
+    "jobUrl": "https://github.com/MaSzyna-Reloaded/MaSzyna-API-wrapper/actions/runs/12402922695",
     "vcs": {
       "sarifIdea": {
         "repositoryUri": "https://github.com/MaSzyna-Reloaded/MaSzyna-API-wrapper.git",
-        "revisionId": "b5da240828606e70c6a65fe3328491a14412f17e",
+        "revisionId": "a89f10073462fc431bb6f291bfc7fd86c9e1ebdc",
         "branch": "dev/log-system-fix"
       }
     },

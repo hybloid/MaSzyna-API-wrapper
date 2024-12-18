@@ -7604,10 +7604,10 @@
                 "text": "include-order"
               },
               "fullDescription": {
-                "text": "include-order"
+                "text": "#includes are not sorted properly"
               },
               "defaultConfiguration": {
-                "enabled": false,
+                "enabled": true,
                 "level": "warning"
               },
               "relationships": [
@@ -16623,7 +16623,7 @@
                 "text": "make-member-function-const"
               },
               "defaultConfiguration": {
-                "enabled": false,
+                "enabled": true,
                 "level": "warning"
               },
               "relationships": [
@@ -22145,7 +22145,7 @@
       "versionControlProvenance": [
         {
           "repositoryUri": "https://github.com/MaSzyna-Reloaded/MaSzyna-API-wrapper.git",
-          "revisionId": "b5da240828606e70c6a65fe3328491a14412f17e",
+          "revisionId": "a89f10073462fc431bb6f291bfc7fd86c9e1ebdc",
           "branch": "dev/log-system-fix",
           "properties": {
             "repoUrl": "https://github.com/MaSzyna-Reloaded/MaSzyna-API-wrapper.git",
@@ -22155,12 +22155,341 @@
           }
         }
       ],
-      "results": [],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "src/register_types.cpp"
+          },
+          "length": 2987,
+          "roles": [
+            "resultFile"
+          ],
+          "mimeType": "text/plain"
+        },
+        {
+          "location": {
+            "uri": "godot-cpp/src/variant/variant.cpp"
+          },
+          "length": 25426,
+          "roles": [
+            "resultFile"
+          ],
+          "mimeType": "text/plain"
+        }
+      ],
+      "results": [
+        {
+          "ruleId": "llvm-include-order",
+          "ruleIndex": 588,
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "#includes are not sorted properly"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/register_types.cpp"
+                },
+                "region": {
+                  "startLine": 1,
+                  "startColumn": 1,
+                  "charLength": 1,
+                  "snippet": {
+                    "text": "#"
+                  }
+                },
+                "contextRegion": {
+                  "startLine": 1,
+                  "startColumn": 1,
+                  "charLength": 1,
+                  "snippet": {
+                    "text": "#include <gdextension_interface.h>\n#include <godot_cpp/classes/engine.hpp>\n#include <godot_cpp/core/defs.hpp>"
+                  }
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "equalIndicator/v1": "2ff5887ffc7c4c2c7f658f78828cbca087a624d975987ad8b6cbe7037a058732"
+          },
+          "properties": {
+            "tags": [
+              "C++"
+            ]
+          }
+        },
+        {
+          "ruleId": "readability-make-member-function-const",
+          "ruleIndex": 718,
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "method 'callp' can be made const"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "godot-cpp/src/variant/variant.cpp"
+                },
+                "region": {
+                  "startLine": 559,
+                  "startColumn": 15,
+                  "charOffset": 16798,
+                  "charLength": 5,
+                  "snippet": {
+                    "text": "callp"
+                  }
+                },
+                "contextRegion": {
+                  "startLine": 557,
+                  "startColumn": 15,
+                  "charOffset": 16781,
+                  "charLength": 5,
+                  "snippet": {
+                    "text": "}\n\nvoid Variant::callp(const StringName &method, const Variant **args, int argcount, Variant &r_ret, GDExtensionCallError &r_error) {\n\tinternal::gdextension_interface_variant_call(_native_ptr(), method._native_ptr(), reinterpret_cast<GDExtensionConstVariantPtr *>(args), argcount, r_ret._native_ptr(), &r_error);\n}"
+                  }
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "equalIndicator/v1": "60bfcac94b064588efc4dfd50132c84b3fe2287ca1d54715f9fe1f7b6eace794"
+          },
+          "properties": {
+            "tags": [
+              "C++"
+            ]
+          }
+        },
+        {
+          "ruleId": "readability-make-member-function-const",
+          "ruleIndex": 718,
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "method 'set' can be made const"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "godot-cpp/src/variant/variant.cpp"
+                },
+                "region": {
+                  "startLine": 573,
+                  "startColumn": 15,
+                  "charOffset": 17828,
+                  "charLength": 3,
+                  "snippet": {
+                    "text": "set"
+                  }
+                },
+                "contextRegion": {
+                  "startLine": 571,
+                  "startColumn": 15,
+                  "charOffset": 17811,
+                  "charLength": 3,
+                  "snippet": {
+                    "text": "}\n\nvoid Variant::set(const Variant &key, const Variant &value, bool *r_valid) {\n\tGDExtensionBool valid;\n\tinternal::gdextension_interface_variant_set(_native_ptr(), key._native_ptr(), value._native_ptr(), &valid);"
+                  }
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "equalIndicator/v1": "cc0b1f24c506976537dd212891016a46039cd7da5ad30086ff55303e6535bcc0"
+          },
+          "properties": {
+            "tags": [
+              "C++"
+            ]
+          }
+        },
+        {
+          "ruleId": "readability-make-member-function-const",
+          "ruleIndex": 718,
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "method 'set_named' can be made const"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "godot-cpp/src/variant/variant.cpp"
+                },
+                "region": {
+                  "startLine": 581,
+                  "startColumn": 15,
+                  "charOffset": 18106,
+                  "charLength": 9,
+                  "snippet": {
+                    "text": "set_named"
+                  }
+                },
+                "contextRegion": {
+                  "startLine": 579,
+                  "startColumn": 15,
+                  "charOffset": 18089,
+                  "charLength": 9,
+                  "snippet": {
+                    "text": "}\n\nvoid Variant::set_named(const StringName &name, const Variant &value, bool &r_valid) {\n\tGDExtensionBool valid;\n\tinternal::gdextension_interface_variant_set_named(_native_ptr(), name._native_ptr(), value._native_ptr(), &valid);"
+                  }
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "equalIndicator/v1": "9ce9e71ec5422b333458fa0aab956a9dc996ed2924c6d788f4bc13a4f2c063c1"
+          },
+          "properties": {
+            "tags": [
+              "C++"
+            ]
+          }
+        },
+        {
+          "ruleId": "readability-make-member-function-const",
+          "ruleIndex": 718,
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "method 'set_indexed' can be made const"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "godot-cpp/src/variant/variant.cpp"
+                },
+                "region": {
+                  "startLine": 587,
+                  "startColumn": 15,
+                  "charOffset": 18380,
+                  "charLength": 11,
+                  "snippet": {
+                    "text": "set_indexed"
+                  }
+                },
+                "contextRegion": {
+                  "startLine": 585,
+                  "startColumn": 15,
+                  "charOffset": 18363,
+                  "charLength": 11,
+                  "snippet": {
+                    "text": "}\n\nvoid Variant::set_indexed(int64_t index, const Variant &value, bool &r_valid, bool &r_oob) {\n\tGDExtensionBool valid, oob;\n\tinternal::gdextension_interface_variant_set_indexed(_native_ptr(), index, value._native_ptr(), &valid, &oob);"
+                  }
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "equalIndicator/v1": "a67d8673c86091d1d36117919c869cd05ba54270eab23328d3685852050ec8be"
+          },
+          "properties": {
+            "tags": [
+              "C++"
+            ]
+          }
+        },
+        {
+          "ruleId": "readability-make-member-function-const",
+          "ruleIndex": 718,
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "method 'set_keyed' can be made const"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "godot-cpp/src/variant/variant.cpp"
+                },
+                "region": {
+                  "startLine": 594,
+                  "startColumn": 15,
+                  "charOffset": 18700,
+                  "charLength": 9,
+                  "snippet": {
+                    "text": "set_keyed"
+                  }
+                },
+                "contextRegion": {
+                  "startLine": 592,
+                  "startColumn": 15,
+                  "charOffset": 18683,
+                  "charLength": 9,
+                  "snippet": {
+                    "text": "}\n\nvoid Variant::set_keyed(const Variant &key, const Variant &value, bool &r_valid) {\n\tGDExtensionBool valid;\n\tinternal::gdextension_interface_variant_set_keyed(_native_ptr(), key._native_ptr(), value._native_ptr(), &valid);"
+                  }
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "equalIndicator/v1": "01732141b500afd543324c695e2effae2febb94782c363986e663f00ca4d7a4c"
+          },
+          "properties": {
+            "tags": [
+              "C++"
+            ]
+          }
+        },
+        {
+          "ruleId": "readability-make-member-function-const",
+          "ruleIndex": 718,
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "method 'clear' can be made const"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "godot-cpp/src/variant/variant.cpp"
+                },
+                "region": {
+                  "startLine": 741,
+                  "startColumn": 15,
+                  "charOffset": 24190,
+                  "charLength": 5,
+                  "snippet": {
+                    "text": "clear"
+                  }
+                },
+                "contextRegion": {
+                  "startLine": 739,
+                  "startColumn": 15,
+                  "charOffset": 24173,
+                  "charLength": 5,
+                  "snippet": {
+                    "text": "}\n\nvoid Variant::clear() {\n\tstatic const bool needs_deinit[Variant::VARIANT_MAX] = {\n\t\tfalse, // NIL,"
+                  }
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "equalIndicator/v1": "9a630ea881a6146c5749a60af1d40ba414bf06d0943379a7ed21c1eb03c3f9c8"
+          },
+          "properties": {
+            "tags": [
+              "C++"
+            ]
+          }
+        }
+      ],
       "automationDetails": {
         "id": "QDCL/qodana/2024-12-18",
-        "guid": "db58f192-6c07-4907-be66-1e259cf9f06b",
+        "guid": "93dc46fc-16db-47d9-b77d-6c3221b673ff",
         "properties": {
-          "jobUrl": "https://github.com/MaSzyna-Reloaded/MaSzyna-API-wrapper/actions/runs/12402859601"
+          "jobUrl": "https://github.com/MaSzyna-Reloaded/MaSzyna-API-wrapper/actions/runs/12402922695"
         }
       },
       "newlineSequences": [
