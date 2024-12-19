@@ -22145,7 +22145,7 @@
       "versionControlProvenance": [
         {
           "repositoryUri": "https://github.com/MaSzyna-Reloaded/MaSzyna-API-wrapper.git",
-          "revisionId": "b4e4b23986a12ddcb4040beffd16a02386c92c15",
+          "revisionId": "8989a899329b7af5ef28599d02e0f79801ae00b7",
           "branch": "dev/log-system-fix",
           "properties": {
             "repoUrl": "https://github.com/MaSzyna-Reloaded/MaSzyna-API-wrapper.git",
@@ -22487,9 +22487,9 @@
       ],
       "automationDetails": {
         "id": "QDCL/qodana/2024-12-19",
-        "guid": "f92f2523-0697-4b72-8e8a-d45cc40b2b72",
+        "guid": "f7097e7a-2b46-4b2d-8ac0-2a72460d0d06",
         "properties": {
-          "jobUrl": "https://github.com/MaSzyna-Reloaded/MaSzyna-API-wrapper/actions/runs/12412565904"
+          "jobUrl": "https://github.com/MaSzyna-Reloaded/MaSzyna-API-wrapper/actions/runs/12412609587"
         }
       },
       "newlineSequences": [
