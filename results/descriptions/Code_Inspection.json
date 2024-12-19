@@ -896,121 +896,121 @@
         {
           "shortName": "bugprone-crtp-constructor-accessibility",
           "displayName": "crtp-constructor-accessibility",
-          "enabled": false,
+          "enabled": true,
           "description": "crtp-constructor-accessibility"
         },
         {
           "shortName": "bugprone-suspicious-realloc-usage",
           "displayName": "suspicious-realloc-usage",
-          "enabled": false,
+          "enabled": true,
           "description": "suspicious-realloc-usage"
         },
         {
           "shortName": "bugprone-optional-value-conversion",
           "displayName": "optional-value-conversion",
-          "enabled": false,
+          "enabled": true,
           "description": "optional-value-conversion"
         },
         {
           "shortName": "bugprone-bool-pointer-implicit-conversion",
           "displayName": "bool-pointer-implicit-conversion",
-          "enabled": false,
+          "enabled": true,
           "description": "bool-pointer-implicit-conversion"
         },
         {
           "shortName": "bugprone-throw-keyword-missing",
           "displayName": "throw-keyword-missing",
-          "enabled": false,
+          "enabled": true,
           "description": "throw-keyword-missing"
         },
         {
           "shortName": "bugprone-move-forwarding-reference",
           "displayName": "move-forwarding-reference",
-          "enabled": false,
+          "enabled": true,
           "description": "move-forwarding-reference"
         },
         {
           "shortName": "bugprone-string-constructor",
           "displayName": "string-constructor",
-          "enabled": false,
+          "enabled": true,
           "description": "string-constructor"
         },
         {
           "shortName": "bugprone-reserved-identifier",
           "displayName": "reserved-identifier",
-          "enabled": false,
+          "enabled": true,
           "description": "reserved-identifier"
         },
         {
           "shortName": "bugprone-signal-handler",
           "displayName": "signal-handler",
-          "enabled": false,
+          "enabled": true,
           "description": "signal-handler"
         },
         {
           "shortName": "bugprone-assert-side-effect",
           "displayName": "assert-side-effect",
-          "enabled": false,
+          "enabled": true,
           "description": "assert-side-effect"
         },
         {
           "shortName": "bugprone-signed-char-misuse",
           "displayName": "signed-char-misuse",
-          "enabled": false,
+          "enabled": true,
           "description": "signed-char-misuse"
         },
         {
           "shortName": "bugprone-unsafe-functions",
           "displayName": "unsafe-functions",
-          "enabled": false,
+          "enabled": true,
           "description": "unsafe-functions"
         },
         {
           "shortName": "bugprone-too-small-loop-variable",
           "displayName": "too-small-loop-variable",
-          "enabled": false,
+          "enabled": true,
           "description": "too-small-loop-variable"
         },
         {
           "shortName": "bugprone-unused-return-value",
           "displayName": "unused-return-value",
-          "enabled": false,
+          "enabled": true,
           "description": "unused-return-value"
         },
         {
           "shortName": "bugprone-inc-dec-in-conditions",
           "displayName": "inc-dec-in-conditions",
-          "enabled": false,
+          "enabled": true,
           "description": "inc-dec-in-conditions"
         },
         {
           "shortName": "bugprone-shared-ptr-array-mismatch",
           "displayName": "shared-ptr-array-mismatch",
-          "enabled": false,
+          "enabled": true,
           "description": "shared-ptr-array-mismatch"
         },
         {
           "shortName": "bugprone-unique-ptr-array-mismatch",
           "displayName": "unique-ptr-array-mismatch",
-          "enabled": false,
+          "enabled": true,
           "description": "unique-ptr-array-mismatch"
         },
         {
           "shortName": "bugprone-multiple-new-in-one-expression",
           "displayName": "multiple-new-in-one-expression",
-          "enabled": false,
+          "enabled": true,
           "description": "multiple-new-in-one-expression"
         },
         {
           "shortName": "bugprone-empty-catch",
           "displayName": "empty-catch",
-          "enabled": false,
+          "enabled": true,
           "description": "empty-catch"
         },
         {
           "shortName": "bugprone-undefined-memory-manipulation",
           "displayName": "undefined-memory-manipulation",
-          "enabled": false,
+          "enabled": true,
           "description": "undefined-memory-manipulation"
         },
         {
@@ -1022,373 +1022,373 @@
         {
           "shortName": "bugprone-string-literal-with-embedded-nul",
           "displayName": "string-literal-with-embedded-nul",
-          "enabled": false,
+          "enabled": true,
           "description": "string-literal-with-embedded-nul"
         },
         {
           "shortName": "bugprone-non-zero-enum-to-bool-conversion",
           "displayName": "non-zero-enum-to-bool-conversion",
-          "enabled": false,
+          "enabled": true,
           "description": "non-zero-enum-to-bool-conversion"
         },
         {
           "shortName": "bugprone-spuriously-wake-up-functions",
           "displayName": "spuriously-wake-up-functions",
-          "enabled": false,
+          "enabled": true,
           "description": "spuriously-wake-up-functions"
         },
         {
           "shortName": "bugprone-return-const-ref-from-parameter",
           "displayName": "return-const-ref-from-parameter",
-          "enabled": false,
+          "enabled": true,
           "description": "return-const-ref-from-parameter"
         },
         {
           "shortName": "bugprone-exception-escape",
           "displayName": "exception-escape",
-          "enabled": false,
+          "enabled": true,
           "description": "exception-escape"
         },
         {
           "shortName": "bugprone-dangling-handle",
           "displayName": "dangling-handle",
-          "enabled": false,
+          "enabled": true,
           "description": "dangling-handle"
         },
         {
           "shortName": "bugprone-suspicious-memory-comparison",
           "displayName": "suspicious-memory-comparison",
-          "enabled": false,
+          "enabled": true,
           "description": "suspicious-memory-comparison"
         },
         {
           "shortName": "bugprone-swapped-arguments",
           "displayName": "swapped-arguments",
-          "enabled": false,
+          "enabled": true,
           "description": "swapped-arguments"
         },
         {
           "shortName": "bugprone-compare-pointer-to-member-virtual-function",
           "displayName": "compare-pointer-to-member-virtual-function",
-          "enabled": false,
+          "enabled": true,
           "description": "compare-pointer-to-member-virtual-function"
         },
         {
           "shortName": "bugprone-string-integer-assignment",
           "displayName": "string-integer-assignment",
-          "enabled": false,
+          "enabled": true,
           "description": "string-integer-assignment"
         },
         {
           "shortName": "bugprone-copy-constructor-init",
           "displayName": "copy-constructor-init",
-          "enabled": false,
+          "enabled": true,
           "description": "copy-constructor-init"
         },
         {
           "shortName": "bugprone-easily-swappable-parameters",
           "displayName": "easily-swappable-parameters",
-          "enabled": false,
+          "enabled": true,
           "description": "easily-swappable-parameters"
         },
         {
           "shortName": "bugprone-integer-division",
           "displayName": "integer-division",
-          "enabled": false,
+          "enabled": true,
           "description": "integer-division"
         },
         {
           "shortName": "bugprone-suspicious-enum-usage",
           "displayName": "suspicious-enum-usage",
-          "enabled": false,
+          "enabled": true,
           "description": "suspicious-enum-usage"
         },
         {
           "shortName": "bugprone-unchecked-optional-access",
           "displayName": "unchecked-optional-access",
-          "enabled": false,
+          "enabled": true,
           "description": "unchecked-optional-access"
         },
         {
           "shortName": "bugprone-unused-local-non-trivial-variable",
           "displayName": "unused-local-non-trivial-variable",
-          "enabled": false,
+          "enabled": true,
           "description": "unused-local-non-trivial-variable"
         },
         {
           "shortName": "bugprone-no-escape",
           "displayName": "no-escape",
-          "enabled": false,
+          "enabled": true,
           "description": "no-escape"
         },
         {
           "shortName": "bugprone-posix-return",
           "displayName": "posix-return",
-          "enabled": false,
+          "enabled": true,
           "description": "posix-return"
         },
         {
           "shortName": "bugprone-implicit-widening-of-multiplication-result",
           "displayName": "implicit-widening-of-multiplication-result",
-          "enabled": false,
+          "enabled": true,
           "description": "implicit-widening-of-multiplication-result"
         },
         {
           "shortName": "bugprone-suspicious-string-compare",
           "displayName": "suspicious-string-compare",
-          "enabled": false,
+          "enabled": true,
           "description": "suspicious-string-compare"
         },
         {
           "shortName": "bugprone-misplaced-widening-cast",
           "displayName": "misplaced-widening-cast",
-          "enabled": false,
+          "enabled": true,
           "description": "misplaced-widening-cast"
         },
         {
           "shortName": "bugprone-dynamic-static-initializers",
           "displayName": "dynamic-static-initializers",
-          "enabled": false,
+          "enabled": true,
           "description": "dynamic-static-initializers"
         },
         {
           "shortName": "bugprone-unhandled-exception-at-new",
           "displayName": "unhandled-exception-at-new",
-          "enabled": false,
+          "enabled": true,
           "description": "unhandled-exception-at-new"
         },
         {
           "shortName": "bugprone-inaccurate-erase",
           "displayName": "inaccurate-erase",
-          "enabled": false,
+          "enabled": true,
           "description": "inaccurate-erase"
         },
         {
           "shortName": "bugprone-sizeof-container",
           "displayName": "sizeof-container",
-          "enabled": false,
+          "enabled": true,
           "description": "sizeof-container"
         },
         {
           "shortName": "bugprone-chained-comparison",
           "displayName": "chained-comparison",
-          "enabled": false,
+          "enabled": true,
           "description": "chained-comparison"
         },
         {
           "shortName": "bugprone-incorrect-enable-if",
           "displayName": "incorrect-enable-if",
-          "enabled": false,
+          "enabled": true,
           "description": "incorrect-enable-if"
         },
         {
           "shortName": "bugprone-switch-missing-default-case",
           "displayName": "switch-missing-default-case",
-          "enabled": false,
+          "enabled": true,
           "description": "switch-missing-default-case"
         },
         {
           "shortName": "bugprone-suspicious-memset-usage",
           "displayName": "suspicious-memset-usage",
-          "enabled": false,
+          "enabled": true,
           "description": "suspicious-memset-usage"
         },
         {
           "shortName": "bugprone-redundant-branch-condition",
           "displayName": "redundant-branch-condition",
-          "enabled": false,
+          "enabled": true,
           "description": "redundant-branch-condition"
         },
         {
           "shortName": "bugprone-casting-through-void",
           "displayName": "casting-through-void",
-          "enabled": false,
+          "enabled": true,
           "description": "casting-through-void"
         },
         {
           "shortName": "bugprone-forwarding-reference-overload",
           "displayName": "forwarding-reference-overload",
-          "enabled": false,
+          "enabled": true,
           "description": "forwarding-reference-overload"
         },
         {
           "shortName": "bugprone-incorrect-roundings",
           "displayName": "incorrect-roundings",
-          "enabled": false,
+          "enabled": true,
           "description": "incorrect-roundings"
         },
         {
           "shortName": "bugprone-misplaced-pointer-arithmetic-in-alloc",
           "displayName": "misplaced-pointer-arithmetic-in-alloc",
-          "enabled": false,
+          "enabled": true,
           "description": "misplaced-pointer-arithmetic-in-alloc"
         },
         {
           "shortName": "bugprone-macro-repeated-side-effects",
           "displayName": "macro-repeated-side-effects",
-          "enabled": false,
+          "enabled": true,
           "description": "macro-repeated-side-effects"
         },
         {
           "shortName": "bugprone-stringview-nullptr",
           "displayName": "stringview-nullptr",
-          "enabled": false,
+          "enabled": true,
           "description": "stringview-nullptr"
         },
         {
           "shortName": "bugprone-unhandled-self-assignment",
           "displayName": "unhandled-self-assignment",
-          "enabled": false,
+          "enabled": true,
           "description": "unhandled-self-assignment"
         },
         {
           "shortName": "bugprone-forward-declaration-namespace",
           "displayName": "forward-declaration-namespace",
-          "enabled": false,
+          "enabled": true,
           "description": "forward-declaration-namespace"
         },
         {
           "shortName": "bugprone-multi-level-implicit-pointer-conversion",
           "displayName": "multi-level-implicit-pointer-conversion",
-          "enabled": false,
+          "enabled": true,
           "description": "multi-level-implicit-pointer-conversion"
         },
         {
           "shortName": "bugprone-macro-parentheses",
           "displayName": "macro-parentheses",
-          "enabled": false,
+          "enabled": true,
           "description": "macro-parentheses"
         },
         {
           "shortName": "bugprone-not-null-terminated-result",
           "displayName": "not-null-terminated-result",
-          "enabled": false,
+          "enabled": true,
           "description": "not-null-terminated-result"
         },
         {
           "shortName": "bugprone-suspicious-semicolon",
           "displayName": "suspicious-semicolon",
-          "enabled": false,
+          "enabled": true,
           "description": "suspicious-semicolon"
         },
         {
           "shortName": "bugprone-branch-clone",
           "displayName": "branch-clone",
-          "enabled": false,
+          "enabled": true,
           "description": "branch-clone"
         },
         {
           "shortName": "bugprone-fold-init-type",
           "displayName": "fold-init-type",
-          "enabled": false,
+          "enabled": true,
           "description": "fold-init-type"
         },
         {
           "shortName": "bugprone-assignment-in-if-condition",
           "displayName": "assignment-in-if-condition",
-          "enabled": false,
+          "enabled": true,
           "description": "assignment-in-if-condition"
         },
         {
           "shortName": "bugprone-undelegated-constructor",
           "displayName": "undelegated-constructor",
-          "enabled": false,
+          "enabled": true,
           "description": "undelegated-constructor"
         },
         {
           "shortName": "bugprone-terminating-continue",
           "displayName": "terminating-continue",
-          "enabled": false,
+          "enabled": true,
           "description": "terminating-continue"
         },
         {
           "shortName": "bugprone-misplaced-operator-in-strlen-in-alloc",
           "displayName": "misplaced-operator-in-strlen-in-alloc",
-          "enabled": false,
+          "enabled": true,
           "description": "misplaced-operator-in-strlen-in-alloc"
         },
         {
           "shortName": "bugprone-sizeof-expression",
           "displayName": "sizeof-expression",
-          "enabled": false,
+          "enabled": true,
           "description": "sizeof-expression"
         },
         {
           "shortName": "bugprone-use-after-move",
           "displayName": "use-after-move",
-          "enabled": false,
+          "enabled": true,
           "description": "use-after-move"
         },
         {
           "shortName": "bugprone-suspicious-stringview-data-usage",
           "displayName": "suspicious-stringview-data-usage",
-          "enabled": false,
+          "enabled": true,
           "description": "suspicious-stringview-data-usage"
         },
         {
           "shortName": "bugprone-multiple-statement-macro",
           "displayName": "multiple-statement-macro",
-          "enabled": false,
+          "enabled": true,
           "description": "multiple-statement-macro"
         },
         {
           "shortName": "bugprone-unused-raii",
           "displayName": "unused-raii",
-          "enabled": false,
+          "enabled": true,
           "description": "unused-raii"
         },
         {
           "shortName": "bugprone-standalone-empty",
           "displayName": "standalone-empty",
-          "enabled": false,
+          "enabled": true,
           "description": "standalone-empty"
         },
         {
           "shortName": "bugprone-virtual-near-miss",
           "displayName": "virtual-near-miss",
-          "enabled": false,
+          "enabled": true,
           "description": "virtual-near-miss"
         },
         {
           "shortName": "bugprone-suspicious-include",
           "displayName": "suspicious-include",
-          "enabled": false,
+          "enabled": true,
           "description": "suspicious-include"
         },
         {
           "shortName": "bugprone-argument-comment",
           "displayName": "argument-comment",
-          "enabled": false,
+          "enabled": true,
           "description": "argument-comment"
         },
         {
           "shortName": "bugprone-narrowing-conversions",
           "displayName": "narrowing-conversions",
-          "enabled": false,
+          "enabled": true,
           "description": "narrowing-conversions"
         },
         {
           "shortName": "bugprone-lambda-function-name",
           "displayName": "lambda-function-name",
-          "enabled": false,
+          "enabled": true,
           "description": "lambda-function-name"
         },
         {
           "shortName": "bugprone-parent-virtual-call",
           "displayName": "parent-virtual-call",
-          "enabled": false,
+          "enabled": true,
           "description": "parent-virtual-call"
         },
         {
           "shortName": "bugprone-suspicious-missing-comma",
           "displayName": "suspicious-missing-comma",
-          "enabled": false,
+          "enabled": true,
           "description": "suspicious-missing-comma"
         },
         {
           "shortName": "bugprone-bad-signal-to-kill-thread",
           "displayName": "bad-signal-to-kill-thread",
-          "enabled": false,
+          "enabled": true,
           "description": "bad-signal-to-kill-thread"
         }
       ]
@@ -2834,61 +2834,61 @@
         {
           "shortName": "cppcoreguidelines-noexcept-move-operations",
           "displayName": "noexcept-move-operations",
-          "enabled": false,
+          "enabled": true,
           "description": "noexcept-move-operations"
         },
         {
           "shortName": "cppcoreguidelines-pro-bounds-pointer-arithmetic",
           "displayName": "pro-bounds-pointer-arithmetic",
-          "enabled": false,
+          "enabled": true,
           "description": "pro-bounds-pointer-arithmetic"
         },
         {
           "shortName": "cppcoreguidelines-avoid-reference-coroutine-parameters",
           "displayName": "avoid-reference-coroutine-parameters",
-          "enabled": false,
+          "enabled": true,
           "description": "avoid-reference-coroutine-parameters"
         },
         {
           "shortName": "cppcoreguidelines-misleading-capture-default-by-value",
           "displayName": "misleading-capture-default-by-value",
-          "enabled": false,
+          "enabled": true,
           "description": "misleading-capture-default-by-value"
         },
         {
           "shortName": "cppcoreguidelines-narrowing-conversions",
           "displayName": "narrowing-conversions",
-          "enabled": false,
+          "enabled": true,
           "description": "narrowing-conversions"
         },
         {
           "shortName": "cppcoreguidelines-noexcept-swap",
           "displayName": "noexcept-swap",
-          "enabled": false,
+          "enabled": true,
           "description": "noexcept-swap"
         },
         {
           "shortName": "cppcoreguidelines-use-default-member-init",
           "displayName": "use-default-member-init",
-          "enabled": false,
+          "enabled": true,
           "description": "use-default-member-init"
         },
         {
           "shortName": "cppcoreguidelines-interfaces-global-init",
           "displayName": "interfaces-global-init",
-          "enabled": false,
+          "enabled": true,
           "description": "interfaces-global-init"
         },
         {
           "shortName": "cppcoreguidelines-pro-type-cstyle-cast",
           "displayName": "pro-type-cstyle-cast",
-          "enabled": false,
+          "enabled": true,
           "description": "pro-type-cstyle-cast"
         },
         {
           "shortName": "cppcoreguidelines-pro-type-vararg",
           "displayName": "pro-type-vararg",
-          "enabled": false,
+          "enabled": true,
           "description": "pro-type-vararg"
         },
         {
@@ -2900,175 +2900,175 @@
         {
           "shortName": "cppcoreguidelines-noexcept-destructor",
           "displayName": "noexcept-destructor",
-          "enabled": false,
+          "enabled": true,
           "description": "noexcept-destructor"
         },
         {
           "shortName": "cppcoreguidelines-avoid-goto",
           "displayName": "avoid-goto",
-          "enabled": false,
+          "enabled": true,
           "description": "avoid-goto"
         },
         {
           "shortName": "cppcoreguidelines-missing-std-forward",
           "displayName": "missing-std-forward",
-          "enabled": false,
+          "enabled": true,
           "description": "missing-std-forward"
         },
         {
           "shortName": "cppcoreguidelines-prefer-member-initializer",
           "displayName": "prefer-member-initializer",
-          "enabled": false,
+          "enabled": true,
           "description": "prefer-member-initializer"
         },
         {
           "shortName": "cppcoreguidelines-pro-type-static-cast-downcast",
           "displayName": "pro-type-static-cast-downcast",
-          "enabled": false,
+          "enabled": true,
           "description": "pro-type-static-cast-downcast"
         },
         {
           "shortName": "cppcoreguidelines-owning-memory",
           "displayName": "owning-memory",
-          "enabled": false,
+          "enabled": true,
           "description": "owning-memory"
         },
         {
           "shortName": "cppcoreguidelines-pro-type-const-cast",
           "displayName": "pro-type-const-cast",
-          "enabled": false,
+          "enabled": true,
           "description": "pro-type-const-cast"
         },
         {
           "shortName": "cppcoreguidelines-avoid-const-or-ref-data-members",
           "displayName": "avoid-const-or-ref-data-members",
-          "enabled": false,
+          "enabled": true,
           "description": "avoid-const-or-ref-data-members"
         },
         {
           "shortName": "cppcoreguidelines-pro-type-member-init",
           "displayName": "pro-type-member-init",
-          "enabled": false,
+          "enabled": true,
           "description": "pro-type-member-init"
         },
         {
           "shortName": "cppcoreguidelines-pro-type-reinterpret-cast",
           "displayName": "pro-type-reinterpret-cast",
-          "enabled": false,
+          "enabled": true,
           "description": "pro-type-reinterpret-cast"
         },
         {
           "shortName": "cppcoreguidelines-virtual-class-destructor",
           "displayName": "virtual-class-destructor",
-          "enabled": false,
+          "enabled": true,
           "description": "virtual-class-destructor"
         },
         {
           "shortName": "cppcoreguidelines-c-copy-assignment-signature",
           "displayName": "c-copy-assignment-signature",
-          "enabled": false,
+          "enabled": true,
           "description": "c-copy-assignment-signature"
         },
         {
           "shortName": "cppcoreguidelines-pro-bounds-array-to-pointer-decay",
           "displayName": "pro-bounds-array-to-pointer-decay",
-          "enabled": false,
+          "enabled": true,
           "description": "pro-bounds-array-to-pointer-decay"
         },
         {
           "shortName": "cppcoreguidelines-non-private-member-variables-in-classes",
           "displayName": "non-private-member-variables-in-classes",
-          "enabled": false,
+          "enabled": true,
           "description": "non-private-member-variables-in-classes"
         },
         {
           "shortName": "cppcoreguidelines-avoid-do-while",
           "displayName": "avoid-do-while",
-          "enabled": false,
+          "enabled": true,
           "description": "avoid-do-while"
         },
         {
           "shortName": "cppcoreguidelines-macro-usage",
           "displayName": "macro-usage",
-          "enabled": false,
+          "enabled": true,
           "description": "macro-usage"
         },
         {
           "shortName": "cppcoreguidelines-avoid-non-const-global-variables",
           "displayName": "avoid-non-const-global-variables",
-          "enabled": false,
-          "description": "avoid-non-const-global-variables"
+          "enabled": true,
+          "description": "variable 'train_system_singleton' is non-const and globally accessible, consider making it const"
         },
         {
           "shortName": "cppcoreguidelines-avoid-magic-numbers",
           "displayName": "avoid-magic-numbers",
-          "enabled": false,
+          "enabled": true,
           "description": "avoid-magic-numbers"
         },
         {
           "shortName": "cppcoreguidelines-no-malloc",
           "displayName": "no-malloc",
-          "enabled": false,
+          "enabled": true,
           "description": "no-malloc"
         },
         {
           "shortName": "cppcoreguidelines-macro-to-enum",
           "displayName": "macro-to-enum",
-          "enabled": false,
+          "enabled": true,
           "description": "macro-to-enum"
         },
         {
           "shortName": "cppcoreguidelines-init-variables",
           "displayName": "init-variables",
-          "enabled": false,
+          "enabled": true,
           "description": "init-variables"
         },
         {
           "shortName": "cppcoreguidelines-rvalue-reference-param-not-moved",
           "displayName": "rvalue-reference-param-not-moved",
-          "enabled": false,
+          "enabled": true,
           "description": "rvalue-reference-param-not-moved"
         },
         {
           "shortName": "cppcoreguidelines-special-member-functions",
           "displayName": "special-member-functions",
-          "enabled": false,
+          "enabled": true,
           "description": "special-member-functions"
         },
         {
           "shortName": "cppcoreguidelines-explicit-virtual-functions",
           "displayName": "explicit-virtual-functions",
-          "enabled": false,
+          "enabled": true,
           "description": "explicit-virtual-functions"
         },
         {
           "shortName": "cppcoreguidelines-avoid-c-arrays",
           "displayName": "avoid-c-arrays",
-          "enabled": false,
+          "enabled": true,
           "description": "avoid-c-arrays"
         },
         {
           "shortName": "cppcoreguidelines-slicing",
           "displayName": "slicing",
-          "enabled": false,
+          "enabled": true,
           "description": "slicing"
         },
         {
           "shortName": "cppcoreguidelines-avoid-capturing-lambda-coroutines",
           "displayName": "avoid-capturing-lambda-coroutines",
-          "enabled": false,
+          "enabled": true,
           "description": "avoid-capturing-lambda-coroutines"
         },
         {
           "shortName": "cppcoreguidelines-no-suspend-with-lock",
           "displayName": "no-suspend-with-lock",
-          "enabled": false,
+          "enabled": true,
           "description": "no-suspend-with-lock"
         },
         {
           "shortName": "cppcoreguidelines-pro-bounds-constant-array-index",
           "displayName": "pro-bounds-constant-array-index",
-          "enabled": false,
+          "enabled": true,
           "description": "pro-bounds-constant-array-index"
         }
       ]
@@ -3557,7 +3557,7 @@
         {
           "shortName": "llvm-header-guard",
           "displayName": "header-guard",
-          "enabled": false,
+          "enabled": true,
           "description": "header-guard"
         },
         {
@@ -3575,31 +3575,31 @@
         {
           "shortName": "llvm-prefer-isa-or-dyn-cast-in-conditionals",
           "displayName": "prefer-isa-or-dyn-cast-in-conditionals",
-          "enabled": false,
+          "enabled": true,
           "description": "prefer-isa-or-dyn-cast-in-conditionals"
         },
         {
           "shortName": "llvm-twine-local",
           "displayName": "twine-local",
-          "enabled": false,
+          "enabled": true,
           "description": "twine-local"
         },
         {
           "shortName": "llvm-namespace-comment",
           "displayName": "namespace-comment",
-          "enabled": false,
+          "enabled": true,
           "description": "namespace-comment"
         },
         {
           "shortName": "llvm-prefer-register-over-unsigned",
           "displayName": "prefer-register-over-unsigned",
-          "enabled": false,
+          "enabled": true,
           "description": "prefer-register-over-unsigned"
         },
         {
           "shortName": "llvm-qualified-auto",
           "displayName": "qualified-auto",
-          "enabled": false,
+          "enabled": true,
           "description": "qualified-auto"
         }
       ]
@@ -4673,115 +4673,115 @@
         {
           "shortName": "performance-no-automatic-move",
           "displayName": "no-automatic-move",
-          "enabled": false,
+          "enabled": true,
           "description": "no-automatic-move"
         },
         {
           "shortName": "performance-trivially-destructible",
           "displayName": "trivially-destructible",
-          "enabled": false,
+          "enabled": true,
           "description": "trivially-destructible"
         },
         {
           "shortName": "performance-inefficient-string-concatenation",
           "displayName": "inefficient-string-concatenation",
-          "enabled": false,
+          "enabled": true,
           "description": "inefficient-string-concatenation"
         },
         {
           "shortName": "performance-inefficient-vector-operation",
           "displayName": "inefficient-vector-operation",
-          "enabled": false,
+          "enabled": true,
           "description": "inefficient-vector-operation"
         },
         {
           "shortName": "performance-move-constructor-init",
           "displayName": "move-constructor-init",
-          "enabled": false,
+          "enabled": true,
           "description": "move-constructor-init"
         },
         {
           "shortName": "performance-type-promotion-in-math-fn",
           "displayName": "type-promotion-in-math-fn",
-          "enabled": false,
+          "enabled": true,
           "description": "type-promotion-in-math-fn"
         },
         {
           "shortName": "performance-unnecessary-value-param",
           "displayName": "unnecessary-value-param",
-          "enabled": false,
+          "enabled": true,
           "description": "unnecessary-value-param"
         },
         {
           "shortName": "performance-move-const-arg",
           "displayName": "move-const-arg",
-          "enabled": false,
+          "enabled": true,
           "description": "move-const-arg"
         },
         {
           "shortName": "performance-implicit-conversion-in-loop",
           "displayName": "implicit-conversion-in-loop",
-          "enabled": false,
+          "enabled": true,
           "description": "implicit-conversion-in-loop"
         },
         {
           "shortName": "performance-enum-size",
           "displayName": "enum-size",
-          "enabled": false,
+          "enabled": true,
           "description": "enum-size"
         },
         {
           "shortName": "performance-for-range-copy",
           "displayName": "for-range-copy",
-          "enabled": false,
+          "enabled": true,
           "description": "for-range-copy"
         },
         {
           "shortName": "performance-noexcept-move-constructor",
           "displayName": "noexcept-move-constructor",
-          "enabled": false,
+          "enabled": true,
           "description": "noexcept-move-constructor"
         },
         {
           "shortName": "performance-noexcept-swap",
           "displayName": "noexcept-swap",
-          "enabled": false,
+          "enabled": true,
           "description": "noexcept-swap"
         },
         {
           "shortName": "performance-noexcept-destructor",
           "displayName": "noexcept-destructor",
-          "enabled": false,
+          "enabled": true,
           "description": "noexcept-destructor"
         },
         {
           "shortName": "performance-no-int-to-ptr",
           "displayName": "no-int-to-ptr",
-          "enabled": false,
+          "enabled": true,
           "description": "no-int-to-ptr"
         },
         {
           "shortName": "performance-unnecessary-copy-initialization",
           "displayName": "unnecessary-copy-initialization",
-          "enabled": false,
+          "enabled": true,
           "description": "unnecessary-copy-initialization"
         },
         {
           "shortName": "performance-faster-string-find",
           "displayName": "faster-string-find",
-          "enabled": false,
+          "enabled": true,
           "description": "faster-string-find"
         },
         {
           "shortName": "performance-inefficient-algorithm",
           "displayName": "inefficient-algorithm",
-          "enabled": false,
+          "enabled": true,
           "description": "inefficient-algorithm"
         },
         {
           "shortName": "performance-avoid-endl",
           "displayName": "avoid-endl",
-          "enabled": false,
+          "enabled": true,
           "description": "avoid-endl"
         }
       ]
@@ -4835,211 +4835,211 @@
         {
           "shortName": "readability-redundant-declaration",
           "displayName": "redundant-declaration",
-          "enabled": false,
+          "enabled": true,
           "description": "redundant-declaration"
         },
         {
           "shortName": "readability-inconsistent-declaration-parameter-name",
           "displayName": "inconsistent-declaration-parameter-name",
-          "enabled": false,
+          "enabled": true,
           "description": "inconsistent-declaration-parameter-name"
         },
         {
           "shortName": "readability-misplaced-array-index",
           "displayName": "misplaced-array-index",
-          "enabled": false,
+          "enabled": true,
           "description": "misplaced-array-index"
         },
         {
           "shortName": "readability-redundant-smartptr-get",
           "displayName": "redundant-smartptr-get",
-          "enabled": false,
+          "enabled": true,
           "description": "redundant-smartptr-get"
         },
         {
           "shortName": "readability-redundant-string-cstr",
           "displayName": "redundant-string-cstr",
-          "enabled": false,
+          "enabled": true,
           "description": "redundant-string-cstr"
         },
         {
           "shortName": "readability-redundant-casting",
           "displayName": "redundant-casting",
-          "enabled": false,
+          "enabled": true,
           "description": "redundant-casting"
         },
         {
           "shortName": "readability-redundant-preprocessor",
           "displayName": "redundant-preprocessor",
-          "enabled": false,
+          "enabled": true,
           "description": "redundant-preprocessor"
         },
         {
           "shortName": "readability-enum-initial-value",
           "displayName": "enum-initial-value",
-          "enabled": false,
+          "enabled": true,
           "description": "enum-initial-value"
         },
         {
           "shortName": "readability-identifier-naming",
           "displayName": "identifier-naming",
-          "enabled": false,
+          "enabled": true,
           "description": "identifier-naming"
         },
         {
           "shortName": "readability-string-compare",
           "displayName": "string-compare",
-          "enabled": false,
+          "enabled": true,
           "description": "string-compare"
         },
         {
           "shortName": "readability-avoid-unconditional-preprocessor-if",
           "displayName": "avoid-unconditional-preprocessor-if",
-          "enabled": false,
+          "enabled": true,
           "description": "avoid-unconditional-preprocessor-if"
         },
         {
           "shortName": "readability-container-contains",
           "displayName": "container-contains",
-          "enabled": false,
+          "enabled": true,
           "description": "container-contains"
         },
         {
           "shortName": "readability-redundant-control-flow",
           "displayName": "redundant-control-flow",
-          "enabled": false,
+          "enabled": true,
           "description": "redundant-control-flow"
         },
         {
           "shortName": "readability-static-definition-in-anonymous-namespace",
           "displayName": "static-definition-in-anonymous-namespace",
-          "enabled": false,
+          "enabled": true,
           "description": "static-definition-in-anonymous-namespace"
         },
         {
           "shortName": "readability-braces-around-statements",
           "displayName": "braces-around-statements",
-          "enabled": false,
+          "enabled": true,
           "description": "braces-around-statements"
         },
         {
           "shortName": "readability-identifier-length",
           "displayName": "identifier-length",
-          "enabled": false,
+          "enabled": true,
           "description": "identifier-length"
         },
         {
           "shortName": "readability-misleading-indentation",
           "displayName": "misleading-indentation",
-          "enabled": false,
+          "enabled": true,
           "description": "misleading-indentation"
         },
         {
           "shortName": "readability-container-data-pointer",
           "displayName": "container-data-pointer",
-          "enabled": false,
+          "enabled": true,
           "description": "container-data-pointer"
         },
         {
           "shortName": "readability-redundant-string-init",
           "displayName": "redundant-string-init",
-          "enabled": false,
+          "enabled": true,
           "description": "redundant-string-init"
         },
         {
           "shortName": "readability-isolate-declaration",
           "displayName": "isolate-declaration",
-          "enabled": false,
+          "enabled": true,
           "description": "isolate-declaration"
         },
         {
           "shortName": "readability-convert-member-functions-to-static",
           "displayName": "convert-member-functions-to-static",
-          "enabled": false,
+          "enabled": true,
           "description": "convert-member-functions-to-static"
         },
         {
           "shortName": "readability-redundant-function-ptr-dereference",
           "displayName": "redundant-function-ptr-dereference",
-          "enabled": false,
+          "enabled": true,
           "description": "redundant-function-ptr-dereference"
         },
         {
           "shortName": "readability-delete-null-pointer",
           "displayName": "delete-null-pointer",
-          "enabled": false,
+          "enabled": true,
           "description": "delete-null-pointer"
         },
         {
           "shortName": "readability-simplify-subscript-expr",
           "displayName": "simplify-subscript-expr",
-          "enabled": false,
+          "enabled": true,
           "description": "simplify-subscript-expr"
         },
         {
           "shortName": "readability-named-parameter",
           "displayName": "named-parameter",
-          "enabled": false,
+          "enabled": true,
           "description": "named-parameter"
         },
         {
           "shortName": "readability-reference-to-constructed-temporary",
           "displayName": "reference-to-constructed-temporary",
-          "enabled": false,
+          "enabled": true,
           "description": "reference-to-constructed-temporary"
         },
         {
           "shortName": "readability-use-std-min-max",
           "displayName": "use-std-min-max",
-          "enabled": false,
+          "enabled": true,
           "description": "use-std-min-max"
         },
         {
           "shortName": "readability-redundant-access-specifiers",
           "displayName": "redundant-access-specifiers",
-          "enabled": false,
+          "enabled": true,
           "description": "redundant-access-specifiers"
         },
         {
           "shortName": "readability-const-return-type",
           "displayName": "const-return-type",
-          "enabled": false,
+          "enabled": true,
           "description": "const-return-type"
         },
         {
           "shortName": "readability-avoid-const-params-in-decls",
           "displayName": "avoid-const-params-in-decls",
-          "enabled": false,
+          "enabled": true,
           "description": "avoid-const-params-in-decls"
         },
         {
           "shortName": "readability-redundant-inline-specifier",
           "displayName": "redundant-inline-specifier",
-          "enabled": false,
+          "enabled": true,
           "description": "redundant-inline-specifier"
         },
         {
           "shortName": "readability-duplicate-include",
           "displayName": "duplicate-include",
-          "enabled": false,
+          "enabled": true,
           "description": "duplicate-include"
         },
         {
           "shortName": "readability-else-after-return",
           "displayName": "else-after-return",
-          "enabled": false,
+          "enabled": true,
           "description": "else-after-return"
         },
         {
           "shortName": "readability-function-size",
           "displayName": "function-size",
-          "enabled": false,
+          "enabled": true,
           "description": "function-size"
         },
         {
           "shortName": "readability-simplify-boolean-expr",
           "displayName": "simplify-boolean-expr",
-          "enabled": false,
+          "enabled": true,
           "description": "simplify-boolean-expr"
         },
         {
@@ -5051,97 +5051,97 @@
         {
           "shortName": "readability-container-size-empty",
           "displayName": "container-size-empty",
-          "enabled": false,
+          "enabled": true,
           "description": "container-size-empty"
         },
         {
           "shortName": "readability-implicit-bool-conversion",
           "displayName": "implicit-bool-conversion",
-          "enabled": false,
-          "description": "implicit-bool-conversion"
+          "enabled": true,
+          "description": "implicit conversion 'TrainSystem *' -> 'bool'"
         },
         {
           "shortName": "readability-operators-representation",
           "displayName": "operators-representation",
-          "enabled": false,
+          "enabled": true,
           "description": "operators-representation"
         },
         {
           "shortName": "readability-non-const-parameter",
           "displayName": "non-const-parameter",
-          "enabled": false,
+          "enabled": true,
           "description": "non-const-parameter"
         },
         {
           "shortName": "readability-math-missing-parentheses",
           "displayName": "math-missing-parentheses",
-          "enabled": false,
+          "enabled": true,
           "description": "math-missing-parentheses"
         },
         {
           "shortName": "readability-static-accessed-through-instance",
           "displayName": "static-accessed-through-instance",
-          "enabled": false,
+          "enabled": true,
           "description": "static-accessed-through-instance"
         },
         {
           "shortName": "readability-magic-numbers",
           "displayName": "magic-numbers",
-          "enabled": false,
+          "enabled": true,
           "description": "magic-numbers"
         },
         {
           "shortName": "readability-redundant-member-init",
           "displayName": "redundant-member-init",
-          "enabled": false,
+          "enabled": true,
           "description": "redundant-member-init"
         },
         {
           "shortName": "readability-uppercase-literal-suffix",
           "displayName": "uppercase-literal-suffix",
-          "enabled": false,
+          "enabled": true,
           "description": "uppercase-literal-suffix"
         },
         {
           "shortName": "readability-uniqueptr-delete-release",
           "displayName": "uniqueptr-delete-release",
-          "enabled": false,
+          "enabled": true,
           "description": "uniqueptr-delete-release"
         },
         {
           "shortName": "readability-avoid-nested-conditional-operator",
           "displayName": "avoid-nested-conditional-operator",
-          "enabled": false,
+          "enabled": true,
           "description": "avoid-nested-conditional-operator"
         },
         {
           "shortName": "readability-suspicious-call-argument",
           "displayName": "suspicious-call-argument",
-          "enabled": false,
+          "enabled": true,
           "description": "suspicious-call-argument"
         },
         {
           "shortName": "readability-use-anyofallof",
           "displayName": "use-anyofallof",
-          "enabled": false,
+          "enabled": true,
           "description": "use-anyofallof"
         },
         {
           "shortName": "readability-function-cognitive-complexity",
           "displayName": "function-cognitive-complexity",
-          "enabled": false,
+          "enabled": true,
           "description": "function-cognitive-complexity"
         },
         {
           "shortName": "readability-qualified-auto",
           "displayName": "qualified-auto",
-          "enabled": false,
+          "enabled": true,
           "description": "qualified-auto"
         },
         {
           "shortName": "readability-avoid-return-with-void-value",
           "displayName": "avoid-return-with-void-value",
-          "enabled": false,
+          "enabled": true,
           "description": "avoid-return-with-void-value"
         }
       ]
