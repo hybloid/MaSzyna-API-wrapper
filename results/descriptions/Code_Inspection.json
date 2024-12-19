@@ -5058,7 +5058,7 @@
           "shortName": "readability-implicit-bool-conversion",
           "displayName": "implicit-bool-conversion",
           "enabled": true,
-          "description": "implicit conversion 'TrainSystem *' -> 'bool'"
+          "description": "implicit-bool-conversion"
         },
         {
           "shortName": "readability-operators-representation",
