@@ -1,6 +1,11 @@
-[gd_scene load_steps=2 format=3 uid="uid://c5hi8nsm1d2hb"]
+[gd_scene load_steps=4 format=3 uid="uid://c5hi8nsm1d2hb"]
 
 [ext_resource type="Script" path="res://sm_42v_1.gd" id="1_vib8j"]
+
+[sub_resource type="NotDefinedPowerSource" id="NotDefinedPowerSource_co0a4"]
+power_type = 3
+
+[sub_resource type="NotDefinedPowerSource" id="NotDefinedPowerSource_q72bf"]
 
 [node name="SM42v1" type="TrainController"]
 train_id = "sm42v1"
@@ -70,4 +75,6 @@ has_lock = true
 max_shift_plug = 3.0
 platform/max_shift = 3.0
 
-[node name="TrainHeatingSystem" type="TrainHeatingSystem" parent="TrainSecuritySystem"]
+[node name="TrainHeatingSystem" type="TrainHeatingSystem" parent="."]
+power_source = SubResource("NotDefinedPowerSource_co0a4")
+alternative_power_source = SubResource("NotDefinedPowerSource_q72bf")

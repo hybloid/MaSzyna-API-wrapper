@@ -44,6 +44,10 @@ void initialize_libmaszyna_module(ModuleInitializationLevel p_level) {
         GDREGISTER_CLASS(TrainHeatingSystem);
         GDREGISTER_CLASS(TrainSystem);
         GDREGISTER_CLASS(LogSystem);
+        GDREGISTER_ABSTRACT_CLASS(PowerSource);
+        GDREGISTER_CLASS(InternalPowerSource);
+        GDREGISTER_CLASS(NotDefinedPowerSource);
+        GDREGISTER_CLASS(TransducerPowerSource);
 
         train_system_singleton = memnew(TrainSystem);
         log_system_singleton = memnew(LogSystem);

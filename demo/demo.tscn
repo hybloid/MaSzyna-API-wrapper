@@ -1,4 +1,4 @@
-[gd_scene load_steps=10 format=3 uid="uid://djqacw65swdqc"]
+[gd_scene load_steps=12 format=3 uid="uid://djqacw65swdqc"]
 
 [ext_resource type="Script" path="res://demo.gd" id="1_76ghk"]
 [ext_resource type="PackedScene" uid="uid://dgm10m7u26drx" path="res://addons/libmaszyna/developer_console.tscn" id="2_fdv2n"]
@@ -9,6 +9,11 @@
 [ext_resource type="PackedScene" uid="uid://c4f4ti7sfn87w" path="res://light.tscn" id="5_pjaht"]
 [ext_resource type="PackedScene" uid="uid://dy8wkx8wr4gjf" path="res://debug_button.tscn" id="6_al2d2"]
 [ext_resource type="PackedScene" uid="uid://ddag4vhhuox0t" path="res://debug_knob.tscn" id="7_0xh05"]
+
+[sub_resource type="TransducerPowerSource" id="TransducerPowerSource_4x56i"]
+input_voltage = 5.0
+
+[sub_resource type="InternalPowerSource" id="InternalPowerSource_j8fbm"]
 
 [node name="Demo" type="Control"]
 layout_mode = 3
@@ -89,6 +94,11 @@ title = "Security"
 unique_name_in_owner = true
 layout_mode = 2
 title = "Brake"
+
+[node name="DebugHeating" parent="UI/DebugPanels" instance=ExtResource("3_p4ciw")]
+unique_name_in_owner = true
+layout_mode = 2
+title = "Heating"
 
 [node name="DebugTrain" parent="UI/DebugPanels" instance=ExtResource("3_p4ciw")]
 unique_name_in_owner = true
@@ -390,6 +400,10 @@ command = "doors_permit_step"
 
 [node name="SM42" parent="." instance=ExtResource("2_t8uqe")]
 train_id = "sm42"
+
+[node name="TrainHeatingSystem" parent="SM42" index="4"]
+power_source = SubResource("TransducerPowerSource_4x56i")
+alternative_power_source = SubResource("InternalPowerSource_j8fbm")
 
 [connection signal="button_up" from="UI/MoverSwitches/General/HBoxContainer2/Forward" to="." method="_on_forward_button_up"]
 [connection signal="button_up" from="UI/MoverSwitches/General/HBoxContainer2/Reverse" to="." method="_on_reverse_button_up"]

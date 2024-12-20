@@ -79,6 +79,8 @@ sources = (
     + Glob("src/systems/heating/*.cpp")
     + Glob("src/brakes/*.cpp")
     + Glob("src/types/*.cpp")
+    + Glob("src/mover_util/*.cpp")
+    + Glob("src/mover_util/power_source/*.cpp")
 )
 
 if env["target"] in ["editor", "template_debug"]:
