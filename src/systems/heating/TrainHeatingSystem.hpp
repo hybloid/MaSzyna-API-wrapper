@@ -12,29 +12,18 @@ namespace godot {
             Ref<PowerSource> power_source;
             Ref<PowerSource> alternative_power_source;
 
-        protected:
             static void _bind_methods();
+            void on_power_source_change();
+
             void _do_update_internal_mover(TMoverParameters *mover) override;
             void _do_fetch_state_from_mover(TMoverParameters *mover, Dictionary &state) override;
             void _register_commands() override { /** TBD */ };
             void _unregister_commands() override { /** TBD */ };
 
+        protected:
         public:
-            TrainHeatingSystem() = default;
-            ~TrainHeatingSystem() override = default;
-
-            void _enter_tree() override {
-                TrainPart::_enter_tree();
-                if (!power_source.is_valid()) {
-                    auto *const ps = memnew(NotDefinedPowerSource());
-                    power_source = Ref{ps};
-                }
-                if (!alternative_power_source.is_valid()) {
-                    auto *const ps = memnew(NotDefinedPowerSource());
-                    alternative_power_source = Ref{ps};
-                }
-            }
-
+            void _enter_tree() override;
+            void _ready() override;
             // getters and setters
             void set_power_source(Ref<PowerSource> p_power_source);
             Ref<PowerSource> get_power_source() const;

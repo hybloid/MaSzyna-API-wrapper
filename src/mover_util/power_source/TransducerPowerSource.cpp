@@ -11,12 +11,14 @@ namespace godot {
         return TPowerSource::Transducer;
     }
 
-    void TransducerPowerSource::update_mover_internal(TPowerParameters &p_power_parameters) const {
+    void TransducerPowerSource::update_state(TPowerParameters &p_power_parameters) const {
+        PowerSource::update_state(p_power_parameters);
         p_power_parameters.Transducer.InputVoltage = input_voltage;
     }
 
-    void TransducerPowerSource::fetch_state_internal(
+    void TransducerPowerSource::fetch_state(
             const TPowerParameters &p_power_parameters, godot::Dictionary &state, const godot::String &prefix) const {
+        PowerSource::fetch_state(p_power_parameters, state, prefix);
         state[prefix + godot::String("/input_voltage")] = input_voltage;
     }
 
@@ -26,5 +28,6 @@ namespace godot {
 
     void TransducerPowerSource::set_input_voltage(double p_input_voltage) {
         input_voltage = p_input_voltage;
+        emit_signal(POWER_SOURCE_CHANGED);
     }
 } // namespace godot

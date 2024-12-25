@@ -3,22 +3,21 @@
 namespace godot {
 
     void PowerSource::_bind_methods() {
-        BIND_ENUM_CONSTANT(NoPower);
-        BIND_ENUM_CONSTANT(BioPower);
-        BIND_ENUM_CONSTANT(MechPower);
-        BIND_ENUM_CONSTANT(ElectricPower);
-        BIND_ENUM_CONSTANT(SteamPower);
+        BIND_ENUM_CONSTANT(NoPower)
+        BIND_ENUM_CONSTANT(BioPower)
+        BIND_ENUM_CONSTANT(MechPower)
+        BIND_ENUM_CONSTANT(ElectricPower)
+        BIND_ENUM_CONSTANT(SteamPower)
+        ADD_SIGNAL(MethodInfo(POWER_SOURCE_CHANGED));
     }
 
-    void PowerSource::update_mover(TPowerParameters &p_power_parameters) const {
+    void PowerSource::update_state(TPowerParameters &p_power_parameters) const {
         p_power_parameters.SourceType = get_source_type();
-        update_mover_internal(p_power_parameters);
     }
 
     void PowerSource::fetch_state(
             const TPowerParameters &p_power_parameters, godot::Dictionary &state, const godot::String &prefix) const {
         state[prefix + godot::String("/source_type")] = get_power_source_name(p_power_parameters.SourceType);
-        fetch_state_internal(p_power_parameters, state, prefix);
     }
 
     TPowerType PowerSource::cast(PowerType p) {
@@ -71,7 +70,7 @@ namespace godot {
         }
     }
 
-    godot::String PowerSource::get_power_source_name(TPowerSource s) {
+    String PowerSource::get_power_source_name(const TPowerSource s) {
         switch (s) {
             case TPowerSource::NotDefined:
                 return "NotDefined";
@@ -95,5 +94,4 @@ namespace godot {
                 return "Unknown";
         }
     };
-
 } // namespace godot

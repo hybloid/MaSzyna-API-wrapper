@@ -1,3 +1,4 @@
+#include <godot_cpp/classes/gd_extension.hpp>
 #include "TrainHeatingSystem.hpp"
 
 namespace godot {
@@ -24,16 +25,38 @@ namespace godot {
                 "set_alternative_power_source", "get_alternative_power_source");
     }
 
-    void TrainHeatingSystem::_do_update_internal_mover(TMoverParameters *mover) {
-        ASSERT_MOVER(mover);
-        power_source->update_mover(mover->HeatingPowerSource);
-        alternative_power_source->update_mover(mover->AlterHeatPowerSource);
+    [[maybe_unused]] void TrainHeatingSystem::_do_update_internal_mover(TMoverParameters *mover) {
+        ASSERT_MOVER(mover)
+        power_source->update_state(mover->HeatingPowerSource);
+        alternative_power_source->update_state(mover->AlterHeatPowerSource);
     }
 
     void TrainHeatingSystem::_do_fetch_state_from_mover(TMoverParameters *mover, Dictionary &state) {
         ASSERT_MOVER(mover);
         power_source->fetch_state(mover->HeatingPowerSource, state, "heating");
         alternative_power_source->fetch_state(mover->AlterHeatPowerSource, state, "alternative_heating");
+    }
+
+    void TrainHeatingSystem::on_power_source_change() {
+        _dirty = true;
+    }
+
+    void TrainHeatingSystem::_enter_tree() {
+        TrainPart::_enter_tree();
+        if (!power_source.is_valid()) {
+            auto *const ps = memnew(NotDefinedPowerSource());
+            power_source = Ref{ps};
+        }
+        if (!alternative_power_source.is_valid()) {
+            auto *const ps = memnew(NotDefinedPowerSource());
+            alternative_power_source = Ref{ps};
+        }
+    }
+
+    void TrainHeatingSystem::_ready() {
+        TrainPart::_ready();
+        power_source->connect(PowerSource::POWER_SOURCE_CHANGED, Callable(this, "on_power_source_change"));
+        alternative_power_source->connect(PowerSource::POWER_SOURCE_CHANGED, Callable(this, "on_power_source_change"));
     }
 
     // GETTERS AND SETTERS

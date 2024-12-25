@@ -6,24 +6,19 @@ namespace godot {
     class InternalPowerSource : public PowerSource {
             GDCLASS(InternalPowerSource, PowerSource)
         public:
-            TPowerType power_type = TPowerType::NoPower;
+            PowerType power_type = NoPower;
 
         protected:
-            static void _bind_methods() { /** TBD */ };
-            TPowerSource get_source_type() const override {
-                return TPowerSource::InternalSource;
-            }
+            static void _bind_methods();
+            TPowerSource get_source_type() const override;
 
-            void update_mover_internal(TPowerParameters &p_power_parameters) const override {
-                p_power_parameters.PowerType = power_type;
-            }
-
-            void fetch_state_internal(
+        public:
+            void update_state(TPowerParameters &p_power_parameters) const override;
+            void fetch_state(
                     const TPowerParameters &p_power_parameters, godot::Dictionary &state,
-                    const godot::String &prefix) const override {
-                state[prefix + godot::String("/power_type")] = static_cast<int>(p_power_parameters.PowerType);
-                // PowerSouce::get_power_source_name(p_power_parameters.SourceType);
-            }
+                    const godot::String &prefix) const override;
+            // GETTERS AND SETTERS
+            void set_power_type(const PowerType p_power_type);
+            PowerType get_power_type() const;
     };
-
 } // namespace godot

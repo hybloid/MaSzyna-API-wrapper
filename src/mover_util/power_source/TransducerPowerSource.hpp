@@ -14,15 +14,14 @@ namespace godot {
 
         protected:
             static void _bind_methods();
-
             TPowerSource get_source_type() const override;
 
-            void update_mover_internal(TPowerParameters &p_power_parameters) const override;
-            void fetch_state_internal(
+        public:
+            void update_state(TPowerParameters &p_power_parameters) const override;
+            void fetch_state(
                     const TPowerParameters &p_power_parameters, godot::Dictionary &state,
                     const godot::String &prefix) const override;
 
-        public:
             // GETTERS AND SETTERS
             double get_input_voltage() const;
             void set_input_voltage(double p_input_voltage);
