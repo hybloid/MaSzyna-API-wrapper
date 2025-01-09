@@ -31,7 +31,7 @@ jobs:
         with:
           pr-mode: false
           post-pr-comment: false
-          args: --linter,jetbrains/qodana-clang:2024.3-eap-clang18
+          args: --linter,jetbrains/qodana-clang:2024.3-eap-clang18,--log-level,debug
           upload-result: true
         env:
           QODANA_TOKEN: ${{ secrets.QODANA_TOKEN }}
